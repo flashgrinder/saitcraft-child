@@ -1,3 +1,9 @@
+/* Debug */
+//.debug {
+//	@include debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
+//	z-index: 99999;
+//}
+
 /* Containers */
 
 .container {
@@ -14,8 +20,8 @@
     display: none !important;
 }
 
-.hide-medium {
-	@include medium(display, none !important);
+.hide-large {
+	@include large(display, none !important);
 }
 
 .hide-tablet {
@@ -47,7 +53,7 @@
         background-color: var(--color-white);
     }
     &--dark {
-        background-color: var(--color-dark);
+        background-color: var(--color-black-grey);
     }
 }
 
@@ -59,41 +65,35 @@
 }
 
 .link:hover {
-    color: var(--color-orange);
+    color: var(--color-blue);
 }
 
 /* Title */
 
 .title {
-    font-family: var(--font-gotham);
+    font-family: var(--font-primary);
     font-style: normal;
     margin: 0;
     &--big {
-        font-size: responsive 16px 45px;
+        font-size: responsive 40px 48px;
         font-range: 320px 1440px;
     }
     &--large {
-        font-size: responsive 20px 26px;
+        font-size: responsive 28px 40px;
         font-range: 1024px 1440px;
     }
     &--medium {
-        font-size: responsive 18px 22px;
+        font-size: responsive 20px 22px;
         font-range: 1024px 1440px;
     }
     &--small {
-        font-size: 16px;
+        font-size: 20px;
     }
     &--tiny {
-        font-size: 12px;
-    }
-    &--orange {
-        color: var(--color-orange);
+        font-size: 18px;
     }
     &--white {
         color: var(--color-white);
-	}
-    &--black-gray {
-		color: var(--color-black-gray); 
 	}
 	&--w-light {
 		font-weight: 300;
@@ -124,15 +124,9 @@
 /* Text */
 
 .text {
-    font-family: var(--font-roboto);
+    font-family: var(--font-primary);
     font-style: normal;
     margin: 0;
-	&--black-gray {
-		color: var(--color-black-gray); 
-	}
-	&--orange {
-		color: var(--color-orange);
-	}
 	&--white {
 		color: var(--color-white);
 	}
@@ -145,8 +139,7 @@
         font-range: 320px 1440px;
 	}
 	&--normal {
-        font-size: responsive 12px 16px;
-        font-range: 1024px 1440px;
+        font-size: 16px;
 	}
 	&--small {
 		font-size: 12px;
@@ -165,6 +158,9 @@
 	}
 	&--w-bold {
 		font-weight: 700;
+    }
+	&--w-extra-bold {
+		font-weight: 800;
     }
 	&--w-black {
 		font-weight: 900;

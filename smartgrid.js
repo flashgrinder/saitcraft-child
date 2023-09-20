@@ -4,8 +4,8 @@ module.exports = {
 	columns: 12,
 	offset: "20px",
 	container: {
-		maxWidth: "1200px",
-		fields: "30px"
+		maxWidth: "1350px",
+		fields: "12px"
 	},
 	breakPoints: {
 		large: {
@@ -15,12 +15,11 @@ module.exports = {
                 width: '1024px'
         },
         tabletSM: {
-                width: '992px'
+                width: '991px'
         },
         mobile: {
-                width: "768px",
-                offset: "15px",
-                fields: "15px"
+                width: "767px",
+                offset: "10px",
         },
         mobileXS: {
                 width: "576px",

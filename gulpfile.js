@@ -113,9 +113,10 @@ gulp.task('js', js);
 // Watch files
 function watch() {
 	browserSync.init({
-		server: {
-			baseDir: source.root
-		},
+		// server: {
+		// 	baseDir: source.root
+		// },
+		proxy: 'saitcraft/wp-content/themes/saitcraft-child/src',
 		notify: true,
 		tunnel: false
 	});
