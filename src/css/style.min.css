@@ -2,6 +2,15 @@
 
 @font-face {
   font-family: "Jost";
+  src: url("../fonts/Jost/Jost-ExtraLight.eot");
+  src: url("../fonts/Jost/Jost-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost/Jost-ExtraLight.woff2") format("woff2"), url("../fonts/Jost/Jost-ExtraLight.woff") format("woff"), url("../fonts/Jost/Jost-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
   src: url("../fonts/Jost/Jost-Light.eot");
   src: url("../fonts/Jost/Jost-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost/Jost-Light.woff2") format("woff2"), url("../fonts/Jost/Jost-Light.woff") format("woff"), url("../fonts/Jost/Jost-Light.ttf") format("truetype");
   font-weight: 300;
@@ -41,6 +50,15 @@
   src: url("../fonts/Jost/Jost-Bold.eot");
   src: url("../fonts/Jost/Jost-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost/Jost-Bold.woff2") format("woff2"), url("../fonts/Jost/Jost-Bold.woff") format("woff"), url("../fonts/Jost/Jost-Bold.ttf") format("truetype");
   font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost/Jost-SemiBold.eot");
+  src: url("../fonts/Jost/Jost-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Jost/Jost-SemiBold.woff2") format("woff2"), url("../fonts/Jost/Jost-SemiBold.woff") format("woff"), url("../fonts/Jost/Jost-SemiBold.ttf") format("truetype");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -95,6 +113,28 @@ img {
 
 /* Animation */
 
+@keyframes blur-ball {
+  0% {
+    filter: blur(100px);
+  }
+
+  25% {
+    filter: blur(125px);
+  }
+
+  50% {
+    filter: blur(150px);
+  }
+
+  50% {
+    filter: blur(125px);
+  }
+
+  100% {
+    filter: blur(100px);
+  }
+}
+
 /* Base Classes */
 
 /* Debug */
@@ -139,7 +179,7 @@ img {
   background-color: var(--color-white);
 }
 
-.bg--dark {
+.bg--black-grey {
   background-color: var(--color-black-grey);
 }
 
@@ -198,14 +238,32 @@ img {
   }
 }
 
+.title--pre-large {
+  font-size: calc(24px + 6 * ((100vw - 1024px) / 416));
+}
+
+@media screen and (min-width: 1440px) {
+
+  .title--pre-large {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .title--pre-large {
+    font-size: 24px;
+  }
+}
+
 .title--medium {
-  font-size: calc(20px + 2 * ((100vw - 1024px) / 416));
+  font-size: calc(20px + 4 * ((100vw - 1024px) / 416));
 }
 
 @media screen and (min-width: 1440px) {
 
   .title--medium {
-    font-size: 22px;
+    font-size: 24px;
   }
 }
 
@@ -228,11 +286,15 @@ img {
   color: var(--color-white);
 }
 
+.title--w-extra-light {
+  font-weight: 200;
+}
+
 .title--w-light {
   font-weight: 300;
 }
 
-.title--w-normal {
+.title--w-regular {
   font-weight: 400;
 }
 
@@ -240,8 +302,16 @@ img {
   font-weight: 500;
 }
 
+.title--w-semi-bold {
+  font-weight: 600;
+}
+
 .title--w-bold {
   font-weight: bold;
+}
+
+.title--w-extra-bold {
+  font-weight: 800;
 }
 
 .title--w-black {
@@ -375,6 +445,131 @@ img {
   margin: 0 auto;
   overflow: hidden;
   flex: 1 0 auto;
+}
+
+/* Reviews */
+
+.reviews {
+  position: relative;
+  padding: 125px 0 70px;
+}
+
+.reviews__heading {
+  margin-top: 57px;
+}
+
+.reviews__decor-bands {
+  position: absolute;
+  right: 98px;
+  top: 153px;
+}
+
+.reviews__decor-ball {
+  position: absolute;
+  border-radius: 50%;
+  font-size: 450px;
+  height: 1em;
+  width: 1em;
+  filter: blur(80px);
+}
+
+.reviews__decor-ball--one {
+  background: linear-gradient(188.04deg, #8B3DF5 14.41%, #006FFF 90.78%);
+  left: -14%;
+  top: 27px;
+  opacity: 0.13;
+  animation: blur-ball 21s ease-in-out infinite alternate backwards;
+}
+
+.reviews__decor-ball--two {
+  background: linear-gradient(107.92deg, #8B3DF5 20.59%, #0063E6 58.02%);
+  right: -4%;
+  top: 111px;
+  opacity: 0.18;
+  animation: blur-ball 18s ease-in-out infinite alternate backwards;
+}
+
+.reviews__items {
+  margin-top: 53px;
+}
+
+.reviews__item {
+  position: relative;
+  padding: 70px 30px 70px 146px;
+  border-radius: 16px 0 0 16px;
+  overflow: hidden;
+  display: flex;
+  grid-gap: 72px;
+}
+
+.reviews__item-header,
+.reviews__item-inner,
+.reviews__item-footer {
+  position: relative;
+  z-index: 10;
+}
+
+.reviews__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 326px;
+  z-index: 1;
+  background: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
+}
+
+.reviews__item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(26, 30, 35);
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 0 16px 16px 0;
+  z-index: 0;
+}
+
+.reviews__item-decor {
+  position: absolute;
+  background: url("../img/reviews/item-decor.svg");
+  width: 141px;
+  height: 79px;
+  left: 30%;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  z-index: -1;
+}
+
+.reviews__item-title {
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(90deg, #FF7FEA 1.66%, #7077FF 101.45%);
+     border-image: linear-gradient(90deg, #FF7FEA 1.66%, #7077FF 101.45%);
+  border-image-slice: 1;
+}
+
+.reviews__item-subtitle {
+  margin-top: 10px;
+}
+
+.reviews__item-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 17px;
+  position: absolute;
+  bottom: 41px;
+  right: 30px;
+}
+
+.reviews__read {
+  text-decoration: none;
 }
 
 /* MEDIA QUERIES */

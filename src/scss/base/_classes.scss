@@ -52,7 +52,7 @@
     &--white {
         background-color: var(--color-white);
     }
-    &--dark {
+    &--black-grey {
         background-color: var(--color-black-grey);
     }
 }
@@ -82,8 +82,12 @@
         font-size: responsive 28px 40px;
         font-range: 1024px 1440px;
     }
+	&--pre-large {
+        font-size: responsive 24px 30px;
+        font-range: 1024px 1440px;
+    }
     &--medium {
-        font-size: responsive 20px 22px;
+        font-size: responsive 20px 24px;
         font-range: 1024px 1440px;
     }
     &--small {
@@ -95,17 +99,26 @@
     &--white {
         color: var(--color-white);
 	}
+	&--w-extra-light {
+		font-weight: 200;
+    }
 	&--w-light {
 		font-weight: 300;
     }
-    &--w-normal {
+    &--w-regular {
 		font-weight: 400;
 	}
     &--w-medium {
 		font-weight: 500;
 	}
+	&--w-semi-bold {
+		font-weight: 600;
+	}
 	&--w-bold {
 		font-weight: bold;
+	}
+	&--w-extra-bold {
+		font-weight: 800;
 	}
 	&--w-black {
 		font-weight: 900;

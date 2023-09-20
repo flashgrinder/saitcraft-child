@@ -1,0 +1,17 @@
+@keyframes blur-ball {
+  0% {
+    filter: blur(100px);
+  }
+  25% {
+    filter: blur(125px);
+  }
+  50% {
+    filter: blur(150px);
+  }
+  50% {
+    filter: blur(125px);
+  }
+  100% {
+    filter: blur(100px);
+  }
+}
