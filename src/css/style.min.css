@@ -509,6 +509,10 @@ img {
   justify-content: space-between;
 }
 
+.reviews__item-header {
+  height: auto;
+}
+
 .reviews__item ~ .reviews__item {
   margin-top: 70px;
 }
@@ -657,6 +661,8 @@ img {
   display: flex;
   justify-content: flex-end;
   margin-top: 17px;
+  min-height: auto;
+  background: transparent;
 }
 
 .reviews__read {
@@ -668,6 +674,7 @@ img {
 
 .reviews__read:hover {
   border-bottom: 1px solid var(--color-white);
+  color: var(--color-white);
 }
 
 .reviews__action {
@@ -2119,6 +2126,13 @@ html.with-fancybox body.hide-scrollbar {
 .button--primary:active::before {
   border: 1px double transparent;
   opacity: 1;
+  color: var(--color-white);
+}
+
+.button--primary:hover,
+.button--primary:target,
+.button--primary:active {
+  color: var(--color-white);
 }
 
 .button--primary:disabled {
@@ -2132,6 +2146,7 @@ html.with-fancybox body.hide-scrollbar {
   font-weight: 400;
   font-size: 14px;
   margin-top: 60px;
+  justify-content: center;
 }
 
 .reviews__pagination.pagination .pagination__inner {

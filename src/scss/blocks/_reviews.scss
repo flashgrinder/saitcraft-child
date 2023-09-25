@@ -60,6 +60,10 @@
   justify-content: space-between;
 }
 
+.reviews__item-header {
+  height: auto;
+}
+
 .reviews__item ~ .reviews__item {
   margin-top: 70px;
 }
@@ -273,6 +277,8 @@
   display: flex;
   justify-content: flex-end;
   margin-top: 17px;
+  min-height: auto;
+  background: transparent;
 }
 
 .reviews__read {
@@ -284,6 +290,7 @@
 
 .reviews__read:hover {
   border-bottom: 1px solid var(--color-white);
+  color: var(--color-white);
 }
 
 .reviews__action {

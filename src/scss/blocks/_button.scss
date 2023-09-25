@@ -46,6 +46,13 @@
 .button--primary:active::before {
   border: 1px double transparent;
   opacity: 1;
+  color: var(--color-white);
+}
+
+.button--primary:hover,
+.button--primary:target,
+.button--primary:active {
+  color: var(--color-white);
 }
 
 .button--primary:disabled {
