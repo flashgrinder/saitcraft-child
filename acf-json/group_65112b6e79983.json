@@ -1,0 +1,117 @@
+{
+    "key": "group_65112b6e79983",
+    "title": "Отзывы",
+    "fields": [
+        {
+            "key": "field_65112baf6f673",
+            "label": "ФИО Клиента",
+            "name": "review_name",
+            "type": "text",
+            "instructions": "Укажите Ф.И.О клиента.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6511380c31291",
+            "label": "Должность",
+            "name": "review_position",
+            "type": "text",
+            "instructions": "Укажите должность клиента.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6511383731292",
+            "label": "Текст отзыва",
+            "name": "review_text",
+            "type": "wysiwyg",
+            "instructions": "Укажите текст отзыва.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_651138ac31294",
+            "label": "Ссылка на файл",
+            "name": "review_file",
+            "type": "file",
+            "instructions": "Добавьте файл с отзывом.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6511388831293",
+            "label": "Видео",
+            "name": "review_video",
+            "type": "url",
+            "instructions": "Укажите ссылку на видео с Ютуба.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "reviews"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1695630381
+}

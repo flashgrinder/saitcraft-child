@@ -1,5 +1,8 @@
 <?php
+	define('STANDART_DIR', get_stylesheet_directory_uri() . '/assets/');
 	/* Actions */
 	include_once(__DIR__ . '/inc/actions.php');
-	/* Post type - Cases */
-//	include_once(__DIR__ . '/inc/post-type_cases.php');
+	/* Filters */
+	include_once(__DIR__ . '/inc/filters.php');
+	/* Post type - Reviews */
+	include_once(__DIR__ . '/inc/post-type_reviews.php');
