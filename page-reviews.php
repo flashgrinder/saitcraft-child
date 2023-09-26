@@ -47,9 +47,6 @@
 			</div>
 			<?php
 				$max_pages = $reviews_list->max_num_pages;
-//				echo '<pre>';
-//				print_r($wp_query);
-//				echo '</pre>';
 				if( $paged < $max_pages):
 			?>
 				<div class="reviews__action">

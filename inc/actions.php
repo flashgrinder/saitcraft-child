@@ -13,8 +13,13 @@
 		wp_enqueue_script( 'jquery' );
 
 		wp_enqueue_script('true_loadmore',get_stylesheet_directory_uri() . '/inc/ajax/ajax-reviews.js', ['jquery'], time() );
-
-		wp_localize_script('true_loadmore','saitcraft', ['ajaxurl' => admin_url( 'admin-ajax.php' )] );
+		global $wp_query;
+		wp_localize_script(
+			'true_loadmore',
+			'saitcraft', [
+				'ajaxurl' => admin_url( 'admin-ajax.php' ),
+			]
+		);
 
 		wp_enqueue_script( 'true_loadmore' );
 	} );
