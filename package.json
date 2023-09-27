@@ -1,5 +1,5 @@
 {
-  "name": "saitcraft",
+  "name": "saitcraft-child",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -70,7 +70,7 @@
     "url": "git+ssh://git@github.com/flashgrinder/saitcraft.git"
   },
   "bugs": {
-    "url": "https://github.com/flashgrinder/saitcraft/issues"
+    "url": "https://github.com/flashgrinder/saitcraft-child/issues"
   },
-  "homepage": "https://github.com/flashgrinder/saitcraft#readme"
+  "homepage": "https://github.com/flashgrinder/saitcraft-child#readme"
 }
