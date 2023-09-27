@@ -55,7 +55,7 @@
 					</a>
 				</div>
 			<?php endif; ?>
-			<nav class="reviews__pagination pagination">
+			<nav class="reviews__pagination pagination hide">
 				<div class="pagination__inner js-pagination">
 					<?php
 						echo paginate_links(

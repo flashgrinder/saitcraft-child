@@ -1,4 +1,6 @@
 <?php
+	global $reviews_list;
+	global $post;
 	$review_name = get_field('review_name', $post->ID);
 	$review_position = get_field('review_position', $post->ID);
 	$review_text = get_field('review_text', $post->ID);
