@@ -65,6 +65,11 @@
   padding: 0;
 }
 
+.belingo-modal.pop-up.city-change .quick-locations__val:hover {
+  color: rgba(112, 119, 255, 1);
+  background-color: transparent;
+}
+
 .belingo-modal.pop-up.city-change .quick-locations__val ~ .quick-locations__val {
   margin-top: 13px;
 }
@@ -101,7 +106,7 @@
   @include tabletSM-block {
     position: static;
   }
-  @include mobile-block {
+  @include to(1300px) {
     font-size: 14px;
   }
 }
