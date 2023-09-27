@@ -1,0 +1,131 @@
+#cityChange.belingo-modal {
+  left: auto !important;
+  margin-left: -205px !important;
+  margin-top: 0 !important;
+  top: 60px;
+  right: auto;
+  @include tabletSM-block {
+    margin-left: 0;
+    right: 25px;
+  }
+}
+
+.popup-window.popup-window-with-titlebar.pop-up.city-change {
+  background-color: var(--color-dark);
+  font-family: var(--font-primary);
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--color-white);
+  width: 100%;
+  max-width: 295px;
+}
+
+.belingo-modal.pop-up.city-change .popup-window-close-icon {
+  right: 6px;
+  top: 2px;
+  background: transparent;
+}
+
+.belingo-modal.pop-up.city-change .popup-window-close-icon svg {
+  width: 28px;
+  padding: 0;
+}
+
+.belingo-modal.pop-up.city-change .popup-window-titlebar {
+  font-size: 16px;
+  padding: 15px 24px;
+  background: linear-gradient(91.71deg, #8341EF 3.78%, #EB469F 99.45%);
+}
+
+.belingo-modal.pop-up.city-change .bx-sls {
+  padding: 0;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(90deg, #FF7FEA 1.66%, #7077FF 101.45%);
+  border-image-slice: 1;
+}
+
+.belingo-modal.pop-up.city-change .quick-locations {
+  overflow-y: auto;
+  margin-top: 0;
+  @include mobile-block {
+    max-height: 400px;
+  }
+}
+
+.belingo-modal.pop-up.city-change .quick-locations__values {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 24px;
+}
+
+.belingo-modal.pop-up.city-change .quick-locations__val {
+  color: inherit;
+  line-height: 16px;
+  padding: 0;
+}
+
+.belingo-modal.pop-up.city-change .quick-locations__val ~ .quick-locations__val {
+  margin-top: 13px;
+}
+
+.belingo-modal.pop-up.city-change .block-info {
+  padding: 34px 24px;
+  background-color: var(--color-dark);
+}
+
+.belingo-modal.pop-up.city-change .block-info__title {
+  font-family: inherit;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+.belingo-modal.pop-up.city-change .continue-without-geo {
+  display: inline-block;
+  text-decoration: none;
+  font-family: inherit;
+  padding: 0;
+  margin-top: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px dashed rgba(112, 119, 255, 1);
+  color: rgba(112, 119, 255, 1);
+}
+
+.belingo-geo.geolocation {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 18px;
+  @include tabletSM-block {
+    position: static;
+  }
+  @include mobile-block {
+    font-size: 14px;
+  }
+}
+
+.belingo-geo.geolocation .geolocation__link {
+  color: rgba(112, 119, 255, 1);
+  border-bottom: none;
+}
+
+.belingo-geo.geolocation .geolocation__value {
+  color: inherit;
+  border-bottom: 1px dashed rgba(112, 119, 255, 1);
+}
+
+.belingo-geo.geolocation .geolocation__link svg {
+  width: 25px;
+}
+
+.belingo-geo.geolocation .geolocation__link svg path {
+  fill: rgba(112, 119, 255, 1);
+}
+
+.header__tel .d-md-block {
+  width: 24px;
+  height: 24px;
+  fill: rgba(112, 119, 255, 1);
+}
