@@ -1,0 +1,258 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  -webkit-overflow-scrolling: touch;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 17, 27, 0.05);
+  backdrop-filter: blur(25px);
+  visibility: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
+  opacity: 0;
+  transition:  visibility .3s ease-in-out, opacity .3s ease-in-out;
+  transition-delay: .3s;
+  position: fixed;
+}
+
+.modal.hystmodal--active {
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  transition-delay: 0s;
+}
+
+.hystmodal__opened {
+  position: static;
+}
+
+.modal__body {
+  position: relative;
+  background: var(--color-white);
+  max-width: 798px;
+  width: 100%;
+  padding: 25px 30px 30px;
+  overflow-x: hidden;
+  border-radius: 5px;
+  @include mobileXS-block {
+    padding: 16px 15px 30px;
+    max-width: 100%;
+  }
+}
+
+.modal--success .modal__body {
+  max-width: 500px;
+  padding: 80px 45px 80px;
+  @include mobileXS-block {
+    padding: 16px 15px 30px;
+    max-width: 100%;
+  }
+}
+
+/* Modal success */
+.modal__wrapper-success {
+  opacity: 0;
+  text-align: center;
+  transition: opacity 1s ease-in-out;
+}
+
+.modal--success.hystmodal--active .modal__wrapper-success {
+  opacity: 1;
+}
+
+.modal--success.hystmodal--active .modal__success-text {
+  transform: translateY(0);
+}
+
+.modal__success-text {
+  margin-top: 20px;
+  transform: translateY(20px);
+  transition: transform .8s ease-in-out;
+}
+/* Modal success */
+
+.modal__close {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.modal__close-svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  stroke-width: 1px;
+  fill: var(--color-dark);
+  stroke: var(--color-dark);
+}
+
+.modal__title {
+  @include mobile-block {
+    font-size: 28px;
+  }
+}
+
+.modal__subtitle {
+  margin-top: 16px;
+  opacity: .8;
+  @include mobile-block {
+    font-size: 16px;
+  }
+}
+
+.modal__form {
+  font-family: var(--font-primary);
+  width: 100%;
+  max-width: 798px;
+  margin: 15px auto 0;
+}
+
+.modal__wrapper-line {
+  display: flex;
+  gap: 10px;
+  @include mobile-block {
+    flex-direction: column;
+  }
+}
+
+.modal__form.invalid .modal__input.wpcf7-not-valid {
+  border: 1px solid #FF0000;
+}
+
+.modal__field {
+  position: relative;
+  width: 100%;
+}
+
+.modal__field--required::before {
+  content: '*';
+  position: absolute;
+  color: var(--color-invalid);
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+}
+
+.modal__input {
+  position: relative;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  width: 100%;
+  padding: 27px 15px 26px 30px;
+  background: var(--color-white);
+  border: 1px solid var(--color-grey);
+  color: var(--color-dark);
+  border-radius: 8px;
+  @include mobile-block {
+    padding: 18px 15px 18px 20px;
+  }
+}
+
+.modal__input:focus,
+.modal__input:target,
+.modal__input:active {
+  outline: none;
+  border: 1px solid var(--color-dark);
+}
+
+.modal__input::placeholder {
+  font-size: 16px;
+  font-weight: inherit;
+  color: var(--color-dark);
+}
+
+.modal__input--textarea {
+  max-height: 90px;
+  min-width: 100%;
+  max-width: 455px;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+
+.modal__field--file {
+  margin-top: 25px;
+}
+
+.modal__input--file {
+  display: none;
+}
+
+.modal__file-btn,
+.modal__filename {
+  @include mobile-block {
+    font-size: 16px;
+  }
+}
+
+.modal__fake-file {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.modal__link-policy,
+.modal__policy {
+  display: inline;
+  color: var(--color-dark);
+}
+
+.modal__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  grid-gap: 30px;
+  @include mobile-block {
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+}
+
+.modal__actions {
+  @include mobile-block {
+    order: -1;
+  }
+}
+
+.modal__actions .wpcf7-spinner {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  transform: translateY(-50%);
+  opacity: 1;
+  width: 20px;
+  height: 20px;
+  @include mobileXS-block {
+    margin: 0 10px;
+  }
+  @include mobileXSS-block {
+    margin: 0 4px;
+  }
+}
+
+.modal__actions .wpcf7-spinner:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: transparent;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border: 3px solid var(--color-accent-secondary);
+  border-top: 3px solid #595959;
+  transform-origin: center;
+  animation: rotate 1s infinite linear backwards;
+}

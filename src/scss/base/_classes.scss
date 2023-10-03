@@ -96,7 +96,10 @@
     &--tiny {
         font-size: 18px;
     }
-    &--white {
+    &--dark {
+        color: var(--color-dark);
+	}
+	&--white {
         color: var(--color-white);
 	}
 	&--w-extra-light {
@@ -142,6 +145,9 @@
     margin: 0;
 	&--white {
 		color: var(--color-white);
+	}
+	&--dark {
+		color: var(--color-dark);
 	}
 	&--big {
         font-size: responsive 20px 30px;

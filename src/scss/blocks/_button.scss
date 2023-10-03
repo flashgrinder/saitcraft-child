@@ -58,3 +58,48 @@
 .button--primary:disabled {
   opacity: .45;
 }
+
+/* Button icon */
+.button--icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 16px 35px 16px 35px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--color-white);
+  background-image: linear-gradient(91.71deg, #8341EF 3.78%, #EB469F 99.45%);
+  box-shadow: 0 4px 72px rgba(54, 36, 202, 0.6);
+}
+
+.button--icon::before,
+.button--icon::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: opacity .5s ease-in-out;
+}
+
+.button--icon::before {
+  opacity: 1;
+  background-image: linear-gradient(91.71deg, #8341EF 3.78%, #EB469F 99.45%);
+}
+
+.button--icon::after {
+  opacity: 0;
+  background-image: linear-gradient(270deg, #8341EF 3.78%, #EB469F 99.45%);
+}
+
+.button--icon:hover::before {
+  opacity: 0;
+}
+
+.button--icon:hover::after {
+  opacity: 1;
+}
