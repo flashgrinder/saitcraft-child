@@ -13,6 +13,8 @@
   padding: 10px 24px 12px 24px;
   border: none;
   z-index: 10;
+  width: auto;
+  height: auto;
   outline: var(--color-blue);
   overflow: hidden;
 }
@@ -60,11 +62,12 @@
 }
 
 /* Button icon */
-.button--icon {
+.button.button--icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   grid-gap: 16px;
+  margin: 0 !important;
   padding: 16px 35px 16px 35px;
   font-weight: 400;
   font-size: 18px;

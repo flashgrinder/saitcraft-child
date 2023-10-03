@@ -2368,6 +2368,8 @@ html.with-fancybox body.hide-scrollbar {
   padding: 10px 24px 12px 24px;
   border: none;
   z-index: 10;
+  width: auto;
+  height: auto;
   outline: var(--color-blue);
   overflow: hidden;
 }
@@ -2417,11 +2419,12 @@ html.with-fancybox body.hide-scrollbar {
 
 /* Button icon */
 
-.button--icon {
+.button.button--icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
   grid-gap: 16px;
+  margin: 0 !important;
   padding: 16px 35px 16px 35px;
   font-weight: 400;
   font-size: 18px;
@@ -2725,6 +2728,12 @@ html.with-fancybox body.hide-scrollbar {
   border-top: 3px solid #595959;
   transform-origin: center;
   animation: rotate 1s infinite linear backwards;
+}
+
+/* Other Style*/
+
+form.modal__form button svg {
+  margin: 0;
 }
 
 /* MEDIA QUERIES */
