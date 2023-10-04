@@ -8,7 +8,7 @@
 				<?php the_title(); ?>
 			</h1>
 			<div class="beta-test__content" style="margin-top: 50px">
-				<a href="javascript:;" class="button button--primary" data-stc-modal="feedback-stc">
+				<a href="javascript:;" class="button button--primary" data-stc-modal="#feedback-stc">
 					Обсудить проект
 				</a>
 			</div>

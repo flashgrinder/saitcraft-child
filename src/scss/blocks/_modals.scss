@@ -256,3 +256,11 @@
   transform-origin: center;
   animation: rotate 1s infinite linear backwards;
 }
+
+.modal .wpcf7-not-valid-tip {
+  display: none;
+}
+
+.modal .wpcf7 form .wpcf7-response-output {
+  display: none;
+}

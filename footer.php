@@ -460,7 +460,7 @@
 			</div>
 			<div class="modal__wrapper-success">
 				<div class="modal__success-icon">
-					<img src="img/upload/check-success.svg" alt="Заявка принята" class="modal__success-img">
+					<img src="<?= STANDART_DIR; ?>img/upload/check-success.svg" alt="Заявка принята" class="modal__success-img">
 				</div>
 				<div class="modal__success-text text text--big text--dark text--w-medium">
 					Спасибо, ваша заявка принята!
