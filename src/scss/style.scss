@@ -37,6 +37,8 @@
 @import "./blocks/modals";
 /* Form page */
 @import "./blocks/form-page";
+/* Form phone */
+@import "./blocks/form-phone";
 
 /* Other Style*/
 form.modal__form button svg {
@@ -44,6 +46,16 @@ form.modal__form button svg {
 }
 
 input.modal__input {
+ margin-bottom: 0;
+}
+
+form.modal__form textarea,
+form.form-page__form textarea {
+ height: auto;
+ margin-bottom: 0;
+}
+
+.form-phone form input {
  margin-bottom: 0;
 }
 

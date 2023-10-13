@@ -111,6 +111,7 @@
 }
 
 .form-page__form,
+.form-phone__form,
 .modal__form {
   font-family: var(--font-primary);
   width: 100%;
@@ -128,17 +129,20 @@
 }
 
 .form-page__form.invalid .form-page__input.wpcf7-not-valid,
+.form-phone__form.invalid .form-phone__input.wpcf7-not-valid,
 .modal__form.invalid .modal__input.wpcf7-not-valid {
   border: 1px solid #FF0000;
 }
 
 .form-page__field,
+.form-phone__field,
 .modal__field {
   position: relative;
   width: 100%;
 }
 
 .form-page__field--required:before,
+.form-phone__field--required:before,
 .modal__field--required::before {
   content: '*';
   position: absolute;
@@ -149,6 +153,7 @@
 }
 
 .form-page__input,
+.form-phone__input,
 .modal__input {
   position: relative;
   font-family: inherit;
@@ -168,6 +173,9 @@
 .form-page__input:focus,
 .form-page__input:target,
 .form-page__input:active,
+.form-phone__input:focus,
+.form-phone__input:target,
+.form-phone__input:active,
 .modal__input:focus,
 .modal__input:target,
 .modal__input:active {
@@ -176,6 +184,7 @@
 }
 
 .form-page__input::placeholder,
+.form-phone__input::placeholder,
 .modal__input::placeholder {
   font-size: 16px;
   font-weight: inherit;
@@ -276,16 +285,19 @@
 }
 
 .form-page .wpcf7-not-valid-tip,
+.form-phone .wpcf7-not-valid-tip,
 .modal .wpcf7-not-valid-tip {
   display: none;
 }
 
 .form-page .wpcf7-not-valid,
+.form-phone .wpcf7-not-valid,
 .modal .wpcf7-not-valid {
   border: 1px solid var(--color-invalid);
 }
 
 .form-page .wpcf7 form .wpcf7-response-output,
+.form-phone .wpcf7 form .wpcf7-response-output,
 .modal .wpcf7 form .wpcf7-response-output {
   display: none;
 }

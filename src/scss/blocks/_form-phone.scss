@@ -1,0 +1,46 @@
+.form-phone {
+  background: var(--color-white);
+}
+
+.form-phone__body {
+  background: var(--color-grey-back);
+  border-radius: 12px;
+  padding: 40px;
+}
+
+.form-phone__outer {
+  display: flex;
+  gap: 30px;
+  @include mobile-block {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.form-phone__subtitle {
+  margin-top: 16px;
+  opacity: .6;
+}
+
+.form-phone__info,
+.form-phone__wrapper {
+  width: 50%;
+  @include mobile(width, 100%);
+}
+
+.form-phone__wrapper-line {
+  display: flex;
+  gap: 10px;
+  @include mobileXS-block {
+    flex-direction: column;
+  }
+}
+
+.form-phone__btn.button {
+  @include mobileXS(width, 100%);
+  @include mobileXS-block {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}

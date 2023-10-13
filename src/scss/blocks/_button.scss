@@ -106,3 +106,29 @@
 .button--icon:hover::after {
   opacity: 1;
 }
+
+/* Button Purple*/
+.button.button--icon.button--purple {
+  border-radius: 4px;
+  height: 100%;
+  background-image: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
+  box-shadow: 0 4px 72px 0 #3624CA99;
+}
+
+.button--purple.button--icon::before {
+  opacity: 1;
+  background-image: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
+}
+
+.button--purple.button--icon::after {
+  opacity: 0;
+  background-image: linear-gradient(270deg, #7823EB 3.78%, #3123C7 99.45%);
+}
+
+.button--purple.button--icon:hover::before {
+  opacity: 0;
+}
+
+.button--purple.button--icon:hover::after {
+  opacity: 1;
+}
