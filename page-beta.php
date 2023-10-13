@@ -2,7 +2,7 @@
 <?php get_header(); ?>
 <?php the_post(); ?>
 
-	<section class="beta-test">
+	<section class="beta-test" style="margin-top: 100px">
 		<div class="beta-test__body container">
 			<h1 class="beta-test__heading title title--large title--dark title--w-medium">
 				<?php the_title(); ?>
