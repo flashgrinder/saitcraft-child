@@ -7,7 +7,7 @@
 	$review_file = get_field('review_file', $post->ID);
 	$review_video = get_field('review_video', $post->ID);
 ?>
-<article class="reviews__item <?php if ($reviews_list->current_post % 2 == 1) { echo 'reviews__item--revers';} ?>">
+<article class="reviews__item">
 	<div class="reviews__item-outer">
 		<header class="reviews__item-header">
 			<div class="reviews__item-photo">

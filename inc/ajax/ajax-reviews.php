@@ -15,7 +15,7 @@
 	} );
 
 	function true_loadmore() {
-
+		global $reviews_list;
 		$paged = !empty( $_POST[ 'paged' ] ) ? $_POST[ 'paged' ] : 1;
 		$paged++;
 		$args = array(

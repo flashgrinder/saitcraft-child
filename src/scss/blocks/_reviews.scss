@@ -69,7 +69,7 @@
 }
 
 .reviews__item,
-.reviews__item.reviews__item--revers {
+.reviews__item:nth-child(2n) {
   @include mobile-block {
     padding: 20px 35px;
     border-radius: 16px 16px 0 0;
@@ -77,14 +77,14 @@
 }
 
 .reviews__item-outer,
-.reviews__item.reviews__item--revers .reviews__item-outer {
+.reviews__item:nth-child(2n) .reviews__item-outer {
   @include mobile-block {
     grid-gap: 20px;
     flex-direction: column;
   }
 }
 .reviews__item-footer,
-.reviews__item.reviews__item--revers .reviews__item-footer {
+.reviews__item:nth-child(2n) .reviews__item-footer {
   @include mobile-block {
     margin-top: 30px;
     justify-content: flex-end;
@@ -92,7 +92,7 @@
 }
 
 .reviews__item::before,
-.reviews__item.reviews__item--revers::before {
+.reviews__item:nth-child(2n)::before {
   @include mobile-block {
     top: 0;
     right: 0;
@@ -104,7 +104,7 @@
 }
 
 .reviews__item::after,
-.reviews__item.reviews__item--revers::after {
+.reviews__item:nth-child(2n)::after {
   @include mobile-block {
     border-radius: 0 0 16px 16px;
     width: auto;
@@ -116,7 +116,7 @@
 }
 
 .reviews__item .reviews__item-decor,
-.reviews__item.reviews__item--revers .reviews__item-decor {
+.reviews__item:nth-child(2n) .reviews__item-decor {
   @include mobile-block {
     top: 24%;
     left: -5px;
@@ -125,7 +125,7 @@
 }
 
 /* Reviews Item Revers */
-.reviews__item.reviews__item--revers {
+.reviews__item:nth-child(2n) {
   padding: 70px 146px 70px 65px;
   border-radius: 0 16px 16px 0;
   @include tablet-block {
@@ -133,16 +133,16 @@
   }
 }
 
-.reviews__item.reviews__item--revers .reviews__item-outer {
+.reviews__item:nth-child(2n) .reviews__item-outer {
   flex-direction: row-reverse;
   grid-gap: 32px;
 }
 
-.reviews__item.reviews__item--revers .reviews__item-footer {
+.reviews__item:nth-child(2n) .reviews__item-footer {
   justify-content: flex-start;
 }
 
-.reviews__item.reviews__item--revers::before {
+.reviews__item:nth-child(2n)::before {
   top: 0;
   right: 0;
   left: auto;
@@ -151,7 +151,7 @@
   background: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
 }
 
-.reviews__item.reviews__item--revers::after {
+.reviews__item:nth-child(2n)::after {
   border-radius: 16px 0 0 16px;
   top: 0;
   right: auto;
@@ -159,11 +159,12 @@
   bottom: 0;
 }
 
-.reviews__item.reviews__item--revers .reviews__item-decor {
+.reviews__item:nth-child(2n) .reviews__item-decor {
   top: 40%;
   left: -7%;
 }
 /* Reviews Item Revers */
+
 .reviews__item-header,
 .reviews__item-inner,
 .reviews__item-footer {

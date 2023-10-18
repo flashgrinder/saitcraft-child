@@ -800,21 +800,21 @@ img {
 
 /* Reviews Item Revers */
 
-.reviews__item.reviews__item--revers {
+.reviews__item:nth-child(2n) {
   padding: 70px 146px 70px 65px;
   border-radius: 0 16px 16px 0;
 }
 
-.reviews__item.reviews__item--revers .reviews__item-outer {
+.reviews__item:nth-child(2n) .reviews__item-outer {
   flex-direction: row-reverse;
   grid-gap: 32px;
 }
 
-.reviews__item.reviews__item--revers .reviews__item-footer {
+.reviews__item:nth-child(2n) .reviews__item-footer {
   justify-content: flex-start;
 }
 
-.reviews__item.reviews__item--revers::before {
+.reviews__item:nth-child(2n)::before {
   top: 0;
   right: 0;
   left: auto;
@@ -823,7 +823,7 @@ img {
   background: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
 }
 
-.reviews__item.reviews__item--revers::after {
+.reviews__item:nth-child(2n)::after {
   border-radius: 16px 0 0 16px;
   top: 0;
   right: auto;
@@ -831,7 +831,7 @@ img {
   bottom: 0;
 }
 
-.reviews__item.reviews__item--revers .reviews__item-decor {
+.reviews__item:nth-child(2n) .reviews__item-decor {
   top: 40%;
   left: -7%;
 }
@@ -2936,7 +2936,7 @@ form.form-page__form textarea {
     padding: 40px 30px 40px 100px;
   }
 
-  .reviews__item.reviews__item--revers {
+  .reviews__item:nth-child(2n) {
     padding: 40px 100px 40px 50px;
   }
 
@@ -2970,25 +2970,25 @@ form.form-page__form textarea {
   }
 
   .reviews__item,
-  .reviews__item.reviews__item--revers {
+  .reviews__item:nth-child(2n) {
     padding: 20px 35px;
     border-radius: 16px 16px 0 0;
   }
 
   .reviews__item-outer,
-  .reviews__item.reviews__item--revers .reviews__item-outer {
+  .reviews__item:nth-child(2n) .reviews__item-outer {
     grid-gap: 20px;
     flex-direction: column;
   }
 
   .reviews__item-footer,
-  .reviews__item.reviews__item--revers .reviews__item-footer {
+  .reviews__item:nth-child(2n) .reviews__item-footer {
     margin-top: 30px;
     justify-content: flex-end;
   }
 
   .reviews__item::before,
-  .reviews__item.reviews__item--revers::before {
+  .reviews__item:nth-child(2n)::before {
     top: 0;
     right: 0;
     left: 0;
@@ -2998,7 +2998,7 @@ form.form-page__form textarea {
   }
 
   .reviews__item::after,
-  .reviews__item.reviews__item--revers::after {
+  .reviews__item:nth-child(2n)::after {
     border-radius: 0 0 16px 16px;
     width: auto;
     top: 0;
@@ -3008,7 +3008,7 @@ form.form-page__form textarea {
   }
 
   .reviews__item .reviews__item-decor,
-  .reviews__item.reviews__item--revers .reviews__item-decor {
+  .reviews__item:nth-child(2n) .reviews__item-decor {
     top: 24%;
     left: -5px;
     background-size: 120px 60px;
