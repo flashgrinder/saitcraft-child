@@ -126,7 +126,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <?php echo do_shortcode('[belingogeo_city_field field="city_phone"]')?>
                         </span>
                       </a>
-					  <div style="margin-left:10px; position: relative;"><?php echo do_shortcode('[belingogeo_select_city]')?></div>
+					  <!--<div style="margin-left:10px; position: relative;"><?php echo do_shortcode('[belingogeo_select_city]')?></div>-->
 					  <span class="burger__mobile">
 						<span></span>
 					  </span>
