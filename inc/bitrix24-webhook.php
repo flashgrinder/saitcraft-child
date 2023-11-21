@@ -23,6 +23,7 @@
 	        $lid_tel = $posted_data['tel-885'];
 	        $lid_email = $posted_data['email-626'];
 	        $lid_message = $posted_data['textarea-746'];
+	        $lid_file = $posted_data['file-792'];
 	        $urlPage = explode('?', $_SERVER['HTTP_REFERER'])[0];
 
 	        $utm_source = htmlspecialchars($_COOKIE["utm_source"]);
@@ -36,6 +37,7 @@
                     'TITLE' => $title,
                     'NAME' => $lid_name,
                     'UF_CRM_DCT_CONTENT' => $lid_message,
+                    'UF_CRM_1649832981' => $lid_file,
                     'SOURCE_DESCRIPTION' => $urlPage,
                     'PHONE' => Array(
                         "n0" => Array(
