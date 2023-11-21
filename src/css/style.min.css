@@ -2801,12 +2801,6 @@ html.with-fancybox body.hide-scrollbar {
   border: 1px solid var(--color-invalid);
 }
 
-.form-page .wpcf7 form .wpcf7-response-output,
-.form-phone .wpcf7 form .wpcf7-response-output,
-.modal .wpcf7 form .wpcf7-response-output {
-  display: none;
-}
-
 /* Form page */
 
 .form-page {
