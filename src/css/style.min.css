@@ -2804,7 +2804,7 @@ html.with-fancybox body.hide-scrollbar {
 .form-page .wpcf7 form.sent .wpcf7-response-output,
 .form-phone .wpcf7 form.sent .wpcf7-response-output,
 .modal .wpcf7 form.sent .wpcf7-response-output {
-  display: block;
+  display: none;
 }
 
 /* Form page */
