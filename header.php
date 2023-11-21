@@ -89,8 +89,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							'depth'           => 0,
 							] ); ?>
               
-                      <a href="javascript:;" class="btn__header" data-bs-toggle="modal" data-bs-target="#exampleModal">Обсудить проект</a>
-                      
+<!--                      <a href="javascript:;" class="btn__header" data-bs-toggle="modal" data-bs-target="#exampleModal">Обсудить проект</a>-->
+                      <a href="javascript:;" class="btn__header" data-stc-modal="#feedback-stc">Обсудить проект</a>
+
                       <a href="tel:<?php echo do_shortcode('[city_phone]')?>" class="header__tel">
                         <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                         <svg class="d-sm-none d-md-block d-lg-none" fill="#2cb7ff" height="14px" width="14px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 

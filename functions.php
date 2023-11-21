@@ -6,3 +6,5 @@
 	include_once(__DIR__ . '/inc/filters.php');
 	/* Post type - Reviews */
 	include_once(__DIR__ . '/inc/post-type_reviews.php');
+	/* Bitrix24 */
+	include_once(__DIR__ . '/inc/bitrix24-webhook.php');

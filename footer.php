@@ -75,7 +75,7 @@
 	</div>
 </div>
 
-<?php if(!is_page_template('page-beta.php')): ?>
+<?php if(is_page_template('page-beta.php')): ?>
 <section class="bottom__form">
 	<div class="container">
 		<div class="row">
@@ -140,39 +140,39 @@
 </section>
 <?php endif; ?>
 
-<?php if(is_page_template('page-beta.php')): ?>
+<?php if(!is_page_template('page-beta.php')): ?>
 <!-- Form Page-->
-<!--<section class="form-page">-->
-<!--	<div class="form-page__body container">-->
-<!--		<div class="form-page__col form-page__col--left">-->
-<!--			<div class="form-page__info">-->
-<!--				<h3 class="form-page__heading title title--big title--white title--w-extra-bold">-->
-<!--					Обсудим ваш проект-->
-<!--				</h3>-->
-<!--				<p class="form-page__subtitle text text--large text--white text--w-semi-bold">-->
-<!--					Расскажите о задачах и задайте вопросы — <br>мы перезвоним в течение рабочего дня-->
-<!--				</p>-->
-<!--			</div>-->
-<!--			<div class="form-page__contacts">-->
-<!--				<a href="tel:8 (800) 500-98-49" class="form-page__link link title title--large title--white title--w-extra-bold">-->
-<!--					8 (800) 500-98-49-->
-<!--				</a>-->
-<!--				<a href="https://t.me/saitcraft_ru" class="form-page__link form-page__link--tg link">-->
-<!--					<svg width="44" height="37" viewBox="0 0 44 37" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--						<path-->
-<!--							d="M42.8125 4.28125C43.375 1.65625 41.875 0.625 40.1875 1.28125L2.875 15.625C0.34375 16.6562 0.4375 18.0625 2.5 18.7188L11.9688 21.625L34.0938 7.75C35.125 7 36.1562 7.46875 35.3125 8.125L17.4062 24.25L16.75 34.0938C17.7812 34.0938 18.1562 33.7188 18.7188 33.1562L23.3125 28.6562L32.9688 35.7812C34.75 36.8125 36.0625 36.25 36.5312 34.1875L42.8125 4.28125Z"-->
-<!--							fill="white"/>-->
-<!--					</svg>-->
-<!--				</a>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--		<div class="form-page__col form-page__col-right">-->
-<!--			<div class="form-page__inner">-->
-<!--				--><?php //= do_shortcode('[contact-form-7 id="8fcb573" title="Контактная форма в подвале" html_class="form-page__form"]'); ?>
-<!--			</div>-->
-<!--		</div>-->
-<!--	</div>-->
-<!--</section>-->
+<section class="form-page">
+	<div class="form-page__body container">
+		<div class="form-page__col form-page__col--left">
+			<div class="form-page__info">
+				<h3 class="form-page__heading title title--big title--white title--w-extra-bold">
+					Обсудим ваш проект
+				</h3>
+				<p class="form-page__subtitle text text--large text--white text--w-semi-bold">
+					Расскажите о задачах и задайте вопросы — <br>мы перезвоним в течение рабочего дня
+				</p>
+			</div>
+			<div class="form-page__contacts">
+				<a href="tel:8 (800) 500-98-49" class="form-page__link link title title--large title--white title--w-extra-bold">
+					8 (800) 500-98-49
+				</a>
+				<a href="https://t.me/saitcraft_ru" class="form-page__link form-page__link--tg link">
+					<svg width="44" height="37" viewBox="0 0 44 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M42.8125 4.28125C43.375 1.65625 41.875 0.625 40.1875 1.28125L2.875 15.625C0.34375 16.6562 0.4375 18.0625 2.5 18.7188L11.9688 21.625L34.0938 7.75C35.125 7 36.1562 7.46875 35.3125 8.125L17.4062 24.25L16.75 34.0938C17.7812 34.0938 18.1562 33.7188 18.7188 33.1562L23.3125 28.6562L32.9688 35.7812C34.75 36.8125 36.0625 36.25 36.5312 34.1875L42.8125 4.28125Z"
+							fill="white"/>
+					</svg>
+				</a>
+			</div>
+		</div>
+		<div class="form-page__col form-page__col-right">
+			<div class="form-page__inner">
+				<?= do_shortcode('[contact-form-7 id="8fcb573" title="Контактная форма в подвале" html_class="form-page__form"]');?>
+			</div>
+		</div>
+	</div>
+</section>
 <!-- Form Page-->
 <?php endif; ?>
 
@@ -467,47 +467,47 @@
 
 <script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
 
-<!-- Модалка обратной связи -->
-<!--<div class="modal hystmodal" id="feedback-stc" aria-hidden="true">-->
-<!--	<div class="modal__wrap hystmodal__wrap">-->
-<!--		<div class="modal__body hystmodal__window" role="modal window service" aria-modal="true">-->
-<!--			<div class="modal__close" data-hystclose>-->
-<!--				<svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--					<path d="M1 1L12 12M12 1L1 12" stroke-linecap="round"/>-->
-<!--				</svg>-->
-<!--			</div>-->
-<!--			<h3 class="modal__title title title--big title--dark title--w-extra-bold js-feedback-title">-->
-<!--				Обсудим ваш проект-->
-<!--			</h3>-->
-<!--			<p class="modal__subtitle title title--small title--dark title--w-regular">-->
-<!--				Расскажите о задачах и задайте вопросы — мы перезвоним <br> в течение рабочего дня-->
-<!--			</p>-->
-<!--			--><?php //= do_shortcode('[contact-form-7 id="fe2e8c1" title="Контактная форма в модальном окне" html_class="modal__form"]'); ?>
-<!--		</div>-->
-<!--	</div>-->
-<!--</div>-->
+ <!-- Модалка обратной связи -->
+<div class="modal hystmodal" id="feedback-stc" aria-hidden="true">
+	<div class="modal__wrap hystmodal__wrap">
+		<div class="modal__body hystmodal__window" role="modal window service" aria-modal="true">
+			<div class="modal__close" data-hystclose>
+				<svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 1L12 12M12 1L1 12" stroke-linecap="round"/>
+				</svg>
+			</div>
+			<h3 class="modal__title title title--big title--dark title--w-extra-bold js-feedback-title js-h3-form" data-title>
+				Обсудим ваш проект
+			</h3>
+			<p class="modal__subtitle title title--small title--dark title--w-regular js-subtitle">
+				Расскажите о задачах и задайте вопросы — мы перезвоним <br> в течение рабочего дня
+			</p>
+			<?= do_shortcode('[contact-form-7 id="fe2e8c1" title="Контактная форма в модальном окне" html_class="modal__form"]'); ?>
+		</div>
+	</div>
+</div>
 <!-- /. Модалка обратной связи -->
 
 <!-- Success -->
-<!--<div class="modal modal--success hystmodal js-modal-success" id="success" aria-hidden="true">-->
-<!--	<div class="modal__wrap hystmodal__wrap">-->
-<!--		<div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">-->
-<!--			<div class="modal__close" data-hystclose>-->
-<!--				<svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-<!--					<path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>-->
-<!--				</svg>-->
-<!--			</div>-->
-<!--			<div class="modal__wrapper-success">-->
-<!--				<div class="modal__success-icon">-->
-<!--					<img src="--><?php //= STANDART_DIR; ?><!--img/upload/check-success.svg" alt="Заявка принята" class="modal__success-img">-->
-<!--				</div>-->
-<!--				<div class="modal__success-text text text--big text--dark text--w-medium">-->
-<!--					Спасибо, ваша заявка принята!-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--	</div>-->
-<!--</div>-->
+<div class="modal modal--success hystmodal js-modal-success" id="success" aria-hidden="true">
+	<div class="modal__wrap hystmodal__wrap">
+		<div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">
+			<div class="modal__close" data-hystclose>
+				<svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>
+				</svg>
+			</div>
+			<div class="modal__wrapper-success">
+				<div class="modal__success-icon">
+					<img src="<?= STANDART_DIR; ?>img/upload/check-success.svg" alt="Заявка принята" class="modal__success-img">
+				</div>
+				<div class="modal__success-text text text--big text--dark text--w-medium">
+					Спасибо, ваша заявка принята!
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- /. Success -->
 
 </body>

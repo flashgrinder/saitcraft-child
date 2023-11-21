@@ -34,11 +34,11 @@
 /* Pagination */
 @import "./blocks/pagination";
 /* Modals */
-//@import "./blocks/modals";
+@import "./blocks/modals";
 /* Form page */
-//@import "./blocks/form-page";
+@import "./blocks/form-page";
 /* Form phone */
-//@import "./blocks/form-phone";
+@import "./blocks/form-phone";
 
 /* Other Style*/
 form.modal__form button svg {
@@ -59,4 +59,28 @@ form.form-page__form textarea {
  margin-bottom: 0;
 }
 
+.modal-backdrop.show {
+ opacity: 0;
+}
+
+.modal-backdrop {
+ z-index: 0;
+}
+
+form.form-page__form button svg {
+ margin-left: 0;
+}
+
+.btn__wrap {
+ gap: 40px;
+}
+
+.card__consult {
+ max-width: 450px;
+}
+
+.usluga__banner {
+ padding-bottom: 50px;
+ height: auto;
+}
 /* MEDIA QUERIES */

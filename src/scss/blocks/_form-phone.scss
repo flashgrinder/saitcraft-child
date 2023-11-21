@@ -8,9 +8,15 @@
   padding: 40px;
 }
 
+.form-phone__form {
+  margin: 0 auto;
+}
+
 .form-phone__outer {
   display: flex;
   gap: 30px;
+  justify-content: space-between;
+  align-items: center;
   @include mobile-block {
     flex-direction: column;
     gap: 0;
