@@ -2810,6 +2810,7 @@ html.with-fancybox body.hide-scrollbar {
 /* Form page */
 
 .form-page {
+  position: relative;
   padding: 80px 0;
   background: linear-gradient(90deg, rgb(127, 108, 224) 50%, rgb(246, 248, 253) 50%);
 }
@@ -2861,6 +2862,7 @@ html.with-fancybox body.hide-scrollbar {
 /* Form phone */
 
 .form-phone {
+  position: relative;
   background: var(--color-white);
 }
 
@@ -2894,6 +2896,59 @@ html.with-fancybox body.hide-scrollbar {
 .form-phone__wrapper-line {
   display: flex;
   gap: 10px;
+}
+
+/* Form-loader */
+
+.form-loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 101;
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid #8341ef;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-left: 4px solid #eb469f;
+  border-bottom: 4px solid transparent;
+  animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.submitting .form-loader {
+  display: flex;
 }
 
 /* Other Style*/
