@@ -58,6 +58,13 @@
 	            }
 			</script>
 
+			<script>
+				$('.js-modal-fake-file input[type=file]').on('change', function(){
+					let file = this.files[0];
+					$(this).closest('.js-modal-fake-file').find('.js-filename').html(file.name);
+				});
+			</script>
+
 			<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
 
 		<?php
