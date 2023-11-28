@@ -1,4 +1,4 @@
-.modal {
+.modal-sc {
   display: flex;
   justify-content: center;
   flex-flow: column nowrap;
@@ -21,7 +21,7 @@
   position: fixed;
 }
 
-.modal.hystmodal--active {
+.modal-sc.hystmodal--active {
   visibility: visible;
   opacity: 1;
   position: fixed;
@@ -32,7 +32,7 @@
   position: static;
 }
 
-.modal__body {
+.modal-sc__body {
   position: relative;
   background: var(--color-white);
   max-width: 798px;
@@ -46,7 +46,7 @@
   }
 }
 
-.modal--success .modal__body {
+.modal-sc--success .modal-sc__body {
   max-width: 500px;
   padding: 80px 45px 80px;
   @include mobileXS-block {
@@ -56,28 +56,28 @@
 }
 
 /* Modal success */
-.modal__wrapper-success {
+.modal-sc__wrapper-success {
   opacity: 0;
   text-align: center;
   transition: opacity 1s ease-in-out;
 }
 
-.modal--success.hystmodal--active .modal__wrapper-success {
+.modal-sc--success.hystmodal--active .modal-sc__wrapper-success {
   opacity: 1;
 }
 
-.modal--success.hystmodal--active .modal__success-text {
+.modal-sc--success.hystmodal--active .modal-sc__success-text {
   transform: translateY(0);
 }
 
-.modal__success-text {
+.modal-sc__success-text {
   margin-top: 20px;
   transform: translateY(20px);
   transition: transform .8s ease-in-out;
 }
 /* Modal success */
 
-.modal__close {
+.modal-sc__close {
   display: inline-block;
   position: absolute;
   right: 15px;
@@ -87,7 +87,7 @@
   cursor: pointer;
 }
 
-.modal__close-svg {
+.modal-sc__close-svg {
   display: block;
   width: 100%;
   height: 100%;
@@ -96,13 +96,13 @@
   stroke: var(--color-dark);
 }
 
-.modal__title {
+.modal-sc__title {
   @include mobile-block {
     font-size: 28px;
   }
 }
 
-.modal__subtitle {
+.modal-sc__subtitle {
   margin-top: 16px;
   opacity: .8;
   @include mobile-block {
@@ -112,7 +112,7 @@
 
 .form-page__form,
 .form-phone__form,
-.modal__form {
+.modal-sc__form {
   font-family: var(--font-primary);
   width: 100%;
   max-width: 798px;
@@ -120,7 +120,7 @@
 }
 
 .form-page__wrapper-line,
-.modal__wrapper-line {
+.modal-sc__wrapper-line {
   display: flex;
   gap: 10px;
   @include mobile-block {
@@ -130,20 +130,20 @@
 
 .form-page__form.invalid .form-page__input.wpcf7-not-valid,
 .form-phone__form.invalid .form-phone__input.wpcf7-not-valid,
-.modal__form.invalid .modal__input.wpcf7-not-valid {
+.modal-sc__form.invalid .modal-sc__input.wpcf7-not-valid {
   border: 1px solid #FF0000;
 }
 
 .form-page__field,
 .form-phone__field,
-.modal__field {
+.modal-sc__field {
   position: relative;
   width: 100%;
 }
 
 .form-page__field--required:before,
 .form-phone__field--required:before,
-.modal__field--required::before {
+.modal-sc__field--required::before {
   content: '*';
   position: absolute;
   color: var(--color-invalid);
@@ -154,7 +154,7 @@
 
 .form-page__input,
 .form-phone__input,
-.modal__input {
+.modal-sc__input {
   position: relative;
   font-family: inherit;
   font-size: 16px;
@@ -176,23 +176,23 @@
 .form-phone__input:focus,
 .form-phone__input:target,
 .form-phone__input:active,
-.modal__input:focus,
-.modal__input:target,
-.modal__input:active {
+.modal-sc__input:focus,
+.modal-sc__input:target,
+.modal-sc__input:active {
   outline: none;
   border: 1px solid var(--color-dark);
 }
 
 .form-page__input::placeholder,
 .form-phone__input::placeholder,
-.modal__input::placeholder {
+.modal-sc__input::placeholder {
   font-size: 16px;
   font-weight: inherit;
   color: var(--color-dark);
 }
 
 .form-page__input--textarea,
-.modal__input--textarea {
+.modal-sc__input--textarea {
   max-height: 90px;
   min-width: 100%;
   max-width: 455px;
@@ -201,25 +201,25 @@
 }
 
 .form-page__field--file,
-.modal__field--file {
+.modal-sc__field--file {
   margin-top: 25px;
 }
 
 .form-page__input--file,
-.modal__input--file {
+.modal-sc__input--file {
   display: none;
 }
 .form-page__file-btn,
 .form-page__filename,
-.modal__file-btn,
-.modal__filename {
+.modal-sc__file-btn,
+.modal-sc__filename {
   @include mobile-block {
     font-size: 16px;
   }
 }
 
 .form-page__fake-file,
-.modal__fake-file {
+.modal-sc__fake-file {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -228,14 +228,14 @@
 
 .form-page__link-policy,
 .form-page__policy,
-.modal__link-policy,
-.modal__policy {
+.modal-sc__link-policy,
+.modal-sc__policy {
   display: inline;
   color: var(--color-dark);
 }
 
 .form-page__footer,
-.modal__footer {
+.modal-sc__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -248,13 +248,13 @@
 }
 
 .form-page__actions,
-.modal__actions {
+.modal-sc__actions {
   @include mobile-block {
     order: -1;
   }
 }
 
-.modal__actions .wpcf7-spinner {
+.modal-sc__actions .wpcf7-spinner {
   position: absolute;
   top: 50%;
   background-color: transparent;
@@ -270,7 +270,7 @@
   }
 }
 
-.modal__actions .wpcf7-spinner:before {
+.modal-sc__actions .wpcf7-spinner:before {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -286,18 +286,18 @@
 
 .form-page .wpcf7-not-valid-tip,
 .form-phone .wpcf7-not-valid-tip,
-.modal .wpcf7-not-valid-tip {
+.modal-sc .wpcf7-not-valid-tip {
   display: none;
 }
 
 .form-page .wpcf7-not-valid,
 .form-phone .wpcf7-not-valid,
-.modal .wpcf7-not-valid {
+.modal-sc .wpcf7-not-valid {
   border: 1px solid var(--color-invalid);
 }
 
 .form-page .wpcf7 form.sent .wpcf7-response-output,
 .form-phone .wpcf7 form.sent .wpcf7-response-output,
-.modal .wpcf7 form.sent .wpcf7-response-output {
+.modal-sc .wpcf7 form.sent .wpcf7-response-output {
   display: none;
 }

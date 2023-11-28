@@ -240,7 +240,7 @@
 
 					<div class="col-sm-12">
 						<a class="mobile__tel" href="tel:+7 (499) 288-18-02">+7 (499) 288-18-02</a>
-						<a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn__header">
+						<a href="javascript:;" data-stc-modal="#feedback-stc" class="btn__header">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
 							     xmlns="http://www.w3.org/2000/svg">
 								<path
@@ -277,40 +277,40 @@
 </noindex>
 
  <!-- Модалка обратной связи -->
-<div class="modal hystmodal" id="feedback-stc" aria-hidden="true">
-	<div class="modal__wrap hystmodal__wrap">
-		<div class="modal__body hystmodal__window" role="modal window service" aria-modal="true">
-			<div class="modal__close" data-hystclose>
-				<svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div class="modal-sc hystmodal" id="feedback-stc" aria-hidden="true">
+	<div class="modal-sc__wrap hystmodal__wrap">
+		<div class="modal-sc__body hystmodal__window" role="modal window service" aria-modal="true">
+			<div class="modal-sc__close" data-hystclose>
+				<svg class="modal-sc__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 1L12 12M12 1L1 12" stroke-linecap="round"/>
 				</svg>
 			</div>
-			<h3 class="modal__title title title--big title--dark title--w-extra-bold js-feedback-title js-h3-form" data-title>
+			<h3 class="modal-sc__title title title--big title--dark title--w-extra-bold js-feedback-title js-h3-form" data-title>
 				Обсудим ваш проект
 			</h3>
-			<p class="modal__subtitle title title--small title--dark title--w-regular js-subtitle">
+			<p class="modal-sc__subtitle title title--small title--dark title--w-regular js-subtitle">
 				Расскажите о задачах и задайте вопросы — мы перезвоним <br> в течение рабочего дня
 			</p>
-			<?= do_shortcode('[contact-form-7 id="fe2e8c1" title="Контактная форма в модальном окне" html_class="modal__form"]'); ?>
+			<?= do_shortcode('[contact-form-7 id="fe2e8c1" title="Контактная форма в модальном окне" html_class="modal-sc__form"]'); ?>
 		</div>
 	</div>
 </div>
 <!-- /. Модалка обратной связи -->
 
 <!-- Success -->
-<div class="modal modal--success hystmodal js-modal-success" id="success" aria-hidden="true">
-	<div class="modal__wrap hystmodal__wrap">
-		<div class="modal__body hystmodal__window" role="modal window feedback" aria-modal="true">
-			<div class="modal__close" data-hystclose>
-				<svg class="modal__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<div class="modal-sc modal-sc--success hystmodal js-modal-success" id="success" aria-hidden="true">
+	<div class="modal-sc__wrap hystmodal__wrap">
+		<div class="modal-sc__body hystmodal__window" role="modal window feedback" aria-modal="true">
+			<div class="modal-sc__close" data-hystclose>
+				<svg class="modal-sc__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>
 				</svg>
 			</div>
-			<div class="modal__wrapper-success">
-				<div class="modal__success-icon">
-					<img src="<?= STANDART_DIR; ?>img/upload/check-success.svg" alt="Заявка принята" class="modal__success-img">
+			<div class="modal-sc__wrapper-success">
+				<div class="modal-sc__success-icon">
+					<img src="<?= STANDART_DIR; ?>img/upload/check-success.svg" alt="Заявка принята" class="modal-sc__success-img">
 				</div>
-				<div class="modal__success-text text text--big text--dark text--w-medium">
+				<div class="modal-sc__success-text text text--big text--dark text--w-medium">
 					Спасибо, ваша заявка принята!
 				</div>
 			</div>
