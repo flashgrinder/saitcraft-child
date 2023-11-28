@@ -1,40 +1,11 @@
 <?php header( "Last-Modified: " . get_the_modified_date('r') ) ?>
-
-
-<?php
-/**
- * The header for our theme
- *
- * This is the template that displays all of the <head> section and everything up until <div id="content">
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package saitcraft
- */
-
-
-?>
-
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="/css/bootstrap.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="/css/app.css?<?= filemtime($_SERVER['DOCUMENT_ROOT'].'/css/app.css') ?>">
 	<?php wp_head(); ?>
-
-<script type="text/javascript">!function(){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src='https://vk.com/js/api/openapi.js?169',t.onload=function(){VK.Retargeting.Init("VK-RTRG-1311016-4DMMi"),VK.Retargeting.Hit()},document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1311016-4DMMi" style="position:fixed; left:-999px;" alt=""/></noscript>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
-
 <body <?php body_class(); ?>>
-
 <?php wp_body_open(); ?>
 <?php
 $categories = get_the_category();
@@ -50,7 +21,6 @@ if(($category_id == 3 && is_single()) || is_page(3) || is_page(1736)) {
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -64,7 +34,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         webvisor:true
    });
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/25803377" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/25803377" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
 <!-- /Yandex.Metrika counter -->
 <header class="<?php echo $header_class;?>">
           <div class="container h-100">
@@ -88,8 +60,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
 							'depth'           => 0,
 							] ); ?>
-              
-<!--                      <a href="javascript:;" class="btn__header" data-bs-toggle="modal" data-bs-target="#exampleModal">Обсудить проект</a>-->
+
                       <a href="javascript:;" class="btn__header" data-stc-modal="#feedback-stc">Обсудить проект</a>
 
                       <a href="tel:<?php echo do_shortcode('[city_phone]')?>" class="header__tel">

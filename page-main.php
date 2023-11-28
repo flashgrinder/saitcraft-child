@@ -457,8 +457,6 @@ $query = new WP_Query( $args );
                                         <path d="M33 39L55 39" stroke="white" stroke-width="2" stroke-linecap="round"/>
                                         <path d="M33 34L55 34" stroke="white" stroke-width="2" stroke-linecap="round"/>
                                     </svg>
-                                        
-                                          
                                 </div>
                                 <span class="usluga__card-number">8</span>
                             </div>
@@ -469,20 +467,11 @@ $query = new WP_Query( $args );
                             <span class="usluga__card-text">
                                 Адресная рассылка позволяет привлечь<br> заинтересованных клиентов, готовых работать с<br> вашей компанией. Заявки с первого дня рассылки
                             </span>
-
                         </a>
                       </div>
-                      
 
                   </div>
               </div>
           </section>
-          <script>
-            setTimeout(function() { //ждём 15 секунд
-                var myModal = new bootstrap.Modal(document.getElementById('myModalVebinar'), {})
-                myModal.show()
-	        }, 5000);
-          </script>
           
-<?php
-get_footer();
+<?php get_footer(); ?>

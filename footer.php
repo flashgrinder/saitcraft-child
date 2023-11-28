@@ -275,53 +275,6 @@
 		</div>
 	</div>
 </noindex>
-<?php if (is_page(336)) : ?>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=736355d5-5d91-496e-ae7d-a4c971063fc1"
-        type="text/javascript"></script>
-<?php endif; ?>
-<script src="/js/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-<script src="/js/jquery.vide.min.js"></script>
-<script src="/js/app.js?<?= filemtime($_SERVER['DOCUMENT_ROOT'] . '/js/app.js') ?>"></script>
-
-<script>
-    if ('loading' in HTMLImageElement.prototype) {
-        const images = document.querySelectorAll("img.lazyload");
-        images.forEach(img => {
-            img.src = img.dataset.src;
-        });
-    } else {
-        // Dynamically import the LazySizes library
-        let script = document.createElement("script");
-        script.async = true;
-        script.src =
-            "//cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js";
-        document.body.appendChild(script);
-    }
-</script>
-
-
-</body>
-
-</html>
-<?php wp_footer(); ?>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-      integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
-<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
 
  <!-- Модалка обратной связи -->
 <div class="modal hystmodal" id="feedback-stc" aria-hidden="true">
@@ -366,5 +319,6 @@
 </div>
 <!-- /. Success -->
 
+<?php wp_footer(); ?>
 </body>
 </html>
