@@ -1634,7 +1634,7 @@ CTR
                 <h2 class="mob-center">Другие услуги</h2>
             </div>
         </div>
-        <div class="row os-cards">
+        <div class="os-cards">
             <div class="col-sm-3 os-card">
                 <h3>SEO продвижение по трафику</h3>
                 <div class="os-card-content">

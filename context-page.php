@@ -1485,7 +1485,7 @@ $query = new WP_Query( $args );
                 <h2 class="mob-center">Смотрите еще</h2>
             </div>
         </div>
-        <div class="row os-cards">
+        <div class="os-cards">
             <div class="col-sm-3 os-card">
                 <h3>Контекстная реклама в Яндекс. Директ</h3>
                 <div class="os-card-content">
