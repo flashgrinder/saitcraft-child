@@ -1523,8 +1523,7 @@ html.with-fancybox body.hide-scrollbar {
   padding: 4px;
   overflow: auto;
   transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .fancybox__container:not(.is-compact) .fancybox__slide.has-close-btn {
@@ -1604,8 +1603,7 @@ html.with-fancybox body.hide-scrollbar {
   background-position: center center;
   transition: none;
   transform: translate3d(0, 0, 0);
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .fancybox__slide.has-image > .fancybox__content > picture > img {
@@ -2322,16 +2320,8 @@ html.with-fancybox body.hide-scrollbar {
   display: none;
 }
 
-:-webkit-full-screen [data-fancybox-toggle-fullscreen] svg g:first-child {
-  display: none;
-}
-
 :fullscreen [data-fancybox-toggle-fullscreen] svg g:first-child {
   display: none;
-}
-
-:-webkit-full-screen [data-fancybox-toggle-fullscreen] svg g:last-child {
-  display: flex;
 }
 
 :fullscreen [data-fancybox-toggle-fullscreen] svg g:last-child {
@@ -2546,7 +2536,7 @@ html.with-fancybox body.hide-scrollbar {
   justify-content: center;
   flex-flow: column nowrap;
   -webkit-overflow-scrolling: touch;
-  z-index: 999;
+  z-index: 1050;
   top: 0;
   bottom: 0;
   left: 0;

@@ -1,5 +1,4 @@
 import HystModal from 'hystmodal';
-import axios from 'axios';
 
 function init(container = document) {
 
@@ -19,7 +18,7 @@ function init(container = document) {
         linkAttributeName: "data-stc-modal",
         catchFocus: true,
         waitTransitions: true,
-        backscroll: true,
+        backscroll: false,
     });
         
 }

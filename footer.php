@@ -279,8 +279,8 @@
  <!-- Модалка обратной связи -->
 <div class="modal-sc hystmodal" id="feedback-stc" aria-hidden="true">
 	<div class="modal-sc__wrap hystmodal__wrap">
-		<div class="modal-sc__body hystmodal__window" role="modal window service" aria-modal="true">
-			<div class="modal-sc__close" data-hystclose>
+		<div class="hystmodal__window modal-sc__body" role="dialog" aria-modal="true">
+			<div class="modal-sc__close hystmodal__close" data-hystclose>
 				<svg class="modal-sc__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 1L12 12M12 1L1 12" stroke-linecap="round"/>
 				</svg>
@@ -300,7 +300,7 @@
 <!-- Success -->
 <div class="modal-sc modal-sc--success hystmodal js-modal-success" id="success" aria-hidden="true">
 	<div class="modal-sc__wrap hystmodal__wrap">
-		<div class="modal-sc__body hystmodal__window" role="modal window feedback" aria-modal="true">
+		<div class="modal-sc__body hystmodal__window" role="alertdialog" aria-modal="true">
 			<div class="modal-sc__close" data-hystclose>
 				<svg class="modal-sc__close-svg" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M1 1L12 12M12 1L1 12" stroke-width="1.5" stroke-linecap="round"/>

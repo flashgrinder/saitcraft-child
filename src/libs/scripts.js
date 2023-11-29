@@ -1,5 +1,5 @@
 import gsap from 'gsap';
-import modal from '../libs/modules/modal.js';
+import modalForm from '../libs/modules/modal.js';
 import phoneMask from '../libs/modules/phone-mask';
 import fancybox from '../libs/modules/fancybox';
 
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
         // force3D: true
     });
 
-    modal.init();
+    modalForm.init();
     phoneMask.init();
     fancybox.init();
 
