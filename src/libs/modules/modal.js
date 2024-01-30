@@ -9,7 +9,7 @@ function init(container = document) {
         elem.addEventListener( 'wpcf7mailsent', function( e ) {
 
             modalsForms.open('.js-modal-success');
-
+            ym(25803377,'reachGoal','order_done');
             }, false );
 
     });
