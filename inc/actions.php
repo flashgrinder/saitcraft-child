@@ -62,7 +62,7 @@
 				});
 			</script>
 
-			<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8"></script>
+			<script src="//cdn.callibri.ru/callibri.js" type="text/javascript" charset="utf-8" defer></script>
 
 		<?php
 	}, 99 );
