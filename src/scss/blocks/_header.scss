@@ -1,0 +1,21 @@
+.header__socials {
+	display: flex;
+	align-items: center;
+	column-gap: 29px;
+
+	@include mobile {
+		display: none;
+	}
+
+	@include tabletSM {
+		margin-right: 20px;
+	}
+}
+
+.social__header-mobile a {
+	@include mobile {
+		&:nth-child(3) {
+			margin-right: 0;
+		}
+	}
+}
