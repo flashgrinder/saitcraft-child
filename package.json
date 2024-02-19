@@ -1,5 +1,5 @@
 {
-  "name": "saitcraft-child",
+  "name": "gulp",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -74,5 +74,8 @@
   "bugs": {
     "url": "https://github.com/flashgrinder/saitcraft-child/issues"
   },
-  "homepage": "https://github.com/flashgrinder/saitcraft-child#readme"
+  "homepage": "https://github.com/flashgrinder/saitcraft-child#readme",
+  "keywords": [
+    "g"
+  ]
 }
