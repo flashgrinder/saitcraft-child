@@ -1,88 +1,92 @@
 @charset "UTF-8";
-@import "./base/smart-grid";
+@import './base/smart-grid';
 /* Fonts */
-@import "./base/font";
+@import './base/font';
 /* Variables */
-@import "./base/variables";
+@import './base/variables';
 /* Base */
-@import "./base/base";
+@import './base/base';
 /* Animation */
-@import "./base/animation";
+@import './base/animation';
 /* Base Classes */
-@import "./base/classes";
+@import './base/classes';
 
 /* ANOTHER MODULES */
 
 /* Swiper Slider Examples*/
 // @import "./blocks/swiper/swiper";
 /* BelingoGeo*/
- @import "./blocks/belingogeo";
+@import './blocks/belingogeo';
 /* Hyst Modal*/
- @import "./blocks/hystmodal";
+@import './blocks/hystmodal';
 
 /* ANOTHER MODULES */
 
 /* Blocks */
 /* Page */
-@import "./blocks/page";
+@import './blocks/page';
 /* Reviews */
-@import "./blocks/reviews";
+@import './blocks/reviews';
 /* Fancybox */
-@import "./blocks/fancybox";
+@import './blocks/fancybox';
 /* Button */
-@import "./blocks/button";
+@import './blocks/button';
 /* Pagination */
-@import "./blocks/pagination";
+@import './blocks/pagination';
 /* Modals */
-@import "./blocks/modals";
+@import './blocks/modals';
 /* Form page */
-@import "./blocks/form-page";
+@import './blocks/form-page';
 /* Form phone */
-@import "./blocks/form-phone";
+@import './blocks/form-phone';
 /* Form-loader */
-@import "./blocks/form-loader";
+@import './blocks/form-loader';
+/* Form-header */
+@import './blocks/header';
+/* Form-footer */
+@import './blocks/footer';
 
 /* Other Style*/
 form.modal__form button svg {
- margin: 0;
+	margin: 0;
 }
 
 input.modal__input {
- margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 form.modal__form textarea,
 form.form-page__form textarea {
- height: auto;
- margin-bottom: 0;
+	height: auto;
+	margin-bottom: 0;
 }
 
 .form-phone form input {
- margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .modal-backdrop.show {
- opacity: 0;
+	opacity: 0;
 }
 
 .modal-backdrop {
- z-index: 0;
+	z-index: 0;
 }
 
 form.form-page__form button svg {
- margin-left: 0;
+	margin-left: 0;
 }
 
 .btn__wrap {
- gap: 40px;
+	gap: 40px;
 }
 
 .card__consult {
- max-width: 450px;
+	max-width: 450px;
 }
 
 .usluga__banner {
- padding-bottom: 50px;
- height: auto;
+	padding-bottom: 50px;
+	height: auto;
 }
 /* MEDIA QUERIES */
