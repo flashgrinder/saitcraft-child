@@ -3,17 +3,17 @@
 	align-items: center;
 	column-gap: 29px;
 
-	@include mobile {
+	@include mobile-block {
 		display: none;
 	}
 
-	@include tabletSM {
+	@include tabletSM-block {
 		margin-right: 20px;
 	}
 }
 
 .social__header-mobile a {
-	@include mobile {
+	@include mobile-block {
 		&:nth-child(3) {
 			margin-right: 0;
 		}

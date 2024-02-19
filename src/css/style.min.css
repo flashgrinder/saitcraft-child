@@ -2941,6 +2941,22 @@ html.with-fancybox body.hide-scrollbar {
   display: flex;
 }
 
+/* Form-header */
+
+.header__socials {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 29px;
+       column-gap: 29px;
+}
+
+/* Form-footer */
+
+.social__footer {
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
 /* Other Style*/
 
 form.modal__form button svg {
@@ -3030,6 +3046,10 @@ form.form-page__form button svg {
 
   .belingo-geo.geolocation {
     position: static;
+  }
+
+  .header__socials {
+    margin-right: 20px;
   }
 }
 
@@ -3149,6 +3169,14 @@ form.form-page__form button svg {
   .form-phone__info,
   .form-phone__wrapper {
     width: 100%;
+  }
+
+  .header__socials {
+    display: none;
+  }
+
+  .social__header-mobile a:nth-child(3) {
+    margin-right: 0;
   }
 }
 
