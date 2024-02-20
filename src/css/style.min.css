@@ -2948,6 +2948,7 @@ html.with-fancybox body.hide-scrollbar {
   align-items: center;
   -moz-column-gap: 29px;
        column-gap: 29px;
+  margin-left: 10px;
 }
 
 /* Form-footer */
@@ -3172,7 +3173,9 @@ form.form-page__form button svg {
   }
 
   .header__socials {
-    display: none;
+    margin-right: 0px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
   }
 
   .social__header-mobile a:nth-child(2) {
@@ -3180,6 +3183,14 @@ form.form-page__form button svg {
   }
 
   .social__header-mobile a:nth-child(3) {
+    margin-right: 0;
+  }
+
+  .social__footer-mobile a:nth-child(2) {
+    margin-right: 20px !important;
+  }
+
+  .social__footer-mobile a:nth-child(3) {
     margin-right: 0;
   }
 }
