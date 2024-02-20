@@ -3175,6 +3175,10 @@ form.form-page__form button svg {
     display: none;
   }
 
+  .social__header-mobile a:nth-child(2) {
+    margin-right: 40px !important;
+  }
+
   .social__header-mobile a:nth-child(3) {
     margin-right: 0;
   }

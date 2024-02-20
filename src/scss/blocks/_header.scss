@@ -14,6 +14,10 @@
 
 .social__header-mobile a {
 	@include mobile-block {
+		&:nth-child(2) {
+			margin-right: 40px !important;
+		}
+
 		&:nth-child(3) {
 			margin-right: 0;
 		}
