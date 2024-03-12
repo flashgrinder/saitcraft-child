@@ -1,0 +1,74 @@
+.top-page {
+  position: relative;
+  padding: 68px 0 101px;
+  overflow: hidden;
+}
+
+.top-page__decor {
+  position: absolute;
+  bottom: 0;
+  left: -221px;
+  width: 481px;
+  height: 481px;
+  background: linear-gradient(188.04deg, #8B3DF5 14.41%, #006FFF 90.78%);
+  border-radius: 50%;
+  opacity: 14%;
+  filter: blur(70px);
+}
+
+.top-page__info {
+  position: relative;
+  z-index: 1;
+}
+
+.top-page__heading {
+  max-width: 678px;
+  margin-top: 50px;
+}
+
+.top-page__subtitle {
+  max-width: 558px;
+  opacity: .8;
+}
+
+.top-page__list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+  max-width: 540px;
+}
+
+.top-page__item-list ~ .top-page__item-list {
+  margin-top: 19px;
+}
+
+.top-page__item-list {
+  display: flex;
+  gap: 15px;
+}
+
+.top-page__action {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-page__director {
+  position: absolute;
+  max-width: 770px;
+  top: 0;
+  right: 0;
+  @include tablet(display, none);
+}
+
+.top-page__author {
+  max-width: 255px;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+  @include tablet(display, none);
+}
+
+.top-page__author-position {
+  margin-top: 7px;
+}

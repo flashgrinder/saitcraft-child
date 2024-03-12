@@ -1,0 +1,28 @@
+.trust {
+  padding: 120px 0;
+}
+
+.trust__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px 20px;
+  @include tablet-block {
+    grid-template-columns: repeat(3, minmax(80px, 1fr));
+  }
+}
+
+.trust__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(1);
+  -webkit-transition: filter .150s ease-in-out;
+  -moz-transition: filter .150s ease-in-out;
+  -ms-transition: filter .150s ease-in-out;
+  -o-transition: filter .150s ease-in-out;
+  transition: filter .150s ease-in-out;
+}
+
+.trust__item:hover {
+  filter: grayscale(0);
+}
