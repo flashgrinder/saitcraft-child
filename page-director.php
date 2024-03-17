@@ -176,37 +176,7 @@
 					<span class="trip__accent-title title title--pink">покажем CRM, воронки, отчеты,  РнП и много всего
                     другого.</span>
 				</div>
-				<form action="" class="trip-form trip__form wpcf7-form init">
-					<div class="form-loader">
-						<div class="loader"></div>
-					</div>
-					<div class="trip-form__wrapper-line">
-						<div class="trip-form__field trip-form__field--required">
-							<input type="text" class="trip-form__input" placeholder="Имя">
-						</div>
-						<div class="trip-form__field trip-form__field--required">
-							<input type="text" class="trip-form__input" placeholder="Имя">
-						</div>
-						<div class="trip-form__actions">
-							<button type="submit" value="Записаться на экскурсию"
-							        class="trip-form__btn button button--secondary button--icon">
-								Записаться на экскурсию
-							</button>
-						</div>
-					</div>
-					<div class="trip-form__footer">
-						<div class="trip-form__wrap-policy">
-							<div class="trip-form__policy text text--small text--w-medium">
-								Нажимая на кнопку, вы соглашаетесь с правилами обработки
-								<a href="//localhost:3000/privacy-policy/"
-								   class="trip-form__link-policy text text--small text--w-medium"
-								   target="_blank">
-									персональных данных
-								</a>
-							</div>
-						</div>
-					</div>
-				</form>
+				<?= do_shortcode('[contact-form-7 id="9126856" title="Записаться на экскурсию" html_class="trip-form trip__form"]'); ?>
 			</div>
 		</div>
 	</div>
@@ -1278,37 +1248,7 @@
 					<span class="trip__accent-title title title--pink">покажем CRM, воронки, отчеты,  РнП и много всего
                     другого.</span>
 				</div>
-				<form action="" class="trip-form trip__form wpcf7-form init">
-					<div class="form-loader">
-						<div class="loader"></div>
-					</div>
-					<div class="trip-form__wrapper-line">
-						<div class="trip-form__field trip-form__field--required">
-							<input type="text" class="trip-form__input" placeholder="Имя">
-						</div>
-						<div class="trip-form__field trip-form__field--required">
-							<input type="text" class="trip-form__input" placeholder="Имя">
-						</div>
-						<div class="trip-form__actions">
-							<button type="submit" value="Записаться на экскурсию"
-							        class="trip-form__btn button button--secondary button--icon">
-								Записаться на экскурсию
-							</button>
-						</div>
-					</div>
-					<div class="trip-form__footer">
-						<div class="trip-form__wrap-policy">
-							<div class="trip-form__policy text text--small text--w-medium">
-								Нажимая на кнопку, вы соглашаетесь с правилами обработки
-								<a href="//localhost:3000/privacy-policy/"
-								   class="trip-form__link-policy text text--small text--w-medium"
-								   target="_blank">
-									персональных данных
-								</a>
-							</div>
-						</div>
-					</div>
-				</form>
+				<?= do_shortcode('[contact-form-7 id="9126856" title="Записаться на экскурсию" html_class="trip-form trip__form"]'); ?>
 			</div>
 		</div>
 	</div>

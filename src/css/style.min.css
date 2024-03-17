@@ -3788,6 +3788,7 @@ html.with-fancybox body.hide-scrollbar {
 
 .trip {
   padding: 0 0 100px;
+  position: relative;
 }
 
 .trip--last {
@@ -3798,7 +3799,6 @@ html.with-fancybox body.hide-scrollbar {
   display: flex;
   gap: 53px;
   margin-top: 100px;
-  position: relative;
 }
 
 .trip__man {
@@ -3860,8 +3860,9 @@ html.with-fancybox body.hide-scrollbar {
 }
 
 .trip-form__btn.button {
-  max-width: 265px;
   padding: 20px 32px;
+  justify-content: center;
+  max-width: 320px;
 }
 
 .trip-form__footer {
@@ -3871,6 +3872,16 @@ html.with-fancybox body.hide-scrollbar {
 .trip-form__policy,
 .trip-form__link-policy {
   color: #818181;
+}
+
+.trip-form .form-loader {
+  background-color: rgba(33, 37, 41, 0.8);
+}
+
+.trip-form.wpcf7-form .wpcf7-response-output {
+  max-width: 600px;
+  color: var(--color-white);
+  margin: 2em 0 1em auto;
 }
 
 /* Other Style*/
@@ -4016,7 +4027,15 @@ form.form-page__form button svg {
     order: 1;
   }
 
+  .trip-form {
+    position: relative;
+  }
+
   .trip-form__field {
+    max-width: 100%;
+  }
+
+  .trip-form__btn.button {
     max-width: 100%;
   }
 }
@@ -4588,11 +4607,6 @@ form.form-page__form button svg {
     background-size: contain;
     background-position: center bottom;
     max-width: 100%;
-  }
-
-  .trip-form__btn.button {
-    max-width: 100%;
-    justify-content: center;
   }
 }
 

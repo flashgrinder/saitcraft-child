@@ -1,6 +1,7 @@
 .trip-form {
   max-width: 100%;
   margin: 40px 0 0;
+  @include tabletSM(position, relative);
 }
 
 .trip-form__wrapper-line {
@@ -27,12 +28,10 @@
 }
 
 .trip-form__btn.button {
-  max-width: 265px;
   padding: 20px 32px;
-  @include mobileXS-block {
-    max-width: 100%;
-    justify-content: center;
-  }
+  justify-content: center;
+  max-width: 320px;
+  @include tabletSM(max-width, 100%);
 }
 
 .trip-form__footer {
@@ -42,4 +41,14 @@
 .trip-form__policy,
 .trip-form__link-policy {
   color: #818181;
+}
+
+.trip-form .form-loader {
+  background-color: rgb(33 37 41 / 80%);
+}
+
+.trip-form.wpcf7-form .wpcf7-response-output {
+  max-width: 600px;
+  color: var(--color-white);
+  margin: 2em 0 1em auto;
 }
