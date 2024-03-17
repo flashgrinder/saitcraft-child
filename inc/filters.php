@@ -1,6 +1,6 @@
 <?php
 	add_filter( 'body_class', function ($classes) {
-		if(is_page_template('page-reviews.php')) {
+		if(is_page_template('page-reviews.php') || is_page_template('page-director.php') ) {
 			return array_merge( $classes, ['bg--black-grey'] );
 		}
 		return $classes;
