@@ -1,6 +1,6 @@
 .top-page {
   position: relative;
-  padding: 68px 0 101px;
+  padding: 125px 0 101px;
   overflow: hidden;
 }
 
@@ -56,8 +56,8 @@
 .top-page__director {
   position: absolute;
   max-width: 770px;
-  top: 0;
   right: 0;
+  bottom: 0;
   @include tablet(display, none);
 }
 
