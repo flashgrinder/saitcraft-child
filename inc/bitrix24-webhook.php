@@ -1,6 +1,6 @@
 <?
 
-    add_action('wpcf7_before_send_mail', 'wpcf7_mail_sent_function');
+    add_action('wpcf7_send_mail', 'wpcf7_mail_sent_function');
     
     function wpcf7_mail_sent_function($contact_form) {
 
