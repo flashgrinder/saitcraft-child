@@ -10,7 +10,8 @@
         if (
             'Контактная форма c телефоном' == $title ||
             'Контактная форма в модальном окне' == $title ||
-            'Контактная форма в подвале' == $title
+            'Контактная форма в подвале' == $title ||
+            'Записаться на экскурсию'
             ) {
 
             $queryUrl = 'https://saitcraft.bitrix24.ru/rest/13/s7sugqiitewyxvim/crm.lead.add.json';
