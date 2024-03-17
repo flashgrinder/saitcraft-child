@@ -91,11 +91,11 @@
 		font-range: 375px 1024px;
 	}
     &--big {
-        font-size: responsive 40px 48px;
+        font-size: responsive 26px 48px;
         font-range: 375px 1024px;
     }
     &--large {
-        font-size: responsive 28px 40px;
+        font-size: responsive 24px 40px;
         font-range: 1024px 1440px;
     }
 	&--pre-large {
@@ -103,7 +103,7 @@
         font-range: 1024px 1440px;
     }
     &--big-medium {
-        font-size: responsive 18px 26px;
+        font-size: responsive 24px 26px;
         font-range: 375px 1024px;
     }
 	&--medium {
@@ -179,14 +179,24 @@
 	}
 	&--big {
         font-size: responsive 20px 30px;
-        font-range: 320px 1440px;
+        font-range: 360px 1440px;
 	}
 	&--large {
         font-size: responsive 18px 22px;
-        font-range: 320px 1440px;
+        font-range: 360px 1440px;
+	}
+	&--pre-large {
+        font-size: responsive 18px 24px;
+        font-range: 360px 1024px;
+	}
+	&--medium {
+        font-size: 18px;
 	}
 	&--normal {
         font-size: 16px;
+	}
+	&--pre-small {
+        font-size: 14px;
 	}
 	&--small {
 		font-size: 12px;

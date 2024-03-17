@@ -1,0 +1,72 @@
+.trip {
+  padding: 0 0 100px;
+  @include mobile(padding, 0 0 50px);
+}
+
+.trip--last {
+  padding: 100px 0;
+  @include mobile(padding, 50px 0);
+}
+
+.trip__inner {
+  display: flex;
+  gap: 53px;
+  margin-top: 100px;
+  position: relative;
+  @include mobileXS-block {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
+.trip__man {
+  position: relative;
+  max-width: 314px;
+  width: 100%;
+  @include mobileXS(max-width, 100%);
+}
+
+.trip__photo {
+  width: 100%;
+}
+
+.trip__right-side {
+  width: 100%;
+  padding-top: 50px;
+  @include mobileXS(padding-top, 0);
+}
+
+.trip__author {
+  padding: 13px 20px 32px 30px;
+  max-width: 315px;
+  background-image: url('../img/bg/quote-bg-author.svg');
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  background-size: 92% 60%;
+  background-color: rgba(26, 30, 35, 0.85);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: -50%;
+  @include large(right, 0);
+  @include mobileXS(position, static);
+  @include mobileXS-block {
+    position: static;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center bottom;
+    max-width: 100%;
+  }
+}
+
+.trip__name-author,
+.trip__position-author {
+  position: relative;
+}
+
+.trip__position-author {
+  margin-top: 7px;
+}

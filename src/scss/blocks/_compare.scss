@@ -1,0 +1,138 @@
+.compare__items {
+  display: grid;
+  grid-template-columns: minmax(320px, 505px) minmax(150px, 200px) minmax(320px, 505px);
+  justify-content: space-between;
+  gap: 50px 0;
+  @include mobile-block {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "one-title"
+    "left-text-1"
+    "left-text-2"
+    "left-text-3"
+    "left-text-4"
+    "vs"
+    "two-title"
+    "right-text-1"
+    "right-text-2"
+    "right-text-3"
+    "right-text-4";
+    gap: 25px;
+  }
+}
+
+.compare__item--accent-num {
+  @include mobile(display, none);
+}
+
+.compare__item--one {
+  @include mobile(grid-area, one-title);
+  @include mobile(padding-left, 0);
+}
+.compare__item--left-text-1 {
+  @include mobile(grid-area, left-text-1);
+}
+.compare__item--left-text-2 {
+  @include mobile(grid-area, left-text-2);
+}
+.compare__item--left-text-3 {
+  @include mobile(grid-area, left-text-3);
+}
+.compare__item--left-text-4 {
+  @include mobile(grid-area, left-text-4);
+}
+.compare__item--vs {
+  @include mobile(grid-area, vs);
+  @include mobile(padding-left, 0);
+}
+.compare__item--two {
+  @include mobile(grid-area, two-title);
+  @include mobile(padding-left, 0);
+}
+.compare__item--right-text-1 {
+  @include mobile(grid-area, right-text-1);
+}
+.compare__item--right-text-2 {
+  @include mobile(grid-area, right-text-2);
+}
+.compare__item--right-text-3 {
+  @include mobile(grid-area, right-text-3);
+}
+.compare__item--right-text-4 {
+  @include mobile(grid-area, right-text-4);
+}
+
+.compare__items--desktop {
+  @include mobile(display, none);
+}
+
+.compare__item {
+  width: 100%;
+}
+
+.compare__item--num {
+  @include mobile-block {
+    position: relative;
+    padding-left: 40px;
+  }
+}
+
+.compare__item--num::before {
+  @include mobile-block {
+    content: attr(data-num);
+    position: absolute;
+    left: 0;
+    font-size: 46px;
+  }
+}
+
+.compare__item--accent,
+.compare__item--accent-num,
+.compare__item--num::before {
+  background: linear-gradient(180deg, #FF00D6 0%, #000CFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  line-height: 1;
+  align-self: center;
+  text-align: center;
+}
+
+.compare__item--accent {
+  font-size: 106px;
+}
+
+.compare__item--accent-num {
+  font-size: 66px;
+}
+
+.compare__description {
+  margin-top: 100px;
+  @include mobile(margin-top, 50px);
+}
+
+.compare__bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 50px;
+  @include mobile-block {
+    flex-direction: column;
+  }
+}
+
+.compare__col {
+  display: flex;
+  flex-direction: column;
+  max-width: 505px;
+}
+
+.compare__col-item ~ .compare__col-item {
+  margin-top: 27px;
+  @include mobile(margin-top, 15px);
+}
+
+.compare__col-item.compare__col-item--sum {
+  margin-top: auto;
+  @include mobile(margin-top, 25px);
+}

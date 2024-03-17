@@ -44,6 +44,7 @@
   background: url("../img/bg/quote-bg-author.svg") no-repeat center bottom;
   background-size: contain;
   margin-left: auto;
+  @include mobile(margin-top, 50px);
   @include mobileXS(max-width, 100%);
 }
 
