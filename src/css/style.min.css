@@ -3813,7 +3813,6 @@ html.with-fancybox body.hide-scrollbar {
 
 .trip__right-side {
   width: 100%;
-  padding-top: 50px;
 }
 
 .trip__author {
@@ -3853,6 +3852,7 @@ html.with-fancybox body.hide-scrollbar {
 
 .trip-form__input {
   padding: 19px 30px 20px;
+  height: auto;
 }
 
 .trip-form__actions {
@@ -4579,10 +4579,6 @@ form.form-page__form button svg {
     max-width: 100%;
   }
 
-  .trip__right-side {
-    padding-top: 0;
-  }
-
   .trip__author {
     position: static;
   }
@@ -4592,6 +4588,11 @@ form.form-page__form button svg {
     background-size: contain;
     background-position: center bottom;
     max-width: 100%;
+  }
+
+  .trip-form__btn.button {
+    max-width: 100%;
+    justify-content: center;
   }
 }
 

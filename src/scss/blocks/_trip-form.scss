@@ -19,6 +19,7 @@
 
 .trip-form__input {
   padding: 19px 30px 20px;
+  height: auto;
 }
 
 .trip-form__actions {
@@ -28,6 +29,10 @@
 .trip-form__btn.button {
   max-width: 265px;
   padding: 20px 32px;
+  @include mobileXS-block {
+    max-width: 100%;
+    justify-content: center;
+  }
 }
 
 .trip-form__footer {
