@@ -3164,7 +3164,7 @@ html.with-fancybox body.hide-scrollbar {
   position: absolute;
   max-width: 770px;
   right: 0;
-  bottom: 0;
+  bottom: -50px;
 }
 
 .top-page__author {
