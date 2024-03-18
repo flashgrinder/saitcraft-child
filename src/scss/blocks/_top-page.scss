@@ -56,9 +56,9 @@
 
 .top-page__director {
   position: absolute;
-  max-width: 770px;
+  max-width: 860px;
   right: 0;
-  bottom: -50px;
+  bottom: 0;
   @include tablet(display, none);
 }
 

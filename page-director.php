@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="top-page__director">
-				<img src="<?= STANDART_DIR; ?>/img/upload/dmitry-1.png" alt="" class="top-page__photo">
+				<img src="<?= STANDART_DIR; ?>/img/upload/dmitry.png" alt="" class="top-page__photo">
 			</div>
 		</div>
 	</div>
