@@ -3151,6 +3151,7 @@ html.with-fancybox body.hide-scrollbar {
 
 .top-page__item-list {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 
@@ -3710,22 +3711,6 @@ html.with-fancybox body.hide-scrollbar {
   max-width: 210px;
 }
 
-.cases__decor {
-  position: absolute;
-  width: 100%;
-  bottom: -13%;
-  left: 0;
-  right: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-  pointer-events: none;
-}
-
-.cases__img-decor {
-  width: 100%;
-}
-
 /* Compare */
 
 .compare__items {
@@ -3781,6 +3766,10 @@ html.with-fancybox body.hide-scrollbar {
 }
 
 .compare__col-item.compare__col-item--sum {
+  margin-top: 27px;
+}
+
+.compare__col-item.compare__col-item--sum-left {
   margin-top: auto;
 }
 
@@ -4335,6 +4324,10 @@ form.form-page__form button svg {
   }
 
   .compare__col-item.compare__col-item--sum {
+    margin-top: 25px;
+  }
+
+  .compare__col-item.compare__col-item--sum-left {
     margin-top: 25px;
   }
 

@@ -133,6 +133,11 @@
 }
 
 .compare__col-item.compare__col-item--sum {
+  margin-top: 27px;
+  @include mobile(margin-top, 25px);
+}
+
+.compare__col-item.compare__col-item--sum-left {
   margin-top: auto;
   @include mobile(margin-top, 25px);
 }
