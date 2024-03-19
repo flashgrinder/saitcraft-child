@@ -172,10 +172,13 @@
   border: 1px solid var(--color-grey);
   color: var(--color-dark);
   border-radius: 8px;
+  height: auto;
+  margin-bottom: 0;
   @include mobile-block {
     padding: 18px 15px 18px 20px;
   }
 }
+
 .form-page__input:focus,
 .form-page__input:target,
 .form-page__input:active,
@@ -207,7 +210,9 @@
   min-width: 100%;
   max-width: 455px;
   margin-top: 10px;
+  margin-bottom: 0;
   padding-bottom: 5px;
+  @include mobile(max-height, 80px);
 }
 
 .form-page__field--file,

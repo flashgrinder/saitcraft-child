@@ -1,3 +1,4 @@
+<?php if( !is_page_template('page-director.php' ) ): ?>
 <!-- Form Page-->
 <section class="form-page">
 	<div class="form-page__body container">
@@ -29,6 +30,7 @@
 	</div>
 </section>
 <!-- Form Page-->
+<?php endif; ?>
 
 </main>
 <footer>

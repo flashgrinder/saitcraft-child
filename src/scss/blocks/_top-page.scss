@@ -23,7 +23,8 @@
 
 .top-page__heading {
   max-width: 678px;
-  margin-top: 50px;
+  margin-top: 107px;
+  @include mobile(margin-top, 20px);
 }
 
 .top-page__subtitle {

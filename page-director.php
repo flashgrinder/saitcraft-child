@@ -411,7 +411,7 @@
 					</div>
 					<div class="cases__footer">
 						<div class="cases__take-pic">
-							<img src="<?= STANDART_DIR; ?>/img/cases/take-2.png" alt="" class="cases__take">
+							<img src="<?= STANDART_DIR; ?>/img/cases/take-3.png" alt="" class="cases__take">
 						</div>
 						<div class="cases__sbis">
 							<svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -495,7 +495,7 @@
 					</div>
 					<div class="cases__footer">
 						<div class="cases__take-pic">
-							<img src="<?= STANDART_DIR; ?>/img/cases/take-2.png" alt="" class="cases__take">
+							<img src="<?= STANDART_DIR; ?>/img/cases/take-4.png" alt="" class="cases__take">
 						</div>
 						<div class="cases__sbis">
 							<svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -579,7 +579,7 @@
 					</div>
 					<div class="cases__footer">
 						<div class="cases__take-pic">
-							<img src="<?= STANDART_DIR; ?>/img/cases/take-2.png" alt="" class="cases__take">
+							<img src="<?= STANDART_DIR; ?>/img/cases/take-5.png" alt="" class="cases__take">
 						</div>
 						<div class="cases__sbis">
 							<svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -662,7 +662,7 @@
 					</div>
 					<div class="cases__footer">
 						<div class="cases__take-pic">
-							<img src="<?= STANDART_DIR; ?>/img/cases/take-2.png" alt="" class="cases__take">
+							<img src="<?= STANDART_DIR; ?>/img/cases/take-6.png" alt="" class="cases__take">
 						</div>
 						<div class="cases__sbis">
 							<svg width="35" height="17" viewBox="0 0 35 17" fill="none" xmlns="http://www.w3.org/2000/svg">

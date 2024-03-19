@@ -2820,6 +2820,8 @@ html.with-fancybox body.hide-scrollbar {
   border: 1px solid var(--color-grey);
   color: var(--color-dark);
   border-radius: 8px;
+  height: auto;
+  margin-bottom: 0;
 }
 
 .form-page__input:focus,
@@ -2859,6 +2861,7 @@ html.with-fancybox body.hide-scrollbar {
   min-width: 100%;
   max-width: 455px;
   margin-top: 10px;
+  margin-bottom: 0;
   padding-bottom: 5px;
 }
 
@@ -3130,7 +3133,7 @@ html.with-fancybox body.hide-scrollbar {
 
 .top-page__heading {
   max-width: 678px;
-  margin-top: 50px;
+  margin-top: 107px;
 }
 
 .top-page__subtitle {
@@ -4121,6 +4124,11 @@ form.form-page__form button svg {
     padding: 18px 15px 18px 20px;
   }
 
+  .form-page__input--textarea,
+  .modal-sc__input--textarea {
+    max-height: 80px;
+  }
+
   .form-page__file-btn,
   .form-page__filename,
   .modal-sc__file-btn,
@@ -4169,6 +4177,10 @@ form.form-page__form button svg {
 
   .social__footer-mobile a:nth-child(3) {
     margin-right: 0;
+  }
+
+  .top-page__heading {
+    margin-top: 20px;
   }
 
   .situation__text {
