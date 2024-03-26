@@ -16,6 +16,7 @@
   @include mobileXS-block {
     flex-direction: column;
     gap: 25px;
+    margin-top: 25px;
   }
 }
 
@@ -23,7 +24,7 @@
   position: relative;
   max-width: 314px;
   width: 100%;
-  @include mobileXS(max-width, 100%);
+  @include mobileXS(display, none);
 }
 
 .trip__photo {

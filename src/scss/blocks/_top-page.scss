@@ -61,6 +61,11 @@
   right: 0;
   bottom: 0;
   @include tablet(display, none);
+  @include mobile-block {
+    display: block;
+    position: static;
+    margin-top: 50px;
+  }
 }
 
 .top-page__author {
@@ -73,4 +78,17 @@
 
 .top-page__author-position {
   margin-top: 7px;
+}
+
+.top-page__author--mobile {
+  display: none;
+  @include mobile-block {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+  @include mobileXS(bottom, 50px);
 }

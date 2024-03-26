@@ -3182,6 +3182,10 @@ html.with-fancybox body.hide-scrollbar {
   margin-top: 7px;
 }
 
+.top-page__author--mobile {
+  display: none;
+}
+
 /* Situation */
 
 .situation__items {
@@ -4183,6 +4187,21 @@ form.form-page__form button svg {
     margin-top: 20px;
   }
 
+  .top-page__director {
+    display: block;
+    position: static;
+    margin-top: 50px;
+  }
+
+  .top-page__author--mobile {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+
   .situation__text {
     max-width: 100%;
   }
@@ -4519,6 +4538,10 @@ form.form-page__form button svg {
     justify-content: center;
   }
 
+  .top-page__author--mobile {
+    bottom: 50px;
+  }
+
   .situation__result {
     padding: 29px 0 29px 12px;
   }
@@ -4597,10 +4620,11 @@ form.form-page__form button svg {
   .trip__inner {
     flex-direction: column;
     gap: 25px;
+    margin-top: 25px;
   }
 
   .trip__man {
-    max-width: 100%;
+    display: none;
   }
 
   .trip__author {
