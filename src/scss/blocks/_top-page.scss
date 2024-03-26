@@ -92,3 +92,51 @@
   }
   @include mobileXS(bottom, 50px);
 }
+
+.top-page.top-page--another {
+  padding: 100px 0;
+  overflow: visible;
+  @include mobile(padding, 50px 0);
+}
+
+.top-page--another .top-page__heading {
+  max-width: 100%;
+  margin-top: auto;
+}
+
+.top-page--another .top-page__list {
+  margin: 50px 0 0 0;
+  display: flex;
+  gap: 42px;
+  max-width: 100%;
+  @include tabletSM-block {
+    flex-direction: column;
+  }
+  @include mobile-block {
+    gap: 30px;
+    margin: 30px 0 0 0;
+  }
+}
+
+.top-page--another .top-page__item-list {
+  align-items: flex-start;
+  @include tabletSM(align-items, center);
+}
+
+.top-page--another .top-page__item-list ~ .top-page__item-list {
+  margin: 0;
+}
+
+.top-page--another .top-page__icon {
+  width: 50px;
+  height: 50px;
+  @include mobile-block {
+    width: auto;
+    height: auto;
+  }
+}
+
+.top-page--another .top-page__action {
+  margin-top: 50px;
+  @include mobile(margin-top, 30px);
+}
