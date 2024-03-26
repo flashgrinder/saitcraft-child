@@ -75,8 +75,15 @@
 				<a href="/uslugi/" class="footer__menu-title">Услуги</a>
 				<ul class="footer__menu-list">
 					<li>
-						<a href="/uslugi/razrabotka-digital-strategiidlya-b2b-kompanii/">Разработка
-							digital-стратегии </a>
+						<a href="/uslugi/direktor-po-marketingu-na-autsorse/">
+							Директор по маркетингу на аутсорсе
+						</a>
+					</li>
+					<li>
+						<a href="/uslugi/razrabotka-digital-strategiidlya-b2b-kompanii/">
+							Разработка
+							digital-стратегии
+						</a>
 					</li>
 					<li>
 						<a href="/uslugi/razrabotka-sajtov/">Разработка сайтов</a>
