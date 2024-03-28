@@ -3964,6 +3964,10 @@ form.form-page__form button svg {
   padding: 16px 30px;
 }
 
+.vacancy__banner {
+  padding-bottom: 60px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1300px) {

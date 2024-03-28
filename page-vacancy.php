@@ -165,7 +165,7 @@ if ( $query->have_posts() ) :
 	<?php echo $archivalVacancies ?>
 </section>
 <?php endif; ?>
-<section class="vacancy__banner" style="margin-top:40px">
+<section class="vacancy__banner" style="margin-top:40px;">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
