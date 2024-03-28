@@ -3959,6 +3959,11 @@ form.form-page__form button svg {
   height: auto;
 }
 
+.button.button__cases {
+  max-width: 199px;
+  padding: 16px 30px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1300px) {
@@ -4428,6 +4433,11 @@ form.form-page__form button svg {
 
   .trip--last {
     padding: 50px 0;
+  }
+
+  .button.button__cases {
+    max-width: 100%;
+    justify-content: center;
   }
 }
 

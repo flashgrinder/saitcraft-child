@@ -4,8 +4,8 @@ const VERSION_THEME_FILES = '1.0.2';
 add_action('wp_enqueue_scripts', function () {
 
 	wp_enqueue_style('styles-parent', get_template_directory_uri() . '/style.css', [], VERSION_THEME_FILES);
-	wp_enqueue_style('styles-bootstrap', '/css/bootstrap.min.css', [], VERSION_THEME_FILES);
-	wp_enqueue_style('styles-app', '/css/app.css', [], VERSION_THEME_FILES);
+	wp_enqueue_style('styles-bootstrap', get_stylesheet_directory_uri() . '/old-styles/bootstrap.min.css', [], VERSION_THEME_FILES);
+	wp_enqueue_style('styles-app', get_stylesheet_directory_uri() . '/old-styles/app.css', [], VERSION_THEME_FILES);
 	wp_style_add_data('saitcraft-style', 'rtl', 'replace');
 	wp_enqueue_style('styles-child', get_stylesheet_directory_uri() . '/assets/css/style.min.css', ['styles-parent'], VERSION_THEME_FILES);
 

@@ -111,4 +111,14 @@ form.form-page__form button svg {
 	padding-bottom: 50px;
 	height: auto;
 }
+
+.button.button__cases {
+	max-width: 199px;
+	padding: 16px 30px;
+	@include mobile-block {
+		max-width: 100%;
+		justify-content: center;
+	}
+}
+
 /* MEDIA QUERIES */
