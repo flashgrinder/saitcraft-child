@@ -11,10 +11,13 @@
 
 .blog__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 428px));
+  grid-template-columns: repeat(auto-fit, minmax(380px, .34fr));
   grid-gap: 20px;
+  @include large-block {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
   @include mobile-block {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 428px));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 

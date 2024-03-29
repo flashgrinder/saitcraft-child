@@ -3930,7 +3930,7 @@ html.with-fancybox body.hide-scrollbar {
 
 .blog__items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 428px));
+  grid-template-columns: repeat(auto-fit, minmax(380px, 0.34fr));
   grid-gap: 20px;
 }
 
@@ -4166,6 +4166,10 @@ form.form-page__form button svg {
 
   .trip-form__field {
     max-width: 48%;
+  }
+
+  .blog__items {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
   }
 }
 
@@ -4615,7 +4619,7 @@ form.form-page__form button svg {
   }
 
   .blog__items {
-    grid-template-columns: repeat(auto-fit, minmax(280px, 428px));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 
   .blog-post__body {
