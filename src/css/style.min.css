@@ -4089,6 +4089,92 @@ html.with-fancybox body.hide-scrollbar {
   background: inherit;
 }
 
+/* Search-promotion */
+
+.search-promotion__heading {
+  position: relative;
+}
+
+.search-promotion__heading::before {
+  content: attr(data-num);
+  position: absolute;
+  font-size: 200px;
+  line-height: 236px;
+  font-weight: bold;
+  background: linear-gradient(180deg, #FF00D6 0%, #000CFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  left: -150px;
+  top: 25%;
+  transform: translateY(-50%);
+}
+
+.search-promotion__heading--bottom::before {
+  left: -170px;
+}
+
+.search-promotion__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 50px 20px;
+  margin-bottom: 90px;
+}
+
+.search-promotion__item {
+  position: relative;
+  border-radius: 16px;
+  border: 2px solid #333333;
+  padding: 95px 50px 42px;
+}
+
+.search-promotion__item::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  height: 50px;
+  border-radius: 16px 16px 0 0;
+  background: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
+}
+
+.search-promotion__title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 26px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(90deg, #FF7FEA 1.66%, #7077FF 101.45%);
+     border-image: linear-gradient(90deg, #FF7FEA 1.66%, #7077FF 101.45%);
+  border-image-slice: 1;
+}
+
+.search-promotion__title::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  bottom: -5px;
+  z-index: 0;
+  background: linear-gradient(90deg, #FF00D6 1.66%, #000CFF 101.45%);
+  filter: blur(8px);
+}
+
+.search-promotion__bottom-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.search-promotion__fit {
+  width: 100%;
+}
+
+.search-promotion__title-fit {
+  margin-bottom: 20px;
+}
+
 /* Other Style*/
 
 form.modal__form button svg {
@@ -4263,6 +4349,10 @@ form.form-page__form button svg {
 
   .trip-form__btn.button {
     max-width: 100%;
+  }
+
+  .search-promotion__bottom-items {
+    flex-wrap: wrap;
   }
 }
 
@@ -4634,6 +4724,23 @@ form.form-page__form button svg {
     padding: 0 20px 20px;
   }
 
+  .search-promotion__items {
+    margin-bottom: 50px;
+  }
+
+  .search-promotion__items {
+    margin-bottom: 50px;
+    gap: 25px;
+  }
+
+  .search-promotion__item {
+    padding: 50px 15px 12px;
+  }
+
+  .search-promotion__item::before {
+    height: 29px;
+  }
+
   .button.button__cases {
     max-width: 100%;
     justify-content: center;
@@ -4905,6 +5012,10 @@ form.form-page__form button svg {
     background-size: contain;
     background-position: center bottom;
     max-width: 100%;
+  }
+
+  .search-promotion__items {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 

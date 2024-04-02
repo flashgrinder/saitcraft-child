@@ -30,7 +30,7 @@ get_header();
         </div>
     </div>
 </section>
-<section class="cases__section">
+<section class="cases__section bg--dark">
               <div class="container">
                   <div class="row">
                       <div class="col-sm-12">
@@ -104,113 +104,78 @@ $query = new WP_Query( $args );
                   </div>
               </div>
           </section>
-<section class="section__wrap crm__page context__page-rows">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Кому подойдет контекстная реклама</h2>
+<!-- Search-promotion -->
+<section class="search-promotion bg--dark b-padding-100">
+    <div class="search-promotion__body container">
+        <h2 class="search-promotion__heading title title--big title--white title--w-extra-bold title--indent" data-num="+">
+            Кому <span class="search-promotion__heading-accent title title--purple">подойдет</span> контекстная реклама
+        </h2>
+        <div class="search-promotion__items">
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Индивидуальным предпринимателям
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Фотографам, дизайнерам, мастерам ногтевого сервиса, косметологам, мастерам ремонта и другим ИП, которые предоставляют свои услуги
+                    </div>
+                </div>
+            </div>
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Малому и среднему бизнесу
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Ниша и сфера бизнеса чаще не имеют значения — контекстная реклама найдёт вашу целевую аудиторию
+                    </div>
+                </div>
+            </div>
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Информационным порталам
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Журналы, СМИ, сайты-отзовики или сайты с обзорами тоже успешно продвигаются через контекст
+                    </div>
+                </div>
+            </div>
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Узким нишам бизнеса
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Контекстную рекламу увидят только заинтересованные пользователи, даже если сфера очень ограничена, а спрос низкий
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="search-promotion__heading search-promotion__heading--bottom title title--big title--white title--w-extra-bold title--indent" data-num="–">
+            Кому <span class="search-promotion__heading-accent title title--purple">НЕ подойдет</span> контекстная реклама
+        </h2>
+        <div class="search-promotion__bottom-items">
+            <div class="search-promotion__fit">
+                <div class="search-promotion__title-fit title title--big-medium title--white title--w-semi-bold">
+                    Для привлечения «холодной» аудитории
+                </div>
+                <div class="search-promotion__text-fit title title--big-medium title--white title--w-light">
+                    затраты просто не окупятся
+                </div>
+            </div>
+            <div class="search-promotion__fit">
+                <div class="search-promotion__title-fit title title--big-medium title--white title--w-semi-bold">
+                    Низкомаржинальные товары
+                </div>
+                <div class="search-promotion__text-fit title title--big-medium title--white title--w-light">
+                    товары или услуги с очень низкой маржой или низкой конкурентоспособностью
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 left-seo" >
-                <h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Индивидуальным предпринимателям</h3>
-<div style="margin-left: 55px; margin-bottom: 20px;">
-	
-				
-<span style="font-size:16px; color:#667399">Фотографам, дизайнерам, мастерам ногтевого сервиса, косметологам, мастерам ремонта и другим ИП, которые предоставляют свои услуги.
-<br></span>
-				</div>
-				<h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Малому и среднему бизнесу</h3>
-<div style="margin-left: 55px; margin-bottom: 20px;">
-	
-				
-<span style="font-size:16px; color:#667399"> Ниша и сфера бизнеса чаще не имеют значения — контекстная реклама найдёт вашу целевую аудиторию.<br></span>
-				</div>
-				<h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Информационным порталам</h3>
-<div style="margin-left: 55px; margin-bottom: 20px;">
-	
-				
-<span style="font-size:16px; color:#667399">Журналы, СМИ, сайты-отзовики или сайты с обзорами тоже успешно продвигаются через контекст.<br></span>
-				</div>
-				<h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Узким нишам бизнеса</h3>
-<div style="margin-left: 55px; margin-bottom: 20px;">
-	
-				
-<span style="font-size:16px; color:#667399">Контекстную рекламу увидят только заинтересованные пользователи, даже если сфера очень ограничена, а спрос низкий.<br></span><br><br>
-				</div>
-				
-			</div>
-	
-            <div class="col-sm-4 right-seo" >
-                 <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h2>Кому не подойдет<br> контекстная реклама</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12" >
-                                <h3 style="margin-bottom: 5px;"><span>
-                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.184 0.199999H16.992L11.616 8.432L17.352 17H11.544L8.736 11.84L5.832 17H0.048L5.904 8.432L0.648 0.199999H6.432L8.784 4.664L11.184 0.199999Z" fill="#D24A43"/>
-                                </svg>
-
-
-                                </span>Для привлечения <br>«холодной» аудитории</h3>
-                                <div style="margin-left: 55px;">
-                                    
-                                                
-                                <span style="font-size:16px; color:#667399">затраты просто не окупятся.<br></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12" >
-                                <h3 style="margin-bottom: 5px;"><span>
-                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.184 0.199999H16.992L11.616 8.432L17.352 17H11.544L8.736 11.84L5.832 17H0.048L5.904 8.432L0.648 0.199999H6.432L8.784 4.664L11.184 0.199999Z" fill="#D24A43"/>
-                                </svg>
-
-                                </span>Низкомаржинальные товары</h3>
-                                <div style="margin-left: 55px;">
-                                    
-                                                
-                                <span style="font-size:16px; color:#667399">товары или услуги с очень низкой маржой или низкой конкурентоспособностью.<br></span>
-                                </div>
-                            </div>
-                        </div>
-                      
-                    </div>
-
-
-            </div>
-        </div>
-	</div>
-	</section>
+</section>
+<!-- ./ Search-promotion -->
 <section class="section__wrap pb-1 pb-sm-5 otlichie-yandex">
     <div class="container">
         <div class="row mb-0 mb-md-3">
