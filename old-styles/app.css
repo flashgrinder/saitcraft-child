@@ -3539,6 +3539,7 @@ display: block;
 }
 .seo__banner1 {
     background: #1A1E23;
+	padding-top: 70px;
 }
 .dev__banner2 h2,
 .seo__banner1 h2 {
@@ -4706,6 +4707,9 @@ opacity: 0.8;
 }
 
 @media (max-width:767.98px) {
+	.seo__banner1 {
+		padding-top: 20px;
+	}
     .bottom__form .col-sm-6:nth-child(1) {
         background: #7F6CE0
     }

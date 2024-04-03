@@ -115,7 +115,8 @@ form.form-page__form button svg {
 
 .usluga__banner {
 	padding-bottom: 50px;
-	height: auto;
+	height: 100vh;
+	@include mobile(height, auto);
 }
 
 .button.button__cases {
@@ -129,6 +130,14 @@ form.form-page__form button svg {
 
 .vacancy__banner {
 	padding-bottom: 60px;
+}
+
+.os-cards {
+	display: flex;
+	@include mobileXS-block {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
 }
 
 /* MEDIA QUERIES */

@@ -4217,7 +4217,7 @@ form.form-page__form button svg {
 
 .usluga__banner {
   padding-bottom: 50px;
-  height: auto;
+  height: 100vh;
 }
 
 .button.button__cases {
@@ -4227,6 +4227,10 @@ form.form-page__form button svg {
 
 .vacancy__banner {
   padding-bottom: 60px;
+}
+
+.os-cards {
+  display: flex;
 }
 
 /* MEDIA QUERIES */
@@ -4741,6 +4745,10 @@ form.form-page__form button svg {
     height: 29px;
   }
 
+  .usluga__banner {
+    height: auto;
+  }
+
   .button.button__cases {
     max-width: 100%;
     justify-content: center;
@@ -5016,6 +5024,11 @@ form.form-page__form button svg {
 
   .search-promotion__items {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .os-cards {
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
 
