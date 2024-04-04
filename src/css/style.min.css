@@ -4175,6 +4175,65 @@ html.with-fancybox body.hide-scrollbar {
   margin-bottom: 20px;
 }
 
+/* Table-cost */
+
+.table-cost {
+  background: url("../img/bg/table-cost-bg-2.svg") no-repeat center;
+  background-size: cover;
+}
+
+.table-cost__table {
+  border: 1px solid #333333;
+  border-radius: 16px;
+}
+
+.table-cost__row {
+  display: grid;
+  grid-template-columns: auto 287px;
+  align-items: center;
+  padding: 24px 34px 30px 64px;
+}
+
+.table-cost__row:first-child {
+  padding: 50px 34px 30px 64px;
+}
+
+.table-cost__row:last-child {
+  padding: 50px 34px;
+}
+
+.table-cost__row.table-cost__row--action {
+  display: flex;
+  justify-content: center;
+}
+
+.table-cost__row + .table-cost__row {
+  border-top: 1px solid #333333;
+}
+
+.table-cost__check {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.table-cost__check svg {
+  display: block;
+}
+
+.table-cost__check--text {
+  font-size: 16px;
+}
+
+.table-cost__price {
+  margin-left: 10px;
+}
+
+.table-cost__plus {
+  margin: 0 5px;
+}
+
 /* Other Style*/
 
 form.modal__form button svg {
@@ -4745,6 +4804,11 @@ form.form-page__form button svg {
     height: 29px;
   }
 
+  .table-cost__check svg {
+    width: 28px;
+    height: 28px;
+  }
+
   .usluga__banner {
     height: auto;
   }
@@ -5024,6 +5088,24 @@ form.form-page__form button svg {
 
   .search-promotion__items {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .table-cost__row {
+    grid-template-columns: 151px 124px;
+    justify-content: space-between;
+    padding: 24px 18px 24px 26px;
+  }
+
+  .table-cost__row:first-child {
+    padding: 24px 18px 24px 26px;
+  }
+
+  .table-cost__row:last-child {
+    padding: 40px 26px;
+  }
+
+  .table-cost__text {
+    font-size: 18px;
   }
 
   .os-cards {
