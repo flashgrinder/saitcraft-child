@@ -4178,8 +4178,11 @@ html.with-fancybox body.hide-scrollbar {
 /* Table-cost */
 
 .table-cost {
-  background: url("../img/bg/table-cost-bg-2.svg") no-repeat center;
+  background-image: url("../img/bg/table-cost-bg-2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-color: var(--color-dark);
 }
 
 .table-cost__table {
