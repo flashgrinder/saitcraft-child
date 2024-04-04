@@ -5418,7 +5418,7 @@ color: #FFFFFF;
     }
     .opened-mobile-menu .mobile__menu {
         display: flex;
-        z-index: 2;
+        z-index: 11;
         height: 100vh;
         position: fixed;
         top: 0px;
