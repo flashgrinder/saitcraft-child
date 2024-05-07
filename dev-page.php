@@ -391,7 +391,7 @@
 		</div>
 	</section>
 	<!-- /. Form Phone -->
-	<section class="section__wrap grayback pb-1 pb-sm-5" style="background-color:white">
+	<section class="section__wrap grayback pb-5 pb-sm-5" style="background-color:white">
 		<div class="container">
 			<div class="row">
 
@@ -399,7 +399,7 @@
 				<div class="col-sm-12" style="text-align: center;">
 					<h2>Преимущества разработки сайта</h2>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4" style="margin-top: 20px;">
            
                 
 					
@@ -413,7 +413,7 @@
 
 				</div>
 
-				<div class="col-sm-4">
+				<div class="col-sm-4" style="margin-top: 20px;">
            
                 
 					
@@ -428,7 +428,7 @@
                     </span>
 
 				</div>
-				<div class="col-sm-4">
+				<div class="col-sm-4" style="margin-top: 20px;">
            
                
 					
@@ -470,7 +470,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section__wrap grayback pb-1 pb-sm-5">
+	<section class="section__wrap grayback pb-5 pb-sm-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">

@@ -670,7 +670,7 @@ $query = new WP_Query( $args );
     </div>
 </section>
 <!-- /. Form Phone -->
-<section class="section__wrap grayback pb-1 pb-sm-5" style="background-color:white">
+<section class="section__wrap grayback b-padding-100" style="background-color:white">
 	<div class="container">
 		<div class="row">
 		
@@ -692,7 +692,7 @@ $query = new WP_Query( $args );
                 
             </div>
 			
-			<div class="col-sm-4">
+			<div class="col-sm-4" style="margin-top: 20px">
            
                 
 					
@@ -707,7 +707,7 @@ $query = new WP_Query( $args );
                     </span>
                 
             </div>
-			<div class="col-sm-4">
+			<div class="col-sm-4" style="margin-top: 20px">
            
                
 					

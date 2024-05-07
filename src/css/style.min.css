@@ -4295,6 +4295,19 @@ form.form-page__form button svg {
   display: flex;
 }
 
+.qa-elem {
+  padding: 40px 35px 40px 20px;
+}
+
+.qa-elem:before,
+.qa-elem:after {
+  height: 20px;
+}
+
+.type_ad .selector .chose-tab {
+  font-size: 16px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1300px) {
@@ -4925,6 +4938,7 @@ form.form-page__form button svg {
 
   .form-page {
     background: transparent;
+    padding: 0;
   }
 
   .form-page__body {
@@ -4987,6 +5001,7 @@ form.form-page__form button svg {
     width: 100%;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
   }
 
   .top-page__author--mobile {

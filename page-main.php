@@ -240,7 +240,7 @@ get_header();
                     </span>
                 </a>
             </div>
-            <div class="col-sm-12 d-flex justify-content-center mt-5 mb-5">
+            <div class="uslugi__section-pic col-sm-12 d-flex justify-content-center mt-5 mb-5">
                 <svg width="774" height="145" viewBox="0 0 774 145" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.5">
                 <path d="M1 135L9 143L17 135" stroke="#6430E8" stroke-width="2" stroke-linecap="round"/>
@@ -317,7 +317,7 @@ get_header();
                     </span>
                 </a>
             </div>
-            <div class="col-sm-12 d-flex justify-content-center mt-5 mb-5">
+            <div class="uslugi__section-pic col-sm-12 d-flex justify-content-center mt-5 mb-5">
                 <svg width="774" height="145" viewBox="0 0 774 145" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.5">
                     <path d="M1 135L9 143L17 135" stroke="#6430E8" stroke-width="2" stroke-linecap="round"/>
@@ -389,7 +389,7 @@ get_header();
                     </span>
                 </a>
             </div>
-            <div class="col-sm-12 d-flex justify-content-center mt-5 mb-5">
+            <div class="uslugi__section-pic col-sm-12 d-flex justify-content-center mt-5 mb-5">
                 <svg width="774" height="145" viewBox="0 0 774 145" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g opacity="0.5">
                 <path d="M1 135L9 143L17 135" stroke="#6430E8" stroke-width="2" stroke-linecap="round"/>
