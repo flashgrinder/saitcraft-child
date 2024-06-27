@@ -2,25 +2,13 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "BlogPosting",
+            "@type": "Atricle",
             "headline": "<?php the_title(); ?>",
             "image": [
                 "<?php the_field('banner'); ?>"
             ],
             "datePublished": "<?php the_date('Y-m-d'); ?>",
-            "dateModified": "<?php the_modified_date('Y-m-d'); ?>",
-            "author": {
-                "@type": "Person",
-                "name": "<?php the_field('author_name'); ?>"
-            },
-            "publisher": {
-                "@type": "Organization",
-                "name": "<?php the_title(); ?>",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "URL_ЛОГО_ПУБЛИКАЦИИ"
-                }
-            },
+            "articleSection": "Блог",
             "description": "<?php the_excerpt(); ?>",
             "articleBody": "<?php the_content(); ?>",
             "author": {
