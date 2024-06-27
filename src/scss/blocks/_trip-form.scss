@@ -1,0 +1,54 @@
+.trip-form {
+  max-width: 100%;
+  margin: 40px 0 0;
+  @include tabletSM(position, relative);
+}
+
+.trip-form__wrapper-line {
+  gap: 20px;
+  @include large-block {
+    flex-wrap: wrap;
+  }
+}
+
+.trip-form__field {
+  @include large-block {
+    max-width: 48%;
+  }
+  @include tabletSM(max-width, 100%);
+}
+
+.trip-form__input {
+  padding: 19px 30px 20px;
+  height: auto;
+}
+
+.trip-form__actions {
+  width: 100%;
+}
+
+.trip-form__btn.button {
+  padding: 20px 32px;
+  justify-content: center;
+  max-width: 320px;
+  @include tabletSM(max-width, 100%);
+}
+
+.trip-form__footer {
+  margin-top: 10px;
+}
+
+.trip-form__policy,
+.trip-form__link-policy {
+  color: #818181;
+}
+
+.trip-form .form-loader {
+  background-color: rgb(33 37 41 / 80%);
+}
+
+.trip-form.wpcf7-form .wpcf7-response-output {
+  max-width: 600px;
+  color: var(--color-white);
+  margin: 2em 0 1em auto;
+}

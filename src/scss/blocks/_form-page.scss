@@ -4,6 +4,7 @@
   background: linear-gradient(90deg, rgba(127,108,224,1) 50%, rgba(246,248,253,1) 50%);
   @include mobileXS-block {
     background: transparent;
+    padding: 0;
   }
 }
 

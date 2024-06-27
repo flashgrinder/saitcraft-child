@@ -1,0 +1,222 @@
+.cases {
+  position: relative;
+  padding: 100px 0 0;
+  @include mobile(padding, 50px 0 0);
+}
+
+.cases__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px 18px;
+  position: relative;
+  z-index: 10;
+  @include mobileXS-block {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  }
+}
+
+.cases__item {
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  position: relative;
+  perspective: 700px;
+}
+
+.cases__item.is-active .cases__front-side {
+  //transform: rotateY(180deg);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cases__item.is-active .cases__back-side {
+  //transform: rotateY(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cases__front-side {
+  padding: 0 32px 50px;
+  //transform: rotateY(0);
+  visibility: visible;
+  opacity: 1;
+  @include mobileXS(padding, 0 20px 50px);
+  //@include mobileXS(min-height, 636px);
+}
+
+.cases__back-side {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  //transform: rotateY(180deg);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.cases__front-side,
+.cases__back-side {
+  //backface-visibility: hidden;
+  //transition: transform .3s;
+  -webkit-transition: opacity .150s ease-in-out, visibility .150s ease-in-out;
+  -moz-transition: opacity .150s ease-in-out, visibility .150s ease-in-out;
+  -ms-transition: opacity .150s ease-in-out, visibility .150s ease-in-out;
+  -o-transition: opacity .150s ease-in-out, visibility .150s ease-in-out;
+  transition: opacity .150s ease-in-out, visibility .150s ease-in-out;
+}
+
+.cases__head {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 50px 32px 0;
+  @include mobileXS(padding, 50px 20px 0);
+}
+
+.cases__name {
+  display: inline-block;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, #FF7FEA 1.66%, #7077FF 101.45%);
+  border-image-slice: 1;
+}
+
+.cases__do {
+  margin-top: 11px;
+}
+
+.cases__info {
+  margin-top: 50px;
+  display: flex;
+  gap: 37px;
+  @include mobile(margin-top, 40px);
+}
+
+.cases__info-pic {
+  width: 100%;
+  max-width: 230px;
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  @include mobileXS(display, none);
+}
+
+.cases__img {
+  display: block;
+  width: 100%;
+}
+
+.cases__info-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include mobileXS(gap, 25px);
+}
+
+.cases__link {
+  display: inline-flex;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.cases__button {
+  max-width: 345px;
+  width: 100%;
+}
+
+.cases__footer {
+  margin-top: 50px;
+  @include mobileXS(margin-top, 25px);
+}
+
+.cases__take-pic {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.cases__take {
+  display: block;
+  width: 100%;
+}
+
+.cases__sbis {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.cases__action {
+  margin-top: 48px;
+}
+
+.cases__back-side {
+  margin-top: 50px;
+  padding: 179px 50px 50px;
+  @include mobileXS-block {
+    padding: 190px 20px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.cases__back-close {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  @include mobileXS-block {
+    right: 20px;
+    top: 20px;
+  }
+}
+
+.cases__back-close svg {
+  @include mobileXS-block {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.cases__back-pic {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.cases__back-pic + .cases__back-pic{
+  margin-top: 27px;
+}
+
+.cases__back-img {
+  display: block;
+  width: 100%;
+  max-width: 511px;
+  margin: 0 auto;
+}
+
+.cases__back-action {
+  margin-top: 85px;
+  @include mobileXS(margin-top, auto);
+}
+
+.cases__bottom {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cases__wrap-bottom {
+  position: relative;
+}
+
+.cases__arrow {
+  position: absolute;
+  left: -80px;
+  top: -15px;
+}
+
+.cases__bottom .cases__btn{
+  max-width: 210px;
+}

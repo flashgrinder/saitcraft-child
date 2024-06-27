@@ -1,0 +1,91 @@
+.job__item {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  align-items: center;
+  gap: 10px;
+  @include tabletSM-block {
+    gap: 25px;
+  }
+  @include mobile-block {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+}
+
+.job__item--revert {
+  gap: 19px;
+  @include tabletSM-block {
+    gap: 25px;
+  }
+}
+
+.job__item--revert .job__pic {
+  order: -1;
+  @include tabletSM-block {
+    order: 1;
+  }
+}
+
+.job__item ~ .job__item {
+  margin-top: 50px;
+}
+
+.job__title {
+  padding-left: 57px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.job__title::before {
+  content: attr(data-num);
+  position: absolute;
+  left: 0;
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: var(--color-purple);
+}
+
+.job__pic {
+  overflow: hidden;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+
+.job__img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.job__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.job__item-list {
+  position: relative;
+  display: flex;
+  gap: 28px;
+}
+
+.job__item-list::before {
+  content: url("../img/job/check-mark.svg");
+}
+
+.job__description ~ .job__description {
+  margin-top: 16px;
+}
+
+.job__description + .job__list {
+  margin-top: 11px;
+}
+
+.job__bottom {
+  margin-top: 50px;
+}
+
+.job__btn {
+  justify-content: center;
+}

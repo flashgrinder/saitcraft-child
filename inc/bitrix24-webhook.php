@@ -1,6 +1,6 @@
 <?
 
-    add_action('wpcf7_before_send_mail', 'wpcf7_mail_sent_function');
+    add_action('wpcf7_send_mail', 'wpcf7_mail_sent_function');
     
     function wpcf7_mail_sent_function($contact_form) {
 
@@ -10,7 +10,8 @@
         if (
             'Контактная форма c телефоном' == $title ||
             'Контактная форма в модальном окне' == $title ||
-            'Контактная форма в подвале' == $title
+            'Контактная форма в подвале' == $title ||
+            'Записаться на экскурсию' == $title
             ) {
 
             $queryUrl = 'https://saitcraft.bitrix24.ru/rest/13/s7sugqiitewyxvim/crm.lead.add.json';

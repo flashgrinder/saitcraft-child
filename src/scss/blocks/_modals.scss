@@ -112,7 +112,8 @@
 
 .form-page__form,
 .form-phone__form,
-.modal-sc__form {
+.modal-sc__form,
+.trip-form {
   font-family: var(--font-primary);
   width: 100%;
   max-width: 798px;
@@ -120,7 +121,8 @@
 }
 
 .form-page__wrapper-line,
-.modal-sc__wrapper-line {
+.modal-sc__wrapper-line,
+.trip-form__wrapper-line {
   display: flex;
   gap: 10px;
   @include mobile-block {
@@ -130,20 +132,23 @@
 
 .form-page__form.invalid .form-page__input.wpcf7-not-valid,
 .form-phone__form.invalid .form-phone__input.wpcf7-not-valid,
-.modal-sc__form.invalid .modal-sc__input.wpcf7-not-valid {
+.modal-sc__form.invalid .modal-sc__input.wpcf7-not-valid,
+.trip-form.invalid .trip-form__input.wpcf7-not-valid {
   border: 1px solid #FF0000;
 }
 
 .form-page__field,
 .form-phone__field,
-.modal-sc__field {
+.modal-sc__field,
+.trip-form__field {
   position: relative;
   width: 100%;
 }
 
 .form-page__field--required:before,
 .form-phone__field--required:before,
-.modal-sc__field--required::before {
+.modal-sc__field--required::before,
+.trip-form__field--required::before {
   content: '*';
   position: absolute;
   color: var(--color-invalid);
@@ -154,7 +159,8 @@
 
 .form-page__input,
 .form-phone__input,
-.modal-sc__input {
+.modal-sc__input,
+.trip-form__input {
   position: relative;
   font-family: inherit;
   font-size: 16px;
@@ -166,10 +172,13 @@
   border: 1px solid var(--color-grey);
   color: var(--color-dark);
   border-radius: 8px;
+  height: auto;
+  margin-bottom: 0;
   @include mobile-block {
     padding: 18px 15px 18px 20px;
   }
 }
+
 .form-page__input:focus,
 .form-page__input:target,
 .form-page__input:active,
@@ -178,14 +187,18 @@
 .form-phone__input:active,
 .modal-sc__input:focus,
 .modal-sc__input:target,
-.modal-sc__input:active {
+.modal-sc__input:active,
+.trip-form__input:focus,
+.trip-form__input:target,
+.trip-form__input:active {
   outline: none;
   border: 1px solid var(--color-dark);
 }
 
 .form-page__input::placeholder,
 .form-phone__input::placeholder,
-.modal-sc__input::placeholder {
+.modal-sc__input::placeholder,
+.trip-form__input::placeholder {
   font-size: 16px;
   font-weight: inherit;
   color: var(--color-dark);
@@ -197,7 +210,9 @@
   min-width: 100%;
   max-width: 455px;
   margin-top: 10px;
+  margin-bottom: 0;
   padding-bottom: 5px;
+  @include mobile(max-height, 80px);
 }
 
 .form-page__field--file,
@@ -286,18 +301,21 @@
 
 .form-page .wpcf7-not-valid-tip,
 .form-phone .wpcf7-not-valid-tip,
-.modal-sc .wpcf7-not-valid-tip {
+.modal-sc .wpcf7-not-valid-tip,
+.trip-form .wpcf7-not-valid-tip {
   display: none;
 }
 
 .form-page .wpcf7-not-valid,
 .form-phone .wpcf7-not-valid,
-.modal-sc .wpcf7-not-valid {
+.modal-sc .wpcf7-not-valid,
+.trip-form .wpcf7-not-valid, {
   border: 1px solid var(--color-invalid);
 }
 
 .form-page .wpcf7 form.sent .wpcf7-response-output,
 .form-phone .wpcf7 form.sent .wpcf7-response-output,
-.modal-sc .wpcf7 form.sent .wpcf7-response-output {
+.modal-sc .wpcf7 form.sent .wpcf7-response-output,
+.trip-form .wpcf7 form.sent .wpcf7-response-output {
   display: none;
 }

@@ -1,0 +1,142 @@
+.top-page {
+  position: relative;
+  padding: 125px 0 101px;
+  overflow: hidden;
+}
+
+.top-page__decor {
+  position: absolute;
+  bottom: 0;
+  left: -221px;
+  width: 481px;
+  height: 481px;
+  background: linear-gradient(188.04deg, #8B3DF5 14.41%, #006FFF 90.78%);
+  border-radius: 50%;
+  opacity: 14%;
+  filter: blur(70px);
+}
+
+.top-page__info {
+  position: relative;
+  z-index: 1;
+}
+
+.top-page__heading {
+  max-width: 678px;
+  margin-top: 107px;
+  @include mobile(margin-top, 20px);
+}
+
+.top-page__subtitle {
+  max-width: 558px;
+  opacity: .8;
+}
+
+.top-page__list {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0 0;
+  max-width: 540px;
+}
+
+.top-page__item-list ~ .top-page__item-list {
+  margin-top: 19px;
+}
+
+.top-page__item-list {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.top-page__action {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-page__director {
+  position: absolute;
+  max-width: 860px;
+  right: 0;
+  bottom: 0;
+  @include tablet(display, none);
+  @include mobile-block {
+    display: block;
+    position: static;
+    margin-top: 50px;
+  }
+}
+
+.top-page__author {
+  max-width: 255px;
+  text-align: right;
+  position: relative;
+  z-index: 1;
+  @include tablet(display, none);
+}
+
+.top-page__author-position {
+  margin-top: 7px;
+}
+
+.top-page__author--mobile {
+  display: none;
+  @include mobile-block {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+  }
+  @include mobileXS(bottom, 50px);
+}
+
+.top-page.top-page--another {
+  padding: 100px 0;
+  overflow: visible;
+  @include mobile(padding, 50px 0);
+}
+
+.top-page--another .top-page__heading {
+  max-width: 100%;
+  margin-top: auto;
+}
+
+.top-page--another .top-page__list {
+  margin: 50px 0 0 0;
+  display: flex;
+  gap: 42px;
+  max-width: 100%;
+  @include tabletSM-block {
+    flex-direction: column;
+  }
+  @include mobile-block {
+    gap: 30px;
+    margin: 30px 0 0 0;
+  }
+}
+
+.top-page--another .top-page__item-list {
+  align-items: flex-start;
+  @include tabletSM(align-items, center);
+}
+
+.top-page--another .top-page__item-list ~ .top-page__item-list {
+  margin: 0;
+}
+
+.top-page--another .top-page__icon {
+  width: 50px;
+  height: 50px;
+  @include mobile-block {
+    width: auto;
+    height: auto;
+  }
+}
+
+.top-page--another .top-page__action {
+  margin-top: 50px;
+  @include mobile(margin-top, 30px);
+}

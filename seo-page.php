@@ -34,7 +34,7 @@ get_header();
     </div>
 </section>
 
-<section class="cases__section lazy-bg">
+<section class="cases__section lazy-bg bg--dark">
               <div class="container">
                   <div class="row">
                       <div class="col-sm-12">
@@ -111,125 +111,86 @@ $query = new WP_Query( $args );
                   </div>
               </div>
           </section>
-<section class="section__wrap crm__page context__page-rows">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Кому подходит поисковое продвижение</h2>
+<!-- Search-promotion -->
+<section class="search-promotion bg--dark b-padding-100">
+    <div class="search-promotion__body container">
+        <h2 class="search-promotion__heading title title--big title--white title--w-extra-bold title--indent" data-num="+">
+            Кому <span class="search-promotion__heading-accent title title--purple">подходит</span> поисковое продвижение
+        </h2>
+        <div class="search-promotion__items">
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Интернет-магазинам
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        SEO продвижение сайтов в этом случае выгоднее, чем таргетированная/контекстная реклама, поскольку раскручивать по отдельности каждую категорию дорого. Поисковая оптимизация позволяет вывести в топ выдачи весь каталог интернет-магазина, и бюджет при этом расходуется экономнее
+                    </div>
+                </div>
+            </div>
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Агрегаторам
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Этот тип ресурсов любим поисковыми системами за свою полезность для юзеров. Каждый посетитель сайта-агрегатора изучает собранные предложения, что помогает естественным путем улучшать поведенческие факторы ранжирования
+                    </div>
+                </div>
+            </div>
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Новостным сайтам
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Суть стратегии продвижения новостных порталов — в частом обновлении контента. У таких ресурсов поисковые роботы индексируют новые страницы в течение нескольких минут
+                    </div>
+                </div>
+            </div>
+            <div class="search-promotion__item">
+                <div class="search-promotion__info">
+                    <h3 class="search-promotion__title title title--pre-large title--white title--w-semi-bold">
+                        Блогам
+                    </h3>
+                    <div class="search-promotion__text title title--big-medium title--white title--w-light">
+                        Экспертные ресурсы вызывают доверие пользователей, что облегчает работу с поведенческими факторами. А крупная библиотека статей поможет быстрее оказаться в топе выдачи
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="search-promotion__heading search-promotion__heading--bottom title title--big title--white title--w-extra-bold title--indent" data-num="–">
+            SEO продвижение <span class="search-promotion__heading-accent title title--purple">НЕ подойдет</span> сайтам
+        </h2>
+        <div class="search-promotion__bottom-items">
+            <div class="search-promotion__fit">
+                <div class="search-promotion__title-fit title title--big-medium title--white title--w-semi-bold">
+                    Лендингам и малостраничным ресурсам
+                </div>
+                <div class="search-promotion__text-fit title title--big-medium title--white title--w-light">
+                    из-за небольшого количества контента
+                </div>
+            </div>
+            <div class="search-promotion__fit">
+                <div class="search-promotion__title-fit title title--big-medium title--white title--w-semi-bold">
+                    Сезонному бизнесу
+                </div>
+                <div class="search-promotion__text-fit title title--big-medium title--white title--w-light">
+                    раскрутка вне сезона может принести убытки
+                </div>
+            </div>
+            <div class="search-promotion__fit">
+                <div class="search-promotion__title-fit title title--big-medium title--white title--w-semi-bold">
+                    Акционным предложениям
+                </div>
+                <div class="search-promotion__text-fit title title--big-medium title--white title--w-light">
+                    работа с SEO отличается долгосрочностью, а акции ограничены по времени
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-7 left-seo" >
-                <h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Интернет-магазинам</h3>
-<div style="margin-left: 55px; margin-bottom: 40px;">
-	
-				
-<span style="font-size:16px; color:#667399">SEO продвижение сайтов в этом случае выгоднее, чем таргетированная/контекстная реклама, поскольку раскручивать по отдельности каждую категорию дорого. Поисковая оптимизация позволяет вывести в топ выдачи весь каталог интернет-магазина, и бюджет при этом расходуется экономнее.<br></span>
-				</div>
-				<h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Агрегаторам</h3>
-<div style="margin-left: 55px; margin-bottom: 40px;">
-	
-				
-<span style="font-size:16px; color:#667399"> Этот тип ресурсов любим поисковыми системами за свою полезность для юзеров. Каждый посетитель сайта-агрегатора изучает собранные предложения, что помогает естественным путем улучшать поведенческие факторы ранжирования.<br></span>
-				</div>
-				<h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Новостным сайтам</h3>
-<div style="margin-left: 55px; margin-bottom: 40px;">
-	
-				
-<span style="font-size:16px; color:#667399">Суть стратегии продвижения новостных порталов — в частом обновлении контента. У таких ресурсов поисковые роботы индексируют новые страницы в течение нескольких минут.<br></span>
-				</div>
-				<h3 style="margin-bottom: 5px;"><span>
-<svg width="28" height="21" viewBox="0 0 28 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M24.6666 3.33325L9.99992 17.9999L3.33325 11.3333" stroke="#00ADA8" stroke-width="4" stroke-linecap="square"/>
-</svg>
-
-</span>Блогам</h3>
-<div style="margin-left: 55px; margin-bottom: 40px;">
-	
-				
-<span style="font-size:16px; color:#667399">Экспертные ресурсы вызывают доверие пользователей, что облегчает работу с поведенческими факторами. А крупная библиотека статей поможет быстрее оказаться в топе выдачи.<br></span><br><br>
-				</div>
-			</div>
-	
-            <div class="col-sm-5 right-seo" >
-                 <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <h2>SEO продвижение<br> не подойдет сайтам</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12" >
-                                <h3 style="margin-bottom: 5px;"><span>
-                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.184 0.199999H16.992L11.616 8.432L17.352 17H11.544L8.736 11.84L5.832 17H0.048L5.904 8.432L0.648 0.199999H6.432L8.784 4.664L11.184 0.199999Z" fill="#D24A43"/>
-                                </svg>
-
-
-                                </span>Лендингам и малостраничным ресурсам</h3>
-                                <div style="margin-left: 55px;">
-                                    
-                                                
-                                <span style="font-size:16px; color:#667399">из-за небольшого количества контента<br></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12" >
-                                <h3 style="margin-bottom: 5px;"><span>
-                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.184 0.199999H16.992L11.616 8.432L17.352 17H11.544L8.736 11.84L5.832 17H0.048L5.904 8.432L0.648 0.199999H6.432L8.784 4.664L11.184 0.199999Z" fill="#D24A43"/>
-                                </svg>
-
-                                </span>Сезонному бизнесу</h3>
-                                <div style="margin-left: 55px;">
-                                    
-                                                
-                                <span style="font-size:16px; color:#667399">раскрутка вне сезона может принести убытки<br></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-12" >
-                                <h3 style="margin-bottom: 5px;"><span>
-                                <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M11.184 0.199999H16.992L11.616 8.432L17.352 17H11.544L8.736 11.84L5.832 17H0.048L5.904 8.432L0.648 0.199999H6.432L8.784 4.664L11.184 0.199999Z" fill="#D24A43"/>
-                                </svg>
-
-                                </span>Акционным предложениям</h3>
-                                <div style="margin-left: 55px;">
-                                    
-                                                
-                                <span style="font-size:16px; color:#667399">работа с SEO отличается долгосрочностью, а акции ограничены по времени<br></span>
-                                </div>
-                            </div>
-                        </div>
-						
-                    </div>
-
-            </div>
-        </div>
-	</div>
-	</section>
+</section>
+<!-- ./ Search-promotion -->
 <section class="seo__graph">
     <div class="container">
         <div class="row">
@@ -709,7 +670,7 @@ $query = new WP_Query( $args );
     </div>
 </section>
 <!-- /. Form Phone -->
-<section class="section__wrap grayback pb-1 pb-sm-5" style="background-color:white">
+<section class="section__wrap grayback b-padding-100" style="background-color:white">
 	<div class="container">
 		<div class="row">
 		
@@ -731,7 +692,7 @@ $query = new WP_Query( $args );
                 
             </div>
 			
-			<div class="col-sm-4">
+			<div class="col-sm-4" style="margin-top: 20px">
            
                 
 					
@@ -746,7 +707,7 @@ $query = new WP_Query( $args );
                     </span>
                 
             </div>
-			<div class="col-sm-4">
+			<div class="col-sm-4" style="margin-top: 20px">
            
                
 					
@@ -790,125 +751,169 @@ $query = new WP_Query( $args );
 		</div>
 	</div>
 </section>
-<section class="section__wrap grayback pb-1 pb-sm-5" style="background: #1A1E23 url(/img/team/2.svg);
-    background-position: right bottom;
-    background-size: 60%;
-    background-repeat: no-repeat;
-    
-    padding-top: 70px;
-    ">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12" >
-                <h2 style="color:white">Цена SEO продвижения</h2>
-            </div>	
-			<div style="margin-bottom: 40px">
-				<span class="advantage__text1" style="color:white">
-                   Точная сумма продвижения будет индивидуальна для каждого сайта. Она сильно зависит от конкуренции в нише и региона продвижения.
 
-                </span>
-			</div>
-            <div class="col-sm-12">
-                <div class="">
-                <table class="tarifs-table">
-                    <tr>
-                        <td>
-                            <svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Проведение технического и usability аудита
-                        </td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Настройка систем статистики</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Сбор семантического ядра</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Изучение ниши и анализ конкурентов</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Написание текстов</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Прототипирование и работа дизайнера</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Работы программиста и верстальщика</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Анализ и доработка конверсии</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Персональный менеджер</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td><svg class="mob-before-svg" width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg>
-                            Ежемесячные отчеты</td>
-                        <td><svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.5 3L7.5 14L2.5 9" stroke="white" stroke-width="3" stroke-linecap="square" stroke-linejoin="round"/></svg></td>
-                    </tr>
-                    <tr>
-                        <td class="mob-div-ta-c">
-                            <div>KPI по проекту</div>
-                            <div class="mob-table-info"><b>Позиции + трафик + лиды</b></div> 
-                        </td>
-                        <td><b>Позиции + трафик + лиды</b></td>
-                    </tr>
-                    <tr>
-                        <td style="flex-direction: column;" class="mob-div-ta-c">
-                            <div>Ключевых запросов в продвижении</div>
-                            <div class="mob-table-info"><b>Неограниченно</b></div>
-                        </td>
-                        <td><b>Неограниченно</b></td>
-                    </tr>
-                    <tr>
-                        <td style="flex-direction: column;" class="mob-div-ta-c">
-                            <div>Специалистов работает над проектом</div>
-                            <div class="mob-table-info"><b>6 +</b></div>
-                        </td>
-                        <td><b>6 +</b></td>
-                    </tr>
-                    <tr>
-                        <td style="flex-direction: column;" class="mob-div-ta-c">
-                            <div>Стоимость за месяц (рублей)</div>
-                            <div class="mob-table-info exb"><b>от 60 000 ₽</b></div>
-                        </td>
-                        <td><b class="exb">от 60 000 ₽</b></td>
-                    </tr>
-                </table>
+<!-- Table-cost -->
+<section class="table-cost bg--dark b-padding-100">
+    <div class="table-cost__body container">
+        <h3 class="table-cost__heading title title--big title--white title--w-semi-bold title--indent">
+            Цена SEO продвижения
+        </h3>
+        <div class="table-cost__subtitle title title--pre-large title--white title--w-semi-bold title--indent">
+            Точная сумма продвижения будет <span class="title title--purple">индивидуальна для каждого сайта</span>.
+            Она сильно зависит от
+            конкуренции в
+            нише и региона продвижения
+        </div>
+        <div class="table-cost__table">
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Проведение технического и usability аудита
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Настройка систем статистики
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Сбор семантического ядра
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Изучение ниши и анализ конкурентов
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Написание текстов
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Прототипирование и работа дизайнера
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Работы программиста и верстальщика
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Анализ и доработка конверсии
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Персональный менеджер
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Ежемесячные отчеты
+                </div>
+                <div class="table-cost__check">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 42.0009C-3.75 41.1009 -3.75 0.900916 24 0.000915527C51.75 0.900916 51.75 41.1009 24 42.0009ZM24 3.00092C0.150001 3.75092 0.150001 38.2509 24 39.0009C47.85 38.2509 47.85 3.75092 24 3.00092ZM35.55 14.8509L21 29.4009C20.4 30.0009 19.5 30.0009 18.9 29.4009L12.45 22.9509C11.1 21.6009 13.2 19.5009 14.55 20.8509L19.95 26.2509L33.45 12.7509C34.8 11.2509 36.9 13.5009 35.55 14.8509Z" fill="#6430E8"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    KPI по проекту
+                </div>
+                <div
+                    class="table-cost__check table-cost__check--text text text--pre-large text--white text--w-light text--uppercase">
+                    позиции <span class="table-cost__plus text text--purple">+</span> трафик <span class="table-cost__plus text text--purple">+</span> лиды
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Ключевых запросов в продвижении
+                </div>
+                <div class="table-cost__check text text--pre-large text--white text--w-light">
+                    Неограниченно
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Специалистов работает над проектом
+                </div>
+                <div class="table-cost__check text text--pre-large text--white text--w-light text--uppercase">
+                    6<span class="text text--purple">+</span>
+                </div>
+            </div>
+            <div class="table-cost__row">
+                <div class="table-cost__text title title--pre-large title--white title--w-medium">
+                    Стоимость за месяц
+                </div>
+                <div class="table-cost__check text text--pre-large text--white text--w-light">
+                    от <span class="table-cost__price title title--large title--purple title--w-extra-bold">60 000
+                ₽</span>
+                </div>
+            </div>
+            <div class="table-cost__row table-cost__row--action">
+                <a href="javascript:;" class="top-page__button button button--icon" data-stc-modal="#feedback-stc">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23 12C23 18.0751 18.0751 23 12 23C10.2804 23 2 23 2 23C2 23 2 23 4.59717 20.1363C2.38713 18.1244 1 15.2242 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13 14H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 10H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Оставить заявку
+                </a>
             </div>
         </div>
-
-        <div class="col-sm-12 text-center text-lg-end text-md-center mt-4">
-            <a href="javascript:;" class="button button--icon" data-stc-modal="#feedback-stc">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23 12C23 18.0751 18.0751 23 12 23C10.2804 23 2 23 2 23C2 23 2 23 4.59717 20.1363C2.38713 18.1244 1 15.2242 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M13 14H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M16 10H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-                Отправить заявку
-            </a>
-        </div>
-			
-		</div>
-	</div>
+    </div>
 </section>
+<!-- ./ Table-cost -->
+
 <section class="slider__wrap slider__seo">
     <div class="container">
         <div class="row">
@@ -1588,7 +1593,51 @@ $query = new WP_Query( $args );
         </div>
     </div>
 </section>
-	<section class="section__wrap grayback pb-1 pb-sm-5">
+
+<!-- Top-page -->
+<div class="top-page top-page--another bg--dark">
+    <div class="top-page__decor"></div>
+    <div class="top-page__body container">
+        <div class="top-page__inner">
+            <div class="top-page__info">
+                <h1 class="top-page__heading title title--huge title--white title--w-extra-bold title--indent">
+                    Выстроим маркетинговую систему для роста
+                    выручки на <span class="top-page__accent-title title title--pink">30-100% за 6-12 месяцев</span>
+                </h1>
+                <div class="top-page__subtitle title title--big-medium title--white title--w-regular">
+                    Предоставим Digital-маркетолога на аутсорсе
+                </div>
+                <ul class="top-page__list title title--medium title--white title--w-light">
+                    <li class="top-page__item-list">
+                        <img class="top-page__icon" src="<?= STANDART_DIR; ?>/img/top-page/top-page-1.svg" alt="">
+                        Увеличим эффективность рекламных бюджетов на 30-50%
+                    </li>
+                    <li class="top-page__item-list">
+                        <img class="top-page__icon" src="<?= STANDART_DIR; ?>/img/top-page/top-page-2.svg" alt="">
+                        Оцифруем все показатели маркетинга и продаж  для полного контроля над бизнесом
+                    </li>
+                    <li class="top-page__item-list">
+                        <img class="top-page__icon" src="<?= STANDART_DIR; ?>/img/top-page/top-page-3.svg" alt="">
+                        Предоставим готовую команду  специалистов по маркетингу или усилим вашу
+                    </li>
+                </ul>
+                <div class="top-page__action">
+                    <a href="javascript:;" class="top-page__button button button--icon" data-stc-modal="#feedback-stc">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23 12C23 18.0751 18.0751 23 12 23C10.2804 23 2 23 2 23C2 23 2 23 4.59717 20.1363C2.38713 18.1244 1 15.2242 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13 14H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 10H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Обсудить проект
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ./ Top-page -->
+
+<section class="section__wrap grayback pb-1 pb-sm-5">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -1627,9 +1676,9 @@ $query = new WP_Query( $args );
              Стоимость продвижения сайта зависит от выбранной методики работы, начального состояния и вида онлайн-ресурса.
             </div>
         </div>
-      
     </div>
 </section>
+
 <section class="section__wrap grayback pb-1 pb-sm-5">
     <div class="container">
         <div class="row">
@@ -1865,8 +1914,7 @@ $query = new WP_Query( $args );
 			<div class="col-sm-3 os-card">
                 <h3>SEO продвижение интернет-магазинов</h3>
                 <div class="os-card-content">
-                  Привлечем максимально большой объем целевого трафика естественными методами.
-Обеспечим кратный рост продаж из поиска
+                  Привлечем максимально большой объем целевого трафика естественными методами. Обеспечим кратный рост продаж из поиска
                 </div>
                 <div class="os-price">
                     от 60 000 ₽

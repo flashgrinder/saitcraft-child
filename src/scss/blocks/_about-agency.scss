@@ -1,0 +1,47 @@
+.about-agency__subtitle {
+  margin-top: 20px;
+}
+
+.about-agency__description {
+  margin-top: 40px;
+  opacity: .8;
+  max-width: 744px;
+}
+
+.about-agency__num {
+  font-size: responsive 28px 125px;
+  font-range: 375px 1440px;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(91.71deg, #7823EB 3.78%, #3123C7 99.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 60px;
+  @include mobile(margin-top, 50px);
+  @include mobile(line-height, 1.2);
+}
+
+.about-agency__help {
+  @include mobile(margin-top, 15px);
+}
+
+.about-agency__staff {
+  margin-top: 100px;
+  @include mobile(margin-top, 50px);
+}
+
+.about-agency__staff + .about-agency__description {
+  margin-top: 30px;
+}
+
+.about-agency__outer {
+  position: relative;
+}
+
+.about-agency__photo {
+  display: block;
+  width: 100%;
+  margin-top: -150px;
+  @include tablet(margin-top, -100px);
+  @include mobile(margin, 0);
+}

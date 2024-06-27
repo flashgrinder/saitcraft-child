@@ -45,6 +45,36 @@
 @import './blocks/header';
 /* Form-footer */
 @import './blocks/footer';
+/* Top-page */
+@import './blocks/top-page';
+/* Situation */
+@import './blocks/situation';
+/* Quote */
+@import './blocks/quote';
+/* Trust */
+@import './blocks/trust';
+/* Job */
+@import './blocks/job';
+/* Experts */
+@import './blocks/experts';
+/* About-agency */
+@import './blocks/about-agency';
+/* Cases */
+@import './blocks/cases';
+/* Compare */
+@import './blocks/compare';
+/* Trip */
+@import './blocks/trip';
+/* Trip-form */
+@import './blocks/trip-form';
+/* Blog */
+@import './blocks/blog';
+/* Blog-post */
+@import './blocks/blog-post';
+/* Search-promotion */
+@import './blocks/search-promotion';
+/* Table-cost */
+@import './blocks/table-cost';
 
 /* Other Style*/
 form.modal__form button svg {
@@ -87,6 +117,41 @@ form.form-page__form button svg {
 
 .usluga__banner {
 	padding-bottom: 50px;
-	height: auto;
+	height: 100vh;
+	@include mobile(height, auto);
 }
+
+.button.button__cases {
+	max-width: 199px;
+	padding: 16px 30px;
+	@include mobile-block {
+		max-width: 100%;
+		justify-content: center;
+	}
+}
+
+.vacancy__banner {
+	padding-bottom: 60px;
+}
+
+.os-cards {
+	display: flex;
+	@include mobileXS-block {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+}
+
+.qa-elem {
+	padding: 40px 35px 40px 20px;
+}
+
+.qa-elem:before, .qa-elem:after {
+	height: 20px;
+}
+
+.type_ad .selector .chose-tab {
+	font-size: 16px;
+}
+
 /* MEDIA QUERIES */

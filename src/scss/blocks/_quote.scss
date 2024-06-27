@@ -1,0 +1,57 @@
+.quote__wrap-decor {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.quote__decor {
+  position: absolute;
+  top: -150px;
+  left: -221px;
+  width: 481px;
+  height: 481px;
+  background: linear-gradient(188.04deg, #8B3DF5 14.41%, #006FFF 90.78%);
+  border-radius: 50%;
+  opacity: 14%;
+  filter: blur(70px);
+}
+
+.quote__qt {
+  position: absolute;
+  top: -250px;
+  left: -55px;
+  color: var(--color-white);
+  font-weight: 800;
+  font-size: 600px;
+  opacity: .2;
+  @include mobile-block {
+    font-size: 200px;
+    top: -75px;
+    left: 0;
+  }
+}
+
+.quote__title {
+  font-size: responsive 26px 52px;
+  font-range: 375px 1024px;
+}
+
+.quote__author {
+  padding: 0 20px 17px 43px;
+  max-width: 390px;
+  position: relative;
+  z-index: 1;
+  background: url("../img/bg/quote-bg-author.svg") no-repeat center bottom;
+  background-size: contain;
+  margin-left: auto;
+  @include mobile(margin-top, 50px);
+  @include mobileXS(max-width, 100%);
+}
+
+.quote__author-name,
+.quote__author-position {
+  position: relative;
+  font-size: responsive 18px 26px;
+  font-range: 375px 1024px;
+}
+
