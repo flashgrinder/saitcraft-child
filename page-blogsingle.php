@@ -2,7 +2,7 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "Atricle",
+            "@type": "Article",
             "headline": "<?php the_title(); ?>",
             "image": [
                 "<?php the_field('banner'); ?>"
