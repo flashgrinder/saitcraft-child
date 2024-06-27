@@ -1,24 +1,4 @@
 <section class="blog__banner" style="background-image: url('<?php the_field('banner'); ?>');">
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Article",
-            "headline": "<?php the_title(); ?>",
-            "image": [
-                "<?php the_field('banner'); ?>"
-            ],
-            "datePublished": "<?php the_date('Y-m-d'); ?>",
-            "articleSection": "Блог",
-            "description": "<?php the_excerpt(); ?>",
-            "articleBody": "<?php the_content(); ?>",
-            "author": {
-                "@type": "Organization",
-                "name": "Сайткрафт",
-                "url": "https://saitcraft.ru/"
-            }
-
-        }
-    </script>
     <div class="container breadcrumbs__block">
         <div class="row">
             <div class="col-sm-12">
@@ -151,3 +131,23 @@
         </div>
     </div>
 </section>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "<?php the_title(); ?>",
+        "image": [
+            "<?php the_field('banner'); ?>"
+        ],
+        "datePublished": "<?php the_date('Y-m-d'); ?>",
+        "articleSection": "Блог",
+        "description": "<?php the_excerpt(); ?>",
+        "articleBody": "<?php the_content(); ?>",
+        "author": {
+            "@type": "Organization",
+            "name": "Сайткрафт",
+            "url": "https://saitcraft.ru/"
+        }
+
+    }
+</script>
