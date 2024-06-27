@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 <!-- Blog -->
-<!-- 1111 -->
 <section class="blog">
     <div class="blog__body container">
         <div class="blog__breadcrumbs">
