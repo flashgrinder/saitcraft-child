@@ -8,6 +8,8 @@
     <?php if (is_page_template('page-contacts.php')) : ?>
         <script src="https://api-maps.yandex.ru/2.1/?apikey=0cffb125-ea9f-4453-9b5e-d2b920a21be9&lang=ru_RU" type="text/javascript"></script>
     <?php endif; ?>
+
+    <meta name="mailru-verification" content="cd7ba31271ab0e9c" />
 </head>
 
 <body <?php body_class(); ?>>
