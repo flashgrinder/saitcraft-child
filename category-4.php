@@ -47,18 +47,18 @@
                 this.style.display = 'none';
             });
         </script>
-        <div class="blog__items">
+        <div class="blog__items" itemscope itemtype="http://schema.org/Blog">
             <?php if (have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
-                    <article class="blog-post">
+                    <article class="blog-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                         <header class="blog-post__header">
                             <a href="<?php the_permalink(); ?>" class=".blog-post__link blog-post__pic">
-                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="blog-post__img">
+                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="blog-post__img" itemprop="image">
                             </a>
                         </header>
                         <div class="blog-post__body">
                             <div class="blog-post__meta">
-                                <div class="blog-post__date text text--small text--white text--w-regular">
+                                <div class="blog-post__date text text--small text--white text--w-regular" itemprop="datePublished">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M12.5821 10.5281L10.8337 9.519V5.83329C10.8337 5.61228 10.7459 5.40032 10.5896 5.24404C10.4333 5.08776 10.2213 4.99996 10.0003 4.99996C9.77932 4.99996 9.56735 5.08776 9.41107 5.24404C9.25479 5.40032 9.167 5.61228 9.167 5.83329V9.99996C9.16696 10.1463 9.20544 10.29 9.27859 10.4167C9.35173 10.5434 9.45695 10.6487 9.58366 10.7218L11.7488 11.9718C11.8436 12.0266 11.9482 12.0622 12.0568 12.0765C12.1653 12.0908 12.2756 12.0836 12.3814 12.0553C12.4872 12.027 12.5863 11.9781 12.6732 11.9114C12.76 11.8448 12.8329 11.7617 12.8877 11.6668C12.9424 11.572 12.9779 11.4673 12.9922 11.3588C13.0064 11.2502 12.9992 11.1399 12.9708 11.0342C12.9424 10.9284 12.8935 10.8293 12.8268 10.7425C12.7601 10.6556 12.677 10.5828 12.5821 10.5281ZM10.0003 1.66663C8.35215 1.66663 6.74099 2.15537 5.37058 3.07105C4.00017 3.98672 2.93206 5.28821 2.30133 6.81093C1.6706 8.33365 1.50558 10.0092 1.82712 11.6257C2.14866 13.2422 2.94234 14.7271 4.10777 15.8925C5.27321 17.058 6.75807 17.8516 8.37458 18.1732C9.99109 18.4947 11.6666 18.3297 13.1894 17.699C14.7121 17.0682 16.0136 16.0001 16.9292 14.6297C17.8449 13.2593 18.3337 11.6481 18.3337 9.99996C18.3312 7.79058 17.4524 5.67239 15.8902 4.11012C14.3279 2.54785 12.2097 1.66908 10.0003 1.66663ZM10.0003 16.6666C8.68179 16.6666 7.39286 16.2756 6.29653 15.5431C5.2002 14.8105 4.34572 13.7694 3.84113 12.5512C3.33655 11.333 3.20453 9.99256 3.46176 8.69936C3.719 7.40615 4.35393 6.21826 5.28628 5.28591C6.21863 4.35356 7.40652 3.71863 8.69973 3.46139C9.99293 3.20416 11.3334 3.33618 12.5516 3.84076C13.7697 4.34535 14.8109 5.19983 15.5435 6.29616C16.276 7.39249 16.667 8.68142 16.667 9.99996C16.665 11.7674 15.9619 13.462 14.7121 14.7118C13.4623 15.9616 11.7678 16.6646 10.0003 16.6666Z" fill="#6430E8"></path>
                                     </svg>
@@ -72,18 +72,18 @@
                                 </div>
                             </div>
                             <a href="<?php the_permalink(); ?>" class="blog-post__link">
-                                <h3 class="blog-post__title title title--medium title--white title--w-bold">
+                                <h3 class="blog-post__title title title--medium title--white title--w-bold" itemprop="headline">
                                     <?php the_title(); ?>
                                 </h3>
                             </a>
-                            <div class="blog-post__excerpt text text--normal text--white text--w-regular">
+                            <div class="blog-post__excerpt text text--normal text--white text--w-regular" itemprop="description">
                                 <?php the_field('short', get_the_ID()); ?>
                             </div>
                         </div>
                         <footer class="blog-post__footer">
                             <div class="blog-post__author">
                                 <img src="<?php the_field('foto_avtora', get_the_ID()); ?>" alt="<?php the_field('author_name', get_the_ID()); ?>" class="blog-post__author-photo">
-                                <div class="blog-post__author-name text text--small text--white text--w-regular">
+                                <div class="blog-post__author-name text text--small text--white text--w-regular" itemprop="author">
                                     <?php the_field('author_name', get_the_ID()); ?>
                                 </div>
                             </div>
