@@ -53,7 +53,7 @@
                     <article class="blog-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                         <header class="blog-post__header">
                             <a href="<?php the_permalink(); ?>" class=".blog-post__link blog-post__pic">
-                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="blog-post__img" itemprop="image">
+                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="blog-post__img" itemprop="thumbnailUrl">
                             </a>
                         </header>
                         <div class="blog-post__body">
