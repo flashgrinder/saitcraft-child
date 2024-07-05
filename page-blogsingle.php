@@ -1,4 +1,4 @@
-<section class="blog__banner" style="background-image: url('<?php the_field('banner'); ?>');">
+<section class="blog__banner" style="background-image: url('<?php the_field('banner'); ?>');" itemprop="image">
     <div class="container breadcrumbs__block">
         <div class="row">
             <div class="col-sm-12">
@@ -9,12 +9,14 @@
     <?php setPostViews(get_the_ID()); ?>
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12" itemprop="headline">
                 <h1><?php the_title(); ?></h1>
             </div>
             <div class="col-sm-12">
                 <div class="blog__single-meta">
                     <div class="card__blog-author">
+                        <meta itemprop="author" content="Сайткрафт">
+                        <link itemprop="url" href="https://saitcraft.ru/">
                         <img src="<?php the_field('foto_avtora'); ?>" alt="<?php the_field('author_name'); ?>">
                         <span class="card__blog-authorname"><?php the_field('author_name'); ?></span>
                     </div>
@@ -42,10 +44,11 @@
         </div>
     </div>
 </section>
+<meta content="Блог" itemprop="articleSection">
 <section class="blog__content">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12" itemprop="articleBody">
                 <?php the_content(); ?>
             </div>
         </div>
