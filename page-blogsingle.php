@@ -131,7 +131,7 @@
         </div>
     </div>
 </section>
-<!-- <script type="application/ld+json">
+<script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -150,4 +150,4 @@
         }
 
     }
-</script> -->
+</script>
