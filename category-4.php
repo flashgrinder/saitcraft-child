@@ -52,8 +52,10 @@
                 <?php while (have_posts()) : the_post(); ?>
                     <article class="blog-post" itemprop="blogPosts" itemscope itemtype="http://schema.org/BlogPosting">
                         <header class="blog-post__header">
-                            <a href="<?php the_permalink(); ?>" class=".blog-post__link blog-post__pic">
-                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="blog-post__img" itemprop="thumbnailUrl">
+                            <a href="<?php the_permalink(); ?>" class=".blog-post__link blog-post__pic" itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+                                <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="blog-post__img" itemprop="url contentUrl">
+                                <meta content="428.66" itemprop="width">
+                                <meta content="285.77" itemprop="height"><!-- изображение -->
                             </a>
                         </header>
                         <div class="blog-post__body">
@@ -72,7 +74,7 @@
                                 </div>
                             </div>
                             <a href="<?php the_permalink(); ?>" class="blog-post__link">
-                                <h3 class="blog-post__title title title--medium title--white title--w-bold" itemprop="headline">
+                                <h3 class="blog-post__title title title--medium title--white title--w-bold" itemprop="headline name">
                                     <?php the_title(); ?>
                                 </h3>
                             </a>
@@ -88,6 +90,15 @@
                                 </div>
                             </div>
                         </footer>
+                        <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                            <!-- Указываем издателя, логотип и контакты -->
+                            <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+                                <link itemprop="url image" href="https://saitcraft.ru/#/schema/logo/image/"><!-- Если дизайн позволяет показать логотип, то тег link замените на img -->
+                                <meta content="295" itemprop="width">
+                                <meta content="83" itemprop="height">
+                            </div>
+                            <meta content="Сайткрафт" itemprop="name">
+                        </div>
                     </article>
                 <?php endwhile; ?>
             <?php else : ?>

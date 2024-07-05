@@ -142,7 +142,7 @@
         "datePublished": "<?php the_date('Y-m-d'); ?>",
         "articleSection": "Блог",
         "description": "<?php the_excerpt(); ?>",
-        "articleBody": "<?php the_content(); ?>",
+        "articleBody": ["<?php the_content(); ?>"],
         "author": {
             "@type": "Organization",
             "name": "Сайткрафт",
