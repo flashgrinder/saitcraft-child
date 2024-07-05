@@ -155,4 +155,4 @@
         </div>
     </header>
 
-    <main class="<?php if (is_page_template('page-reviews.php')) echo 'main page__container'; ?>" <?php if (is_page_template('page-blogsingle.php')) echo 'itemscope itemtype=\"http://schema.org/Article\"'; ?>>
+    <main class="<?php if (is_page_template('page-reviews.php')) echo 'main page__container'; ?>">
