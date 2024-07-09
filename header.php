@@ -1,9 +1,3 @@
-<?php
-    $metrika_str = preg_match("^https?://([^/]+metrika.yandex\.(ru|ua|com|com\.tr|by|kz)|([^/]+\.)?webvisor\.com/", $_SERVER['HTTP_REFERER']);
-    if(!$metrika_str){
-        header('X-Frame-Options:Sameorigin');
-    }
-?>
 <?php header("Last-Modified: " . get_the_modified_date('r')) ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
