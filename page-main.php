@@ -5,10 +5,10 @@ Template Name: Главная страница
 get_header();
 ?>
 
-<section class="main__screen element-with-video-bg jquery-background-video-wrapper" >
-    <video class="my-background-video jquery-background-video" loop autoplay muted playsinline poster="/bg-main.jpeg">
-        <source src="/video-bg.mp4" type="video/mp4">
-    </video>
+<section class="main__screen element-with-video-bg jquery-background-video-wrapper" style="background: #212121f7;">
+<!--    <video class="my-background-video jquery-background-video" loop autoplay muted playsinline poster="/bg-main.jpeg">-->
+<!--        <source src="/video-bg.mp4" type="video/mp4">-->
+<!--    </video>-->
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
