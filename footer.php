@@ -37,9 +37,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<span class="contacts__city"><?php echo do_shortcode('[widget_city]') ?></span>
-				<a href="tel:+7 (499) 288-18-02" class="contacts__phone"><?php echo do_shortcode('[city_phone]') ?></a>
-				<span class="contacts__address"><?php echo do_shortcode('[city_address] ') ?></span>
+<!--				<span class="contacts__city">--><?php //echo do_shortcode('[widget_city]') ?><!--</span>-->
+				<a href="tel:+ 7 (351) 242-02-48" class="contacts__phone">
+					<?php //echo do_shortcode('[city_phone]') ?>
+					+ 7 (351) 242-02-48
+				</a>
+<!--				<span class="contacts__address">--><?php //echo do_shortcode('[city_address] ') ?><!--</span>-->
 				<a href="/contacts/" class="connect__btn">Как связаться
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M23 12C23 18.0751 18.0751 23 12 23C10.2804 23 2 23 2 23C2 23 2 23 4.59717 20.1363C2.38713 18.1244 1 15.2242 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -250,15 +253,15 @@
 					</div>
 
 					<div class="col-sm-12">
-						<a class="mobile__tel" href="tel:+7 (499) 288-18-02">+7 (499) 288-18-02</a>
+						<a class="mobile__tel" href="tel:+ 7 (351) 242-02-48">+ 7 (351) 242-02-48</a>
 						<a href="javascript:;" data-stc-modal="#feedback-stc" class="btn__header">
 							<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M23 12C23 18.0751 18.0751 23 12 23C10.2804 23 2 23 2 23C2 23 2 23 4.59717 20.1363C2.38713 18.1244 1 15.2242 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 								<path d="M13 14H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 								<path d="M16 10H9" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 							</svg>
-							Обсудить проект</a>
-
+							Обсудить проект
+						</a>
 					</div>
 				</div>
 			</div>

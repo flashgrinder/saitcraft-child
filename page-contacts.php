@@ -23,14 +23,15 @@ get_header();
     <div class="container">
         <div class="row"> 
             <div class="col-sm-4">
-                <span class="contacts__city">
-                    <?php echo do_shortcode('[widget_city]')?>
-                </span>
-                <a href="tel:<?php echo do_shortcode('[city_phone]')?>" class="contacts__phone">
-                    <?php echo do_shortcode('[city_phone]')?>
+<!--                <span class="contacts__city">-->
+<!--                    --><?php //echo do_shortcode('[widget_city]')?>
+<!--                </span>-->
+                <a href="tel:+ 7 (351) 242-02-48<?php //echo do_shortcode('[city_phone]')?>" class="contacts__phone">
+                    <?php //echo do_shortcode('[city_phone]')?>
+                    + 7 (351) 242-02-48
                 </a>
                 <span class="contacts__address" data-coords="[55.73306672259452, 37.590120286524815]">
-                    <?php echo do_shortcode('[city_address] ')?>
+                    <?php //echo do_shortcode('[city_address] ')?>
                 </span>
 				<a href="mailto:zakaz@saitcraft.ru" span class="contacts__email" data-coords="[55.73306672259452, 37.590120286524815]">
                     zakaz@saitcraft.ru
