@@ -24,13 +24,13 @@ get_header();
         <div class="row"> 
             <div class="col-sm-4">
                 <span class="contacts__city">
-                    Аптекарская наб., 18
+                    Москва
                 </span>
                 <a href="tel:+ 7 (351) 242-02-48" class="contacts__phone">
                     + 7 (351) 242-02-48
                 </a>
                 <span class="contacts__address" data-coords="[55.73306672259452, 37.590120286524815]">
-                    <?php //echo do_shortcode('[city_address] ')?>
+                    Аптекарская наб., 18
                 </span>
 				<a href="mailto:zakaz@saitcraft.ru" span class="contacts__email" data-coords="[55.73306672259452, 37.590120286524815]">
                     zakaz@saitcraft.ru
