@@ -1,4 +1,4 @@
-<?php //header("Last-Modified: " . get_the_modified_date('r')) ?>
+<?php header("Last-Modified: " . get_the_modified_date('r')) ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 

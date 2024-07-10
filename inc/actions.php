@@ -1,5 +1,5 @@
 <?php
-const VERSION_THEME_FILES = '1.0.7.1';
+const VERSION_THEME_FILES = '1.0.7.2';
 
 add_action('wp_enqueue_scripts', function () {
 
@@ -38,6 +38,12 @@ add_action('wp_head', function () {
 		}();
 	</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1311016-4DMMi" style="position:fixed; left:-999px;" alt="" /></noscript>
 
+	<?php
+}, 99);
+
+## JS в конце документа
+add_action('wp_footer', function () {
+?>
 
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
@@ -57,14 +63,6 @@ add_action('wp_head', function () {
 	</script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/25803377" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
-
-
-	<?php
-}, 99);
-
-## JS в конце документа
-add_action('wp_footer', function () {
-?>
 
 	<script>
 		// (function(ratingRuneta) {
