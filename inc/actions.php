@@ -1,5 +1,5 @@
 <?php
-const VERSION_THEME_FILES = '1.0.2';
+const VERSION_THEME_FILES = '1.0.7.5';
 
 add_action('wp_enqueue_scripts', function () {
 
@@ -28,6 +28,7 @@ add_action('wp_head', function () {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 	<script type="text/javascript">
 		! function() {
 			var t = document.createElement("script");
@@ -36,9 +37,8 @@ add_action('wp_head', function () {
 			}, document.head.appendChild(t)
 		}();
 	</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1311016-4DMMi" style="position:fixed; left:-999px;" alt="" /></noscript>
-	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-<?php
+	<?php
 }, 99);
 
 ## JS в конце документа
@@ -63,7 +63,7 @@ add_action('wp_footer', function () {
 				k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
 			})
 			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-			ym(92096748, "init", {
+			ym(25803377, "init", {
 				'clickmap': false,
 				'trackLinks': false,
 				'accurateTrackBounce': true,
