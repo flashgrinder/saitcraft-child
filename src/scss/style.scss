@@ -76,7 +76,9 @@
 /* Table-cost */
 @import './blocks/table-cost';
 
-@import './blocks/context' /* Other Style*/ form.modal__form button svg {
+@import './blocks/context';
+
+form.modal__form button svg {
 	margin: 0;
 }
 
@@ -160,5 +162,11 @@ form.form-page__form button svg {
 	@include mobileXS-block {
 		background-image: none;
 		height: 500px;
+	}
+}
+
+.subtext_colored {
+	@include mobileXS-block {
+		font-size: 32px;
 	}
 }

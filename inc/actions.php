@@ -1,5 +1,5 @@
 <?php
-const VERSION_THEME_FILES = '1.0.7.5';
+const VERSION_THEME_FILES = '1.0.7.6';
 
 add_action('wp_enqueue_scripts', function () {
 
@@ -38,7 +38,7 @@ add_action('wp_head', function () {
 		}();
 	</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-1311016-4DMMi" style="position:fixed; left:-999px;" alt="" /></noscript>
 
-	<?php
+<?php
 }, 99);
 
 ## JS в конце документа
