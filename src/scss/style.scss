@@ -155,3 +155,10 @@ form.form-page__form button svg {
 }
 
 /* MEDIA QUERIES */
+
+.consulting__first-back {
+	@include mobileXS-block {
+		background-image: none;
+		height: 500px;
+	}
+}
