@@ -24,13 +24,13 @@ get_header();
         <div class="row"> 
             <div class="col-sm-4">
                 <span class="contacts__city">
-                    <?php echo do_shortcode('[widget_city]')?>
+                    Москва
                 </span>
-                <a href="tel:<?php echo do_shortcode('[city_phone]')?>" class="contacts__phone">
-                    <?php echo do_shortcode('[city_phone]')?>
+                <a href="tel:+ 7 (351) 242-02-48" class="contacts__phone">
+                    + 7 (351) 242-02-48
                 </a>
                 <span class="contacts__address" data-coords="[55.73306672259452, 37.590120286524815]">
-                    <?php echo do_shortcode('[city_address] ')?>
+                    Аптекарская наб., 18
                 </span>
 				<a href="mailto:zakaz@saitcraft.ru" span class="contacts__email" data-coords="[55.73306672259452, 37.590120286524815]">
                     zakaz@saitcraft.ru
@@ -40,8 +40,8 @@ get_header();
                 <span class="contacts__city">
                     Единый многоканальный номер
                 </span>
-                <a href="tel:+7 (800) 500-98-49" class="contacts__phone">
-                    +7 (800) 500-98-49
+                <a href="tel:+7 (499) 288-18-02" class="contacts__phone">
+                    +7 (499) 288-18-02
                 </a>
                 <span class="contacts__address" data-coords="[59.97828403203298, 30.316013069323088]">
                     Аптекарская наб., 18

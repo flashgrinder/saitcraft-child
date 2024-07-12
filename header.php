@@ -24,40 +24,6 @@
     }
     ?>
 
-    <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQTS4MC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
-    <!-- End Google Tag Manager (noscript) -->
-
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function(m, e, t, r, i, k, a) {
-            m[i] = m[i] || function() {
-                (m[i].a = m[i].a || []).push(arguments)
-            };
-            m[i].l = 1 * new Date();
-            for (var j = 0; j < document.scripts.length; j++) {
-                if (document.scripts[j].src === r) {
-                    return;
-                }
-            }
-            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-        })
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-
-        ym(25803377, "init", {
-            clickmap: true,
-            trackLinks: true,
-            accurateTrackBounce: true,
-            webvisor: true
-        });
-    </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/25803377" style="position:absolute; left:-9999px;" alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
-
-
     <header class="<?php echo $header_class; ?>">
         <div class="container h-100">
             <div class="row h-100">
@@ -94,7 +60,6 @@
                                     </linearGradient>
                                 </defs>
                             </svg>
-
                         </a>
                         <a href="https://api.whatsapp.com/send?phone=79995838586" target="_blank">
                             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +74,7 @@
                                 </defs>
                             </svg>
                         </a>
-                        <a href="tel:<?php echo do_shortcode('[city_phone]') ?>" class="header__tel d-sm-none d-md-block d-lg-none">
+                        <a href="tel:+ 7 (351) 242-02-48<?php //echo do_shortcode('[city_phone]') ?>" class="header__tel d-sm-none d-md-block d-lg-none">
                             <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                             <svg class="d-sm-none d-md-block d-lg-none" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_193_2133)">
@@ -136,14 +101,16 @@
                                 </defs>
                             </svg>
                             <span class="d-none d-sm-block d-md-none d-lg-block">
-                                <?php echo do_shortcode('[belingogeo_city_field field="city_phone"]') ?>
+                                <?php //echo do_shortcode('[belingogeo_city_field field="city_phone"]') ?>
+                                + 7 (351) 242-02-48
                             </span>
                         </a>
                     </div>
 
-                    <a href="tel:<?php echo do_shortcode('[city_phone]') ?>" class="header__tel d-none d-sm-block d-md-none d-lg-block">
+                    <a href="tel:+ 7 (351) 242-02-48<?php //echo do_shortcode('[city_phone]') ?>" class="header__tel d-none d-sm-block d-md-none d-lg-block">
                         <span class="d-none d-sm-block d-md-none d-lg-block">
-                            <?php echo do_shortcode('[belingogeo_city_field field="city_phone"]') ?>
+                            <?php //echo do_shortcode('[belingogeo_city_field field="city_phone"]') ?>
+                            + 7 (351) 242-02-48
                         </span>
                     </a>
                     <!--<div style="margin-left:10px; position: relative;"><?php echo do_shortcode('[belingogeo_select_city]') ?></div>-->
