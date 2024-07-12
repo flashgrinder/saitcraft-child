@@ -170,3 +170,27 @@ form.form-page__form button svg {
 		font-size: 32px;
 	}
 }
+
+.about__section .team-circle {
+	@include mobile-block {
+		margin-top: 100px;
+	}
+}
+
+.bigplus__text {
+	@include mobile-block {
+		margin-bottom: 50px;
+	}
+}
+
+.webinar__card-title {
+	@include mobile-block {
+		margin-bottom: 50px;
+	}
+}
+
+.webinar__card-meta {
+	@include mobile-block {
+		margin-top: 50px;
+	}
+}

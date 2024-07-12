@@ -4829,6 +4829,22 @@ form.form-page__form button svg {
     max-width: 100%;
     justify-content: center;
   }
+
+  .about__section .team-circle {
+    margin-top: 100px;
+  }
+
+  .bigplus__text {
+    margin-bottom: 50px;
+  }
+
+  .webinar__card-title {
+    margin-bottom: 50px;
+  }
+
+  .webinar__card-meta {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 767px) {
