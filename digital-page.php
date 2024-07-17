@@ -15,7 +15,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1><?php the_field('title_banner');?> <?php echo do_shortcode('[city_padej1]')?></h1>
+                <h1><?php the_field('title_banner');?> <?php //echo do_shortcode('[city_padej1]')?></h1>
                 <p><?php the_field('text_banner');?></p>
                 <div class="btn__wrap">
                 <a href="javascript:;" class="button button--icon" data-stc-modal="#feedback-stc">
