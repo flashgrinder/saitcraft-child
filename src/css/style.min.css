@@ -108,6 +108,7 @@
 html {
   scroll-behavior: smooth;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -2001,6 +2002,7 @@ html.with-fancybox body.hide-scrollbar {
 .fancybox-placeholder {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
   height: 1px !important;
   margin: -1px !important;
@@ -2132,7 +2134,8 @@ html.with-fancybox body.hide-scrollbar {
 }
 
 .is-modern .f-thumbs__slide > * {
-  clip-path: var(--clip-path);
+  -webkit-clip-path: var(--clip-path);
+          clip-path: var(--clip-path);
 }
 
 .is-modern.in-touch .f-thumbs__slide {
