@@ -1384,15 +1384,11 @@ main {
 	font-size: 20px;
 	line-height: 147%;
 	/* or 29px */
-
 	letter-spacing: -0.02em;
-
 	/* Main-/Dark */
-
 	color: #1a1e23;
-
 	opacity: 0.8;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 40px;
 	display: block;
 }
@@ -1532,7 +1528,7 @@ main {
 	/* Main-/White */
 
 	color: #ffffff;
-	margin-top: 100px;
+	margin-top: 50px;
 	margin-bottom: 40px;
 }
 
@@ -1673,7 +1669,7 @@ main {
 	/* Main-/White */
 
 	color: #ffffff;
-	margin-top: 148px;
+	margin-top: 50px;
 	margin-bottom: 40px;
 }
 
@@ -2295,7 +2291,7 @@ header.small__header {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-column-gap: 20px;
-	padding-bottom: 60px;
+	padding-bottom: 50px;
 }
 
 .logos__grid div {
@@ -5248,6 +5244,9 @@ footer a:hover {
 @media (max-width: 767.98px) {
 	.seo__banner1 {
 		padding-top: 20px;
+	}
+	.vacancy__banner .vacancy__banner-img {
+		display: none;
 	}
 
 	.bottom__form .col-sm-6:nth-child(1) {
