@@ -287,7 +287,7 @@ $query = new WP_Query( $args );
     </div>
 </section>
 
-<section class="dev__banner" style="height: 780px">
+<section class="dev__banner">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

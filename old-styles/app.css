@@ -3612,7 +3612,7 @@ footer a:hover {
 	letter-spacing: -0.01em;
 
 	/* Main-/White */
-	margin-top: 172px;
+	margin-top: 50px;
 	margin-bottom: 40px;
 
 	color: #ffffff;
@@ -4193,7 +4193,7 @@ footer a:hover {
 }
 
 .context__banner2 {
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 .crm__page_kak {
@@ -5245,8 +5245,17 @@ footer a:hover {
 	.seo__banner1 {
 		padding-top: 20px;
 	}
+	.dev__banner2 h2 {
+		margin-top: 0;
+	}
+	.withbg__section .subtext {
+		margin-bottom: 50px;
+	}
 	.vacancy__banner .vacancy__banner-img {
 		display: none;
+	}
+	.section__wrap {
+		padding-top: 50px;
 	}
 
 	.bottom__form .col-sm-6:nth-child(1) {
@@ -5395,7 +5404,7 @@ footer a:hover {
 	}
 
 	.block__wave {
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 
 	.social__contacts a:nth-child(2) {
@@ -6018,13 +6027,13 @@ footer a:hover {
 		font-size: 28px;
 		line-height: 136%;
 		/* or 38px */
-		margin-top: 40px;
+		margin-top: 0;
 		margin-bottom: 30px;
 	}
 
 	.consulting__third-back {
 		height: auto;
-		padding-bottom: 30px;
+		padding-bottom: 50px;
 	}
 
 	.consult__line,

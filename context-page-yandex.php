@@ -274,7 +274,7 @@ $query = new WP_Query( $args );
         </div>
     </div>
 </section>
-<section class="section__wrap grayback pb-1 pb-sm-5" style="background-color:white">
+<section class="section__wrap grayback pb-5 pb-sm-5" style="background-color:white">
 	<div class="container">
 		<div class="row">
 		
@@ -506,9 +506,6 @@ $query = new WP_Query( $args );
     background-position: right bottom;
     background-size: 60%;
     background-repeat: no-repeat;
-    
-    padding-top: 70px;
-    
 }">
     <div class="container">
         <div class="row">
@@ -856,7 +853,7 @@ $query = new WP_Query( $args );
         </div>
     </div>
 </section>
-<section class="section__wrap crm__page context__page-rows">
+<section class="section__wrap pb-5 pt-5 crm__page context__page-rows">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -1059,7 +1056,7 @@ $query = new WP_Query( $args );
   }
 }
 </script>																							 
-			<section class="section__wrap grayback pb-1 pb-sm-5">
+			<section class="section__wrap grayback pb-5 pt-5 pb-sm-5">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
