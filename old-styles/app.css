@@ -5256,6 +5256,7 @@ footer a:hover {
 	}
 	.section__wrap {
 		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.bottom__form .col-sm-6:nth-child(1) {
