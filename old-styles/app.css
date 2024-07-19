@@ -127,7 +127,7 @@ header {
 	height: 72px;
 	z-index: 1000;
 	/* background: #1A1E23; */
-	position: sticky;
+	position: fixed;
 	width: 100%;
 	top: 0px;
 	box-shadow: 0px 1px 1px rgba(83, 38, 197, 0.05);
