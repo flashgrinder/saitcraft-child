@@ -1,5 +1,5 @@
 <?php
-const VERSION_THEME_FILES = '1.0.7.9';
+const VERSION_THEME_FILES = '1.0.8.1';
 
 add_action('wp_enqueue_scripts', function () {
 
