@@ -14,7 +14,8 @@
             'Записаться на экскурсию' == $title
             ) {
 
-            $queryUrl = 'https://saitcraft.bitrix24.ru/rest/13/s7sugqiitewyxvim/crm.lead.add.json';
+//            $queryUrl = 'https://saitcraft.bitrix24.ru/rest/13/s7sugqiitewyxvim/crm.lead.add.json';
+            $queryUrl = 'https://saitcraft.bitrix24.ru/rest/236/o0mw1hvvdzpz6ns5/crm.lead.add.json';
             $submission = WPCF7_Submission::get_instance();
             $posted_data = $submission->get_posted_data();
 
