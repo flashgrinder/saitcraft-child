@@ -165,7 +165,7 @@ if ( $query->have_posts() ) :
 	<?php echo $archivalVacancies ?>
 </section>
 <?php endif; ?>
-<section class="vacancy__banner" style="margin-top:40px;">
+<section class="vacancy__banner">
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -179,7 +179,7 @@ if ( $query->have_posts() ) :
 					Отправить резюме
                 </a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 vacancy__banner-img">
                 <img src="/wp-content/uploads/2022/03/startup_svg-1.png" alt="">
             </div>
         </div>

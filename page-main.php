@@ -12,7 +12,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Маркетинговое<br> агентство для B2B <!--<br><?php echo do_shortcode('[city_padej1]')?></h1>-->
+                <h1>Маркетинговое<br> агентство для B2B <br><?php //echo do_shortcode('[city_padej1]')?></h1>
                 <span class="subtitle">
                     Реализуем сложные проекты в промышленной сфере: нефтегазовая, металлы, оборудование,<br> спец.техника, строительство, производство
                 </span>

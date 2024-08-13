@@ -15,7 +15,7 @@ get_header();
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1><?php the_field('title_banner'); ?><?php echo do_shortcode('[city_padej1]') ?></h1>
+				<h1><?php the_field('title_banner'); ?><?php //echo do_shortcode('[city_padej1]') ?></h1>
 				<span class="subtitle__context">в Яндекс.Директ и Google Ads</span>
 				<p><?php the_field('text_banner'); ?></p>
 				<a href="javascript:;" class="button button--icon" data-stc-modal="#feedback-stc">
@@ -231,7 +231,7 @@ get_header();
 
 	</div>
 </section>
-<section class="section__wrap grayback pb-1 pb-sm-5" style="background-color:white">
+<section class="section__wrap grayback pb-5 pb-sm-5" style="background-color:white">
 	<div class="container">
 		<div class="row">
 
@@ -332,7 +332,7 @@ get_header();
 		</div>
 	</div>
 </section>
-<section class="section__wrap grayback pb-1 pb-sm-5">
+<section class="section__wrap grayback pb-5 pb-sm-5">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
@@ -610,7 +610,7 @@ get_header();
 	</div>
 </section>
 <!-- Form Phone -->
-<section class="form-phone pb-4">
+<section class="form-phone">
 	<div class="form-phone__body container">
 		<div class="form-phone__outer">
 			<div class="form-phone__info">

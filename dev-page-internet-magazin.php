@@ -15,7 +15,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1><?php the_field('title_banner');?> <?php echo do_shortcode('[city_padej1]')?></h1>
+                <h1><?php the_field('title_banner');?> <?php //echo do_shortcode('[city_padej1]')?></h1>
                 <p><?php the_field('text_banner');?></p>
                 <a href="javascript:;" class="button button--icon" data-stc-modal="#feedback-stc">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -298,7 +298,7 @@ $query = new WP_Query( $args );
     </div>
 </section>
 
-<section class="dev__banner" style="height: 780px">
+<section class="dev__banner">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">

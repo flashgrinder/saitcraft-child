@@ -1,8 +1,8 @@
 <?
 
-    add_action('wpcf7_send_mail', 'wpcf7_mail_sent_function');
+    add_action('wpcf7_before_send_mail', 'my_wpcf7_mail_sent_function');
     
-    function wpcf7_mail_sent_function($contact_form) {
+    function my_wpcf7_mail_sent_function($contact_form) {
 
         $title = $contact_form->title;
         $posted_data = $contact_form->posted_data;
@@ -14,7 +14,8 @@
             'Записаться на экскурсию' == $title
             ) {
 
-            $queryUrl = 'https://saitcraft.bitrix24.ru/rest/13/s7sugqiitewyxvim/crm.lead.add.json';
+//            $queryUrl = 'https://saitcraft.bitrix24.ru/rest/13/s7sugqiitewyxvim/crm.lead.add.json';
+            $queryUrl = 'https://saitcraft.bitrix24.ru/rest/236/o0mw1hvvdzpz6ns5/crm.lead.add.json';
             $submission = WPCF7_Submission::get_instance();
             $posted_data = $submission->get_posted_data();
 
