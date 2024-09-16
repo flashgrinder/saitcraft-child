@@ -78,7 +78,7 @@
                                     <?php the_title(); ?>
                                 </h3>
                             </a>
-                            <div class="blog-post__excerpt text text--normal text--white text--w-regular" itemprop="description">
+                            <div class="blog-post__excerpt text text--normal text--white text--w-regular" itemprop="text">
                                 <?php the_field('short', get_the_ID()); ?>
                             </div>
                         </div>

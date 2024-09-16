@@ -49,7 +49,7 @@
     <section class="blog__content">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12" itemprop="articleBody">
+                <div class="col-sm-12" itemprop="text">
                     <?php the_content(); ?>
                 </div>
             </div>
