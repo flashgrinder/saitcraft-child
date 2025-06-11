@@ -380,10 +380,10 @@
 			<div class="form-phone__outer">
 				<div class="form-phone__info">
 					<h3 class="form-phone__heading title title--pre-large title--dark title--w-semi-bold center">
-						Помочь с выбором
+						Нужна подсказка от эксперта?
 					</h3>
 					<p class="form-phone__subtitle text text--large text--dark text--w-semi-bold center">
-						Оставьте номер и мы перезвоним вам в течение 1 часа
+						Оставьте номер — наш специалист свяжется с вами в течение часа и поможет с выбором.
 					</p>
 				</div>
 				<?= do_shortcode('[contact-form-7 id="502f623" title="Контактная форма c телефоном" html_class="form-phone__form"]'); ?>
