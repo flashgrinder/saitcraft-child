@@ -5436,6 +5436,10 @@ form.form-page__form button svg {
     margin-top: 25px;
   }
 
+  .case-about.case-about--last .case-about__num::before {
+    content: none;
+  }
+
   .case-container {
     margin-top: 25px;
   }

@@ -1,4 +1,4 @@
-<?php if( !is_page_template('page-director.php' ) ): ?>
+<?php if( !is_page_template('page-director.php' ) && !is_page_template('page-case-brturbo.php' ) ): ?>
 <!-- Form Page-->
 <section class="form-page">
 	<div class="form-page__body container">

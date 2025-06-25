@@ -170,3 +170,7 @@
 	bottom: -5px;
 	padding: 0;
 }
+
+.case-about.case-about--last .case-about__num::before {
+	@include mobile(content, none);
+}
