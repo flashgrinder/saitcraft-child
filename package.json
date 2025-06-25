@@ -48,6 +48,7 @@
 	},
 	"dependencies": {
 		"@fancyapps/ui": "^5.0.22",
+		"@splidejs/splide": "^4.1.4",
 		"axios": "^1.5.1",
 		"babel-cli": "^6.26.0",
 		"babel-preset-es2015": "^6.24.1",

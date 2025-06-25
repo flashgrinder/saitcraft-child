@@ -10,6 +10,10 @@
 @import './base/animation';
 /* Base Classes */
 @import './base/classes';
+/* Titles */
+@import './base/titles';
+/* Text */
+@import './base/text';
 
 /* ANOTHER MODULES */
 
@@ -19,6 +23,8 @@
 @import './blocks/belingogeo';
 /* Hyst Modal*/
 @import './blocks/hystmodal';
+/* Splide */
+@import './blocks/splide';
 
 /* ANOTHER MODULES */
 
@@ -75,6 +81,16 @@
 @import './blocks/search-promotion';
 /* Table-cost */
 @import './blocks/table-cost';
+/* Case-top */
+@import './blocks/case-top';
+/* Case-about */
+@import './blocks/case-about';
+/* Case-container */
+@import './blocks/case-container';
+/* Case-decor */
+@import './blocks/case-decor';
+/* Slider-nav */
+@import './blocks/slider-nav';
 
 @import './blocks/context';
 

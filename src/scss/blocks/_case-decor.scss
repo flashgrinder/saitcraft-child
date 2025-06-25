@@ -1,0 +1,16 @@
+.case-decor {
+	position: relative;
+}
+
+.case-decor::after {
+	content: '';
+	position: absolute;
+	left: -24px;
+	top: 40px;
+	bottom: 35px;
+	width: 1px;
+	background: linear-gradient(180deg, #FF00D6 0%, #000CFF 100%);
+	@include to(1300px) {
+		content: none;
+	}
+}

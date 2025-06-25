@@ -14,6 +14,19 @@
 	@include wrapper-full();
 }
 
+.container-right {
+	--container-width: 1280px;
+	--container-padding: 12px;
+	padding-left: calc(
+			(100% - var(--container-width)) / 2 + var(--container-padding)
+	);
+	margin-left: 16px;
+}
+
+.page-case-brturbo .container {
+	max-width: 1280px;
+}
+
 /* Hide */
 
 .hide {
@@ -78,157 +91,4 @@
 
 .link:hover {
     color: var(--color-blue);
-}
-
-/* Title */
-
-.title {
-    font-family: var(--font-primary);
-    font-style: normal;
-    margin: 0;
-	&--huge {
-		font-size: responsive 26px 56px;
-		font-range: 375px 1024px;
-	}
-    &--big {
-        font-size: responsive 26px 48px;
-        font-range: 375px 1024px;
-    }
-    &--large {
-        font-size: responsive 24px 40px;
-        font-range: 1024px 1440px;
-    }
-	&--pre-large {
-        font-size: responsive 24px 30px;
-        font-range: 1024px 1440px;
-    }
-    &--big-medium {
-        font-size: responsive 24px 26px;
-        font-range: 375px 1024px;
-    }
-	&--medium {
-        font-size: responsive 20px 24px;
-        font-range: 1024px 1440px;
-    }
-    &--small {
-        font-size: 20px;
-    }
-    &--tiny {
-        font-size: 18px;
-    }
-    &--dark {
-        color: var(--color-dark);
-	}
-	&--white {
-        color: var(--color-white);
-	}
-	&--purple {
-        color: var(--color-purple);
-	}
-	&--pink {
-        color: var(--color-pink);
-	}
-	&--w-extra-light {
-		font-weight: 200;
-    }
-	&--w-light {
-		font-weight: 300;
-    }
-    &--w-regular {
-		font-weight: 400;
-	}
-    &--w-medium {
-		font-weight: 500;
-	}
-	&--w-semi-bold {
-		font-weight: 600;
-	}
-	&--w-bold {
-		font-weight: bold;
-	}
-	&--w-extra-bold {
-		font-weight: 800;
-	}
-	&--w-black {
-		font-weight: 900;
-	}
-	&--uppercase {
-		text-transform: uppercase;
-	}
-}
-
-.title--indent {
-    margin: 0 0 50px;
-    @include tablet(margin, 0 0 25px);
-}
-
-/* Text */
-
-.text {
-    font-family: var(--font-primary);
-    font-style: normal;
-    margin: 0;
-	&--white {
-		color: var(--color-white);
-	}
-	&--dark {
-		color: var(--color-dark);
-	}
-	&--purple {
-		color: var(--color-purple);
-	}
-	&--big {
-        font-size: responsive 20px 30px;
-        font-range: 360px 1440px;
-	}
-	&--large {
-        font-size: responsive 18px 22px;
-        font-range: 360px 1440px;
-	}
-	&--pre-large {
-        font-size: responsive 18px 24px;
-        font-range: 360px 1024px;
-	}
-	&--medium {
-        font-size: 18px;
-	}
-	&--normal {
-        font-size: 16px;
-	}
-	&--pre-small {
-        font-size: 14px;
-	}
-	&--small {
-		font-size: 12px;
-	}
-	&--tiny {
-		font-size: 10px;
-	}
-	&--w-light {
-		font-weight: 300;
-	}
-	&--w-regular {
-		font-weight: normal;
-	}
-	&--w-medium {
-		font-weight: 500;
-	}
-	&--w-semi-bold {
-		font-weight: 600;
-	}
-	&--w-bold {
-		font-weight: 700;
-    }
-	&--w-extra-bold {
-		font-weight: 800;
-    }
-	&--w-black {
-		font-weight: 900;
-    }
-    &--italic {
-        font-style: italic;
-    }
-    &--uppercase {
-		text-transform: uppercase;
-	}
 }
