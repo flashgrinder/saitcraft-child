@@ -60,3 +60,33 @@
 		object-position: 60%;
 	}
 }
+
+.case-top__subject {
+	margin-top: 135px;
+}
+
+.case-top__subject-title {
+	margin-bottom: 40px;
+}
+
+.case-top__subject-items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.case-top__subject-btn {
+	width: auto;
+	padding: 10px 50px 12px;
+	max-width: 433px;
+	font-weight: 300;
+	opacity: .8;
+}
+
+.case-top--chzta .case-top__pic	{
+	max-width: 550px;
+}
+
+.case-top--chzta .case-top__wrap {
+	max-width: 810px;
+}

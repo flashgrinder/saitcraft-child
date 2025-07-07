@@ -416,6 +416,41 @@
 									</div>
 								</div>
 							</div>
+							<div class="splide__slide">
+								<div class="case-about__slide-inner">
+									<div class="case-about__pic">
+										<img src="<?= STANDART_DIR; ?>/img/cases/case-brturbo-dev-8.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="splide__slide">
+								<div class="case-about__slide-inner">
+									<div class="case-about__pic">
+										<img src="<?= STANDART_DIR; ?>/img/cases/case-brturbo-dev-9.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="splide__slide">
+								<div class="case-about__slide-inner">
+									<div class="case-about__pic">
+										<img src="<?= STANDART_DIR; ?>/img/cases/case-brturbo-dev-10.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="splide__slide">
+								<div class="case-about__slide-inner">
+									<div class="case-about__pic">
+										<img src="<?= STANDART_DIR; ?>/img/cases/case-brturbo-dev-11.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="splide__slide">
+								<div class="case-about__slide-inner">
+									<div class="case-about__pic">
+										<img src="<?= STANDART_DIR; ?>/img/cases/case-brturbo-dev-12.jpg" alt="">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

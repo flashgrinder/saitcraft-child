@@ -99,3 +99,119 @@
 .form-page__field--email {
   margin-top: 10px;
 }
+
+.form-page.form-page--case {
+  background: transparent;
+}
+
+/* Form-page-case */
+.form-page.form-page--case {
+  position: relative;
+  padding: 0 0 80px;
+}
+
+.form-page.form-page--case::before,
+.form-page.form-page--case::after {
+  content: '';
+  height: 3px;
+  position: absolute;
+  right: 0;
+  width: 55%;
+}
+
+.form-page.form-page--case::before {
+  top: 0;
+  right: 0;
+  background-image: linear-gradient(270deg, #FF00D6 0%, #000CFF 100%);
+}
+
+.form-page.form-page--case::after {
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(270deg, #FF00D6 0%, #000CFF 100%);
+}
+
+.form-page.form-page--case .form-page__col-right {
+  padding-top: 100px;
+}
+
+.form-page.form-page--case .form-page__heading {
+  font-size: 86px;
+  line-height: 1;
+}
+
+.form-page.form-page--case .form-page__subtitle {
+  font-size: 26px;
+}
+
+.form-page.form-page--case .form-page__contacts {
+  position: relative;
+  width: max-content;
+}
+
+.form-page.form-page--case .form-page__contacts .form-page__link--tg {
+  position: absolute;
+  top: -20px;
+  right: -60px;
+}
+
+.form-page.form-page--case .form-page__contacts .form-page__link {
+  font-size: 50px;
+  padding-right: 0;
+  line-height: 1;
+}
+
+.form-page.form-page--case .form-page__footer {
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+
+.form-page.form-page--case .form-page__policy {
+  color: var(--color-white);
+}
+
+.form-page.form-page--case .form-page__link-policy {
+  color: var(--color-pink);
+}
+
+.form-page.form-page--case .form-page__btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.form-page.form-page--case .form-page__input {
+  color: var(--color-white);
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #D9D9D9;
+  border-radius: 0;
+  padding: 11px 30px;
+}
+
+.form-page.form-page--case .form-page__input::placeholder {
+  color: var(--color-white);
+  opacity: .8;
+}
+
+.form-page.form-page--case .form-page__input:focus,
+.form-page.form-page--case .form-page__input:target,
+.form-page.form-page--case .form-page__input:active {
+  border-bottom: 1px solid var(--color-pink);
+}
+
+
+.form-page.form-page--case .form-page__field--email,
+.form-page.form-page--case .form-page__field--message {
+  margin-top: 40px;
+}
+
+.form-page.form-page--case .form-page__input--textarea {
+  margin-top: 0;
+  max-height: 40px;
+}
+
+.form-page.form-page--case .form-page__wrapper-line {
+  gap: 20px;
+}
