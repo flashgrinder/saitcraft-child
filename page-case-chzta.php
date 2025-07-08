@@ -102,7 +102,7 @@
 							foreach( $posttags as $tag ){
 								if(empty(in_array($tag->term_id, $main_metki))){
 									?>
-									<a class="tag-cloud-link" href="<?= get_term_link($tag, 'post_tag') ?>"><?= $tag->name; ?></a>
+									<a class="button button--primary" href="<?= get_term_link($tag, 'post_tag') ?>"><?= $tag->name; ?></a>
 
 									<?php
 								}
