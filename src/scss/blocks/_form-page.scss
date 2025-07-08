@@ -108,6 +108,23 @@
 .form-page.form-page--case {
   position: relative;
   padding: 0 0 80px;
+  @include mobile-block {
+    padding: 25px 0;
+  }
+}
+
+.form-page.form-page--case .form-page__col--left {
+  @include mobile-block {
+    background: transparent;
+    padding: 0 10px;
+  }
+}
+
+.form-page.form-page--case .form-page__form {
+  @include mobile-block {
+    margin-top: 25px;
+    padding: 0 10px;
+  }
 }
 
 .form-page.form-page--case::before,
@@ -117,6 +134,9 @@
   position: absolute;
   right: 0;
   width: 55%;
+  @include mobile-block {
+    width: 100%;
+  }
 }
 
 .form-page.form-page--case::before {
@@ -133,32 +153,61 @@
 
 .form-page.form-page--case .form-page__col-right {
   padding-top: 100px;
+  background: transparent;
+  @include mobile-block {
+    padding-top: 0;
+  }
 }
 
 .form-page.form-page--case .form-page__heading {
   font-size: 86px;
   line-height: 1;
+  @include mobile-block {
+    font-size: 40px;
+  }
 }
 
 .form-page.form-page--case .form-page__subtitle {
   font-size: 26px;
+  @include mobile-block {
+    font-size: 18px;
+  }
 }
 
 .form-page.form-page--case .form-page__contacts {
   position: relative;
   width: max-content;
+  @include mobile-block {
+    margin-top: 45px;
+  }
 }
 
 .form-page.form-page--case .form-page__contacts .form-page__link--tg {
   position: absolute;
   top: -20px;
   right: -60px;
+  @include mobile-block {
+    top: -15px;
+    right: -40px;
+    width: 26px;
+    height: 21px;
+  }
+}
+
+.form-page.form-page--case .form-page__link--tg svg {
+  @include mobile-block {
+    width: 26px;
+    height: 21px;
+  }
 }
 
 .form-page.form-page--case .form-page__contacts .form-page__link {
   font-size: 50px;
   padding-right: 0;
   line-height: 1;
+  @include mobile-block {
+    font-size: 28px;
+  }
 }
 
 .form-page.form-page--case .form-page__footer {
@@ -166,12 +215,24 @@
   align-items: stretch;
 }
 
+.form-page.form-page--case .form-page__wrap-policy {
+  @include mobile-block {
+    order: -1;
+  }
+}
+
 .form-page.form-page--case .form-page__policy {
   color: var(--color-white);
+  @include mobile-block {
+    font-size: 14px;
+  }
 }
 
 .form-page.form-page--case .form-page__link-policy {
   color: var(--color-pink);
+  @include mobile-block {
+    font-size: 14px;
+  }
 }
 
 .form-page.form-page--case .form-page__btn {
@@ -205,13 +266,24 @@
 .form-page.form-page--case .form-page__field--email,
 .form-page.form-page--case .form-page__field--message {
   margin-top: 40px;
+  @include mobile-block {
+    margin-top: 20px;
+  }
 }
 
 .form-page.form-page--case .form-page__input--textarea {
   margin-top: 0;
   max-height: 40px;
+  overflow-y: hidden;
+  @include mobile-block {
+    max-height: 56px;
+  }
 }
 
 .form-page.form-page--case .form-page__wrapper-line {
   gap: 20px;
+}
+
+.form-page.form-page--case .wpcf7-response-output {
+  display: none !important;
 }

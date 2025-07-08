@@ -80,11 +80,11 @@
 		</div>
 	</section>
 
-	<section class="case-about case-about--first">
+	<section class="case-about case-about--first" id="about">
 		<div class="case-about__body case-decor container" data-num="01">
-			<div class="case-about__num">
+			<a href="#about" class="case-about__num">
 				<span>01</span>
-			</div>
+			</a>
 			<div class="case-about__heading-wrap">
 				<h3 class="case-about__heading title title--large title--white title--w-regular title--uppercase">
 					О проекте
@@ -117,11 +117,11 @@
 		</div>
 	</section>
 
-	<section class="case-about case-about--functionality">
+	<section class="case-about case-about--functionality" id="functionality">
 		<div class="case-about__body case-decor container" data-num="02">
-			<div class="case-about__num">
+			<a href="#functionality" class="case-about__num">
 				<span>02</span>
-			</div>
+			</a>
 			<div class="case-about__heading-wrap">
 				<h3 class="case-about__heading title title--large title--white title--w-regular title--uppercase">
 					Функциональность
@@ -285,11 +285,11 @@
 		</div>
 	</section>
 
-	<section class="case-about case-about--functionality">
+	<section class="case-about case-about--functionality" id="dev">
 		<div class="case-about__body case-decor container" data-num="03">
-			<div class="case-about__num">
+			<a href="#dev" class="case-about__num">
 				<span>03</span>
-			</div>
+			</a>
 			<div class="case-about__heading-wrap">
 				<h3 class="case-about__heading title title--large title--white title--w-regular title--uppercase">
 					Разработка в Деталях
@@ -458,11 +458,11 @@
 		</div>
 	</section>
 
-	<section class="case-about case-about--functionality">
+	<section class="case-about case-about--functionality" id="design">
 		<div class="case-about__body case-decor container" data-num="04">
-			<div class="case-about__num">
+			<a href="#design" class="case-about__num">
 				<span>04</span>
-			</div>
+			</a>
 			<div class="case-about__heading-wrap">
 				<h3 class="case-about__heading title title--large title--white title--w-regular title--uppercase">
 					Особенности дизайна
@@ -525,11 +525,11 @@
 		</div>
 	</section>
 
-	<section class="case-about case-about--functionality">
+	<section class="case-about case-about--functionality" id="seo">
 		<div class="case-about__body case-decor container" data-num="05">
-			<div class="case-about__num">
+			<a href="#seo" class="case-about__num">
 				<span>05</span>
-			</div>
+			</a>
 			<div class="case-about__heading-wrap">
 				<h3 class="case-about__heading title title--large title--white title--w-regular title--uppercase">
 					SEO-оптимизация
@@ -555,9 +555,9 @@
 		</div>
 	</section>
 
-	<section class="case-about case-about--functionality case-about--last">
+	<section class="case-about case-about--functionality case-about--last" id="result">
 		<div class="case-about__body case-decor container" data-num="06">
-			<div class="case-about__num">
+			<a href="#result" class="case-about__num">
 				<span>
 					<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M25.6255 3.49748L13.9998 15.1231L2.37419 3.49748L4.11459 1.75708L13.9998 11.6423L23.8851 1.75708L25.6255 3.49748ZM25.6255 14.6172L13.9998 26.2428L2.37419 14.6172L4.11459 12.8768L13.9998 22.762L23.8851 12.8768L25.6255 14.6172Z" fill="url(#paint0_linear_79_537)"/>
@@ -569,7 +569,7 @@
 						</defs>
 					</svg>
 				</span>
-			</div>
+			</a>
 			<div class="case-about__heading-wrap">
 				<h3 class="case-about__heading title title--large title--white title--w-regular title--uppercase">
 					Результат
@@ -597,6 +597,38 @@
 			</div>
 		</div>
 	</section>
+
+	<!-- Form Page-->
+	<section class="form-page form-page--case">
+		<div class="form-page__body container">
+			<div class="form-page__col form-page__col--left">
+				<div class="form-page__info">
+					<h3 class="form-page__heading title title--pink title--w-semi-bold">
+						Обсудим <br> ваш проект
+					</h3>
+					<p class="form-page__subtitle text text--white text--w-regular">
+						Расскажите о задачах и задайте вопросы — <br>мы перезвоним в течение рабочего дня
+					</p>
+				</div>
+				<div class="form-page__contacts">
+					<a href="tel:8 (800) 500-98-49" class="form-page__link link title title--large title--pink title--w-semi-bold title--italic">
+						8 (800) 500-98-49
+					</a>
+					<a href="https://t.me/saitcraft_ru" class="form-page__link form-page__link--tg link">
+						<svg width="37" height="30" viewBox="0 0 44 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M42.8125 4.28125C43.375 1.65625 41.875 0.625 40.1875 1.28125L2.875 15.625C0.34375 16.6562 0.4375 18.0625 2.5 18.7188L11.9688 21.625L34.0938 7.75C35.125 7 36.1562 7.46875 35.3125 8.125L17.4062 24.25L16.75 34.0938C17.7812 34.0938 18.1562 33.7188 18.7188 33.1562L23.3125 28.6562L32.9688 35.7812C34.75 36.8125 36.0625 36.25 36.5312 34.1875L42.8125 4.28125Z" fill="#FF00D6"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+			<div class="form-page__col form-page__col-right">
+				<div class="form-page__inner">
+					<?= do_shortcode('[contact-form-7 title="Форма для кейсов" html_class="form-page__form"]'); ?>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Form Page-->
 
 </div>
 

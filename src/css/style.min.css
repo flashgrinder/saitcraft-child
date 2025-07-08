@@ -3209,6 +3209,7 @@ html.with-fancybox body.hide-scrollbar {
 
 .form-page.form-page--case .form-page__col-right {
   padding-top: 100px;
+  background: transparent;
 }
 
 .form-page.form-page--case .form-page__heading {
@@ -3291,10 +3292,15 @@ html.with-fancybox body.hide-scrollbar {
 .form-page.form-page--case .form-page__input--textarea {
   margin-top: 0;
   max-height: 40px;
+  overflow-y: hidden;
 }
 
 .form-page.form-page--case .form-page__wrapper-line {
   gap: 20px;
+}
+
+.form-page.form-page--case .wpcf7-response-output {
+  display: none !important;
 }
 
 /* Form phone */
@@ -4634,6 +4640,7 @@ html.with-fancybox body.hide-scrollbar {
   bottom: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+  text-decoration: none;
 }
 
 .case-about__num span {
@@ -5840,6 +5847,78 @@ form.form-page__form button svg {
     order: -1;
   }
 
+  .form-page.form-page--case {
+    padding: 25px 0;
+  }
+
+  .form-page.form-page--case .form-page__col--left {
+    background: transparent;
+    padding: 0 10px;
+  }
+
+  .form-page.form-page--case .form-page__form {
+    margin-top: 25px;
+    padding: 0 10px;
+  }
+
+  .form-page.form-page--case::before,
+  .form-page.form-page--case::after {
+    width: 100%;
+  }
+
+  .form-page.form-page--case .form-page__col-right {
+    padding-top: 0;
+  }
+
+  .form-page.form-page--case .form-page__heading {
+    font-size: 40px;
+  }
+
+  .form-page.form-page--case .form-page__subtitle {
+    font-size: 18px;
+  }
+
+  .form-page.form-page--case .form-page__contacts {
+    margin-top: 45px;
+  }
+
+  .form-page.form-page--case .form-page__contacts .form-page__link--tg {
+    top: -15px;
+    right: -40px;
+    width: 26px;
+    height: 21px;
+  }
+
+  .form-page.form-page--case .form-page__link--tg svg {
+    width: 26px;
+    height: 21px;
+  }
+
+  .form-page.form-page--case .form-page__contacts .form-page__link {
+    font-size: 28px;
+  }
+
+  .form-page.form-page--case .form-page__wrap-policy {
+    order: -1;
+  }
+
+  .form-page.form-page--case .form-page__policy {
+    font-size: 14px;
+  }
+
+  .form-page.form-page--case .form-page__link-policy {
+    font-size: 14px;
+  }
+
+  .form-page.form-page--case .form-page__field--email,
+  .form-page.form-page--case .form-page__field--message {
+    margin-top: 20px;
+  }
+
+  .form-page.form-page--case .form-page__input--textarea {
+    max-height: 56px;
+  }
+
   .form-phone__outer {
     flex-direction: column;
     gap: 0;
@@ -6224,6 +6303,10 @@ form.form-page__form button svg {
   .case-about__pic-wrap + .case-about__case-container,
   .case-about__case-container + .case-about__pic-wrap {
     margin-top: 25px;
+  }
+
+  .case-about.case-about--last {
+    padding-bottom: 50px;
   }
 
   .case-about.case-about--target .case-about__outer {
