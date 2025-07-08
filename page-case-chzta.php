@@ -93,6 +93,22 @@
 							}
 						}
 					?>
+					<?php
+						$posttags = get_the_tags();
+						usort($posttags, function($a,$b){
+							return ($a->term_order - $b->term_order);
+						});
+						if( $posttags ){
+							foreach( $posttags as $tag ){
+								if(empty(in_array($tag->term_id, $main_metki))){
+									?>
+									<a class="tag-cloud-link" href="<?= get_term_link($tag, 'post_tag') ?>"><?= $tag->name; ?></a>
+
+									<?php
+								}
+							}
+						}
+					?>
 					<a href="https://chzta.ru" class="button button--secondary button--icon" target="_blank">
 						<svg width="14" height="14">
 							<use xlink:href="#link"></use>
